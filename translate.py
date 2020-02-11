@@ -6,6 +6,10 @@ import bs4
 
 def translator(string: str) -> str:
     t = np.random.randint(1, 43)
+    pos = string.find('%1$@')
+    if (pos != -1):
+        pos += 4
+        string = string[:pos]+')'+string[pos:]
     if (t != 42):
         return string.rstrip('.') + ')'
     else:
