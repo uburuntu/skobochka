@@ -42,7 +42,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_month_day2" = "февраля...)";
 "lng_month_day3" = "марта...)";
 "lng_month_day4" = "апреля...)";
-"lng_month_day5" = "мая...)";
+"lng_month_day5" = "мая)";
 "lng_month_day6" = "июня...)";
 "lng_month_day7" = "июля...)";
 "lng_month_day8" = "августа...)";
@@ -51,7 +51,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_month_day11" = "ноября...)";
 "lng_month_day12" = "декабря...)";
 
-"lng_month1_small" = "янв)";
+"lng_month1_small" = "янв...)";
 "lng_month2_small" = "фев...)";
 "lng_month3_small" = "март...)";
 "lng_month4_small" = "апр...)";
@@ -67,8 +67,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_weekday1" = "Пн...)";
 "lng_weekday2" = "Вт...)";
 "lng_weekday3" = "Ср...)";
-"lng_weekday4" = "Чт...)";
-"lng_weekday5" = "Пт...)";
+"lng_weekday4" = "Чт)";
+"lng_weekday5" = "Пт)";
 "lng_weekday6" = "Сб...)";
 "lng_weekday7" = "Вс...)";
 
@@ -100,7 +100,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_status_recently" = "был(а) недавно...)";
 "lng_status_last_week" = "был(а) на этой неделе...)";
 "lng_status_last_month" = "был(а) в этом месяце...)";
-"lng_status_lastseen_now" = "был(а) только что...)";
+"lng_status_lastseen_now" = "был(а) только что)";
 "lng_status_lastseen_minutes#one" = "был(а) {count} минуту назад...)";
 "lng_status_lastseen_minutes#other" = "был(а) {count} минут назад...)";
 "lng_status_lastseen_hours#one" = "был(а) {count} час назад...)";
@@ -131,14 +131,14 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_error_phone_flood" = "В последнее время Вы слишком часто удаляли и создавали аккаунт. Пожалуйста, повторите попытку через несколько дней...)";
 "lng_error_start_minimized_passcoded" = "Вы установили для приложения код-пароль, поэтому оно не может запускаться в свёрнутом виде. Для входа в приложение нужно сначала ввести код-пароль...)";
 "lng_error_pinned_max#one" = "Можно закрепить только один чат...)";
-"lng_error_pinned_max#other" = "Максимум чатов, которые можно закрепить: {count}...)";
+"lng_error_pinned_max#other" = "Максимум чатов, которые можно закрепить: {count})";
 "lng_error_public_groups_denied" = "К сожалению, Вам запрещено состоять в публичных группах.\n{more_info}...)";
 "lng_error_cant_add_member" = "К сожалению, Вы не можете добавить сюда бота. Попросите об этом администратора группы...)";
 "lng_error_cant_add_bot" = "Этого бота нельзя добавлять в группы...)";
 "lng_error_cant_add_admin_invite" = "Вы не можете назначить этого пользователя администратором, потому что он не состоит в группе и Вы не можете его пригласить...)";
 "lng_error_cant_add_admin_unban" = "Вы не можете назначить этого пользователя администратором, поскольку он находится в чёрном списке, а Вы не можете убирать людей из чёрного списка...)";
 "lng_error_cant_ban_admin" = "Вы не можете заблокировать этого пользователя, поскольку он администрирует эту группу, а у Вас нет прав, чтобы его разжаловать...)";
-"lng_error_admin_limit" = "К сожалению, в этой группе максимальное количество администраторов)";
+"lng_error_admin_limit" = "К сожалению, в этой группе максимальное количество администраторов...)";
 "lng_error_admin_limit_channel" = "К сожалению, в этом канале максимальное число администраторов...)";
 "lng_error_post_link_invalid" = "К сожалению, у Вас нет доступа к этому сообщению: Вы не участник чата, где оно опубликовано...)";
 "lng_sure_add_admin_invite" = "Пользователь не состоит в этой группе. Пригласить его и назначить администратором?...)";
@@ -170,7 +170,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_caption_attach" = "Вы не можете добавить новое фото или видео при редактировании сообщения...)";
 
 "lng_intro_about" = "Добро пожаловать в Telegram для ПК.\nБыстрый и безопасный официальный клиент...)";
-"lng_start_msgs" = "НАЧАТЬ ОБЩЕНИЕ...)";
+"lng_start_msgs" = "НАЧАТЬ ОБЩЕНИЕ)";
 
 "lng_intro_next" = "ПРОДОЛЖИТЬ...)";
 "lng_intro_finish" = "ЗАРЕГИСТРИРОВАТЬСЯ...)";
@@ -189,7 +189,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_phone_desc" = "Проверьте код страны и введите\nсвой номер телефона...)";
 "lng_phone_to_qr" = "Быстрый вход по QR-коду...)";
 "lng_country_code" = "Код страны...)";
-"lng_bad_country_code" = "Некорректный код страны...)";
+"lng_bad_country_code" = "Некорректный код страны)";
 "lng_country_ph" = "Поиск...)";
 "lng_country_none" = "Страна не найдена...)";
 "lng_country_select" = "Выберите страну...)";
@@ -209,11 +209,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_bad_photo" = "Невозможно обработать данное изображение...)";
 
 "lng_signin_title" = "Проверка облачного пароля...)";
-"lng_signin_desc" = "Введите облачный пароль)";
+"lng_signin_desc" = "Введите облачный пароль...)";
 "lng_signin_recover_desc" = "Пожалуйста, введите код, который пришёл на почту {email}...)";
 "lng_signin_password" = "Облачный пароль...)";
 "lng_signin_code" = "Код из письма...)";
-"lng_signin_recover" = "Забыли пароль?...)";
+"lng_signin_recover" = "Забыли пароль?)";
 "lng_signin_recover_title" = "Сброс пароля...)";
 "lng_signin_hint" = "Подсказка: {password_hint}...)";
 "lng_signin_recover_hint" = "Код отправлен на {recover_email}...)";
@@ -229,14 +229,14 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_signin_reset_wait" = "Аккаунт {phone_number} используется и защищён паролем, в целях безопасности мы удалим его только через неделю. Вы можете передумать и остановить отсчёт в любой момент.\n\nВы сможете сбросить аккаунт через:\n{when}...)";
 "lng_signin_reset_days#one" = "{count} день...)";
 "lng_signin_reset_days#other" = "{count} дней...)";
-"lng_signin_reset_hours#one" = "{count} час...)";
+"lng_signin_reset_hours#one" = "{count} час)";
 "lng_signin_reset_hours#other" = "{count} часов...)";
 "lng_signin_reset_minutes#one" = "{count} минута...)";
 "lng_signin_reset_minutes#other" = "{count} мин...)";
 "lng_signin_reset_in_days" = "{days_count} {hours_count} {minutes_count}...)";
 "lng_signin_reset_in_hours" = "{hours_count} {minutes_count}...)";
 "lng_signin_reset_cancelled" = "Ваша недавняя попытка сбросить аккаунт была отменена его активным пользователем. Пожалуйста, попробуйте снова через 7 дней...)";
-"lng_signin_banned_text" = "Этот номер телефона заблокирован)";
+"lng_signin_banned_text" = "Этот номер телефона заблокирован...)";
 "lng_signin_banned_help" = "Помощь...)";
 
 "lng_signup_title" = "О себе...)";
@@ -264,7 +264,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_edit" = "Изменить...)";
 "lng_settings_drop_area_subtitle" = "чтобы сделать фотографией профиля...)";
 
-"lng_username_title" = "Имя пользователя...)";
+"lng_username_title" = "Имя пользователя)";
 "lng_username_about" = "Вы можете выбрать публичное имя пользователя. Другие пользователи смогут найти Вас и связаться, не зная Вашего телефона.\n\nМожно использовать латиницу (a-z), цифры (0-9) и подчёркивание. Минимальная длина — 5 символов...)";
 "lng_username_choose" = "Выберите имя пользователя...)";
 "lng_username_invalid" = "Некорректное имя пользователя...)";
@@ -298,7 +298,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_notifications_count" = "Количество уведомлений...)";
 "lng_settings_sound_notify" = "Звук...)";
 "lng_settings_badge_title" = "Счётчик сообщений...)";
-"lng_settings_include_muted" = "Считать непрочитанные из всех чатов)";
+"lng_settings_include_muted" = "Считать непрочитанные из всех чатов...)";
 "lng_settings_count_unread" = "Число сообщений...)";
 "lng_settings_events_title" = "События...)";
 "lng_settings_events_joined" = "Контакт присоединился к Telegram...)";
@@ -345,8 +345,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_send_cmdenter" = "Отправка по Cmd+Enter...)";
 
 "lng_settings_section_background" = "Фон для чатов...)";
-"lng_settings_bg_use_default" = "Сброс цветовой темы...)";
-"lng_settings_bg_from_gallery" = "Выбрать из галереи...)";
+"lng_settings_bg_use_default" = "Сброс цветовой темы)";
+"lng_settings_bg_from_gallery" = "Выбрать из галереи)";
 "lng_settings_bg_from_file" = "Выбрать файл...)";
 "lng_settings_bg_theme_edit" = "Изменить тему...)";
 "lng_settings_bg_theme_create" = "Создать тему...)";
@@ -415,7 +415,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_version_info" = "Версия и обновления...)";
 "lng_settings_system_integration" = "Интеграция в систему...)";
 "lng_settings_performance" = "Производительность...)";
-"lng_settings_enable_animations" = "Использовать анимацию)";
+"lng_settings_enable_animations" = "Использовать анимацию...)";
 "lng_settings_sensitive_title" = "Материалы деликатного характера...)";
 "lng_settings_sensitive_disable_filtering" = "Выключить ограничения...)";
 "lng_settings_sensitive_about" = "Отображать материалы деликатного характера в публичных каналах на всех устройствах...)";
@@ -426,7 +426,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_backgrounds_header" = "Выберите фон для чатов...)";
 "lng_theme_sure_keep" = "Использовать эту цветовую тему?...)";
 "lng_theme_reverting#one" = "Отмена через {count} секунду...)";
-"lng_theme_reverting#other" = "Отмена через {count} секунд)";
+"lng_theme_reverting#other" = "Отмена через {count} секунд...)";
 "lng_theme_keep_changes" = "Применить изменения...)";
 "lng_theme_revert" = "Вернуть...)";
 "lng_theme_no_desktop" = "К сожалению, тема не подходит для приложения Telegram Desktop...)";
@@ -451,7 +451,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_download_path_clear" = "Очистить всё...)";
 "lng_download_path_header" = "Выберите путь для сохранения...)";
 "lng_download_path_default_radio" = "Папка Telegram в «Загрузках» системы...)";
-"lng_download_path_temp_radio" = "Временная папка (создать на время сеанса)...)";
+"lng_download_path_temp_radio" = "Временная папка (создать на время сеанса))";
 "lng_download_path_dir_radio" = "Постоянная папка (выбрать)...)";
 "lng_download_path_choose" = "Путь для сохранения файлов...)";
 "lng_sure_clear_downloads" = "Хотите удалить файлы из временной папки? Её содержимое автоматически удаляется, если Вы выходите из своего аккаунта или удаляете приложение...)";
@@ -474,7 +474,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_local_storage_round#one" = "{count} видеосообщение...)";
 "lng_local_storage_round#other" = "{count} видеосообщений...)";
 "lng_local_storage_animation#one" = "{count} анимация...)";
-"lng_local_storage_animation#other" = "{count} анимаций)";
+"lng_local_storage_animation#other" = "{count} анимаций...)";
 "lng_local_storage_media" = "Кэш медиа...)";
 "lng_local_storage_size_limit" = "Общее ограничение по размеру: {size}...)";
 "lng_local_storage_media_limit" = "Лимит кэша для медиа: {size}...)";
@@ -514,7 +514,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passcode_about" = "Когда код-пароль включен, в списке чатов появляется значок замка для блокировки и разблокировки приложения.\n\nВажно: если Вы забудете код-пароль, нужно будет выйти и заново авторизоваться в Telegram Desktop...)";
 "lng_passcode_differ" = "Код-пароли не совпадают...)";
 "lng_passcode_wrong" = "Неверный код-пароль...)";
-"lng_passcode_is_same" = "Код-пароль не изменён)";
+"lng_passcode_is_same" = "Код-пароль не изменён...)";
 "lng_passcode_enter" = "Введите код-пароль...)";
 "lng_passcode_ph" = "Код доступа...)";
 "lng_passcode_submit" = "Подтвердить...)";
@@ -540,7 +540,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_cloud_password_about" = "Этот пароль нужно будет вводить при входе с нового устройства в дополнение к коду из SMS...)";
 "lng_cloud_password_about_recover" = "Внимание! Вы точно не хотите добавить почтовый адрес для восстановления пароля?\n\nЕсли Вы забудете пароль, то потеряете доступ к своему аккаунту Telegram...)";
 "lng_cloud_password_skip_email" = "Без email...)";
-"lng_cloud_password_almost" = "Ссылка для подтверждения отправлена на указанный Вами адрес. Перейдите по ссылке, чтобы закончить настройку двухэтапной аутентификации...)";
+"lng_cloud_password_almost" = "Ссылка для подтверждения отправлена на указанный Вами адрес. Перейдите по ссылке, чтобы закончить настройку двухэтапной аутентификации)";
 "lng_cloud_password_was_set" = "Двухэтапная аутентификация включена...)";
 "lng_cloud_password_updated" = "Облачный пароль обновлён...)";
 "lng_cloud_password_removed" = "Двухэтапная аутентификация отключена...)";
@@ -584,11 +584,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_proxy_menu_edit" = "Изменить...)";
 "lng_proxy_menu_delete" = "Удалить...)";
 "lng_proxy_menu_restore" = "Восстановить...)";
-"lng_proxy_edit_share" = "Поделиться)";
+"lng_proxy_edit_share" = "Поделиться...)";
 "lng_proxy_address_label" = "Адрес сокета...)";
 "lng_proxy_credentials_optional" = "Учётные данные (необязательно)...)";
 "lng_proxy_credentials" = "Учётные данные...)";
-"lng_proxy_description" = "Здесь будут показаны сохранённые Вами прокси)";
+"lng_proxy_description" = "Здесь будут показаны сохранённые Вами прокси...)";
 "lng_proxy_sponsor" = "Спонсор прокси...)";
 "lng_proxy_sponsor_about" = "Этот канал показан прокси-сервером.\nЧтобы убрать канал из списка Ваших чатов, \nотключите прокси в настройках Telegram...)";
 "lng_proxy_sponsor_warning" = "Этот прокси-сервер может показывать канал спонсора в списке Ваших чатов. \nЭто не раскрывает Ваш трафик...)";
@@ -607,10 +607,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_manage_local_storage" = "Управление памятью устройства...)";
 "lng_settings_ask_question" = "Задать вопрос...)";
 "lng_settings_ask_sure" = "Пожалуйста, обратите внимание, что в поддержке Telegram отвечают волонтёры. Мы постараемся помочь как можно быстрее, но ожидание может занять время.\n\nОзнакомьтесь с часто задаваемыми вопросами о Telegram: там Вы найдёте ответы на большинство вопросов и важные советы по устранению неполадок...)";
-"lng_settings_faq_button" = "Перейти к FAQ)";
+"lng_settings_faq_button" = "Перейти к FAQ...)";
 "lng_settings_ask_ok" = "Задать вопрос...)";
 "lng_settings_faq" = "Вопросы о Telegram...)";
-"lng_settings_logout" = "Выйти)";
+"lng_settings_logout" = "Выйти...)";
 "lng_sure_logout" = "Вы действительно хотите выйти?...)";
 
 "lng_settings_need_restart" = "Чтобы изменения вступили в силу, необходимо перезапустить приложение. Сделать это сейчас?...)";
@@ -634,8 +634,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_blocked_list_not_found" = "Пользователи не найдены...)";
 "lng_blocked_list_confirm_title" = "Заблокировать {name}...)";
 "lng_blocked_list_confirm_text" = "Запретить {name} писать Вам сообщения и звонить через Telegram?...)";
-"lng_blocked_list_confirm_clear" = "Удалить чат...)";
-"lng_blocked_list_confirm_ok" = "Заблокировать...)";
+"lng_blocked_list_confirm_clear" = "Удалить чат)";
+"lng_blocked_list_confirm_ok" = "Заблокировать)";
 
 "lng_edit_privacy_everyone" = "Все...)";
 "lng_edit_privacy_contacts" = "Мои контакты...)";
@@ -653,7 +653,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_phone_number_never_empty" = "Всегда скрывать...)";
 "lng_edit_privacy_phone_number_exceptions" = "Эти исключения будут работать всегда, независимо от настроек выше. ...)";
 "lng_edit_privacy_phone_number_always_title" = "Всегда показывать...)";
-"lng_edit_privacy_phone_number_never_title" = "Никогда не показывать)";
+"lng_edit_privacy_phone_number_never_title" = "Никогда не показывать...)";
 
 "lng_edit_privacy_phone_number_find" = "Кто может найти меня по номеру...)";
 "lng_edit_privacy_phone_number_contacts" = "Пользователи, которые сохранили Ваш номер в телефонную книгу, будут видеть его в Telegram, только если Вы добавили их в контакты...)";
@@ -661,11 +661,11 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_lastseen_title" = "Последняя активность...)";
 "lng_edit_privacy_lastseen_header" = "Кто видит время последнего входа...)";
 "lng_edit_privacy_lastseen_warning" = "Важно: Вы не будете видеть появление в сети и время активности пользователей, от которых скрыли свои. Вместо времени будет видно примерное значение (недавно, на этой неделе, в этом месяце)...)";
-"lng_edit_privacy_lastseen_always_empty" = "Всегда показывать...)";
+"lng_edit_privacy_lastseen_always_empty" = "Всегда показывать)";
 "lng_edit_privacy_lastseen_never_empty" = "Всегда скрывать...)";
 "lng_edit_privacy_lastseen_exceptions" = "Вы можете добавить пользователей или целые группы в список исключений из настроек выше...)";
 "lng_edit_privacy_lastseen_always_title" = "Всегда показывать...)";
-"lng_edit_privacy_lastseen_never_title" = "Никогда не показывать...)";
+"lng_edit_privacy_lastseen_never_title" = "Никогда не показывать)";
 
 "lng_edit_privacy_groups_title" = "Приглашения в группы...)";
 "lng_edit_privacy_groups_header" = "Кто может приглашать меня в группы и каналы...)";
@@ -742,7 +742,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_mute_duration_forever" = "Навсегда...)";
 "lng_mute_box_tip" = "Выберите, на какое время отключить уведомления из этого чата:...)";
 
-"lng_preview_loading" = "Загрузка предпросмотра для ссылки...)";
+"lng_preview_loading" = "Загрузка предпросмотра для ссылки)";
 
 "lng_profile_settings_section" = "Настройки...)";
 "lng_profile_actions_section" = "Действия...)";
@@ -768,7 +768,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_leave_group" = "Покинуть группу...)";
 "lng_profile_delete_group" = "Удалить группу...)";
 "lng_profile_report" = "Пожаловаться...)";
-"lng_profile_search_messages" = "Найти сообщения...)";
+"lng_profile_search_messages" = "Найти сообщения)";
 "lng_profile_block_bot" = "Остановить и блокировать...)";
 "lng_profile_restart_bot" = "Перезапустить бота...)";
 "lng_profile_invite_to_group" = "Добавить в группу...)";
@@ -777,7 +777,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_add_participant" = "Добавить участников...)";
 "lng_profile_view_channel" = "Открыть канал...)";
 "lng_profile_join_channel" = "Подписаться...)";
-"lng_profile_join_group" = "Присоединиться к группе)";
+"lng_profile_join_group" = "Присоединиться к группе...)";
 "lng_profile_delete_and_exit" = "Выйти...)";
 "lng_profile_kick" = "Удалить...)";
 "lng_profile_delete_removed" = "Удалить...)";
@@ -819,7 +819,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_info_username_label" = "Имя пользователя...)";
 "lng_info_bio_label" = "О себе...)";
 "lng_info_link_label" = "Ссылка...)";
-"lng_info_location_label" = "Геопозиция...)";
+"lng_info_location_label" = "Геопозиция)";
 "lng_info_about_label" = "Информация...)";
 "lng_info_user_title" = "Информация...)";
 "lng_info_bot_title" = "Информация о боте...)";
@@ -862,7 +862,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_media_selected_link#one" = "{count} ссылка...)";
 "lng_media_selected_link#other" = "{count} ссылок...)";
 "lng_media_photo_empty" = "Здесь пока нет фотографий...)";
-"lng_media_video_empty" = "Здесь пока нет видео...)";
+"lng_media_video_empty" = "Здесь пока нет видео)";
 "lng_media_song_empty" = "Здесь пока нет музыки...)";
 "lng_media_file_empty" = "Здесь пока нет файлов...)";
 "lng_media_audio_empty" = "Здесь пока нет голосовых сообщений...)";
@@ -900,7 +900,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_manage_discussion_group_about_chosen" = "Подписчики смогут перейти в {group}, нажав на кнопку «Обсудить»...)";
 "lng_manage_discussion_group_create" = "Создать группу...)";
 "lng_manage_discussion_group_unlink" = "Отвязать группу...)";
-"lng_manage_discussion_group_posted" = "Всё, что Вы публикуете в канале, будет автоматически пересылаться в группу)";
+"lng_manage_discussion_group_posted" = "Всё, что Вы публикуете в канале, будет автоматически пересылаться в группу...)";
 "lng_manage_discussion_group_sure" = "Назначить {group} группой для обсуждения {channel}?...)";
 "lng_manage_linked_channel_private" = "Все участники группы смогут видеть сообщения в канале...)";
 "lng_manage_discussion_group_private" = "Все подписчики канала смогут видеть сообщения в группе...)";
@@ -908,7 +908,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_manage_linked_channel_private_status" = "частный канал...)";
 "lng_manage_discussion_group_private_status" = "частная группа...)";
 "lng_manage_linked_channel_about" = "Группа привязана к {channel} как площадка для обсуждения публикаций...)";
-"lng_manage_linked_channel_unlink" = "Отвязать канал)";
+"lng_manage_linked_channel_unlink" = "Отвязать канал...)";
 "lng_manage_linked_channel_posted" = "Все публикации в этом канале автоматически пересылаются в группу...)";
 "lng_manage_discussion_group_warning" = "История чата будет **видна** новым участникам...)";
 
@@ -926,7 +926,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_report_reason_spam" = "Спам...)";
 "lng_report_reason_violence" = "Насилие...)";
 "lng_report_reason_child_abuse" = "Детская порнография...)";
-"lng_report_reason_pornography" = "Порнография)";
+"lng_report_reason_pornography" = "Порнография...)";
 "lng_report_reason_other" = "Другое...)";
 "lng_report_reason_description" = "Комментарий...)";
 "lng_report_button" = "Пожаловаться...)";
@@ -947,7 +947,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_channel_removed_list_about" = "Пользователи, которых исключили администраторы канала, не смогут присоединиться снова с помощью ссылки-приглашения...)";
 "lng_group_removed_list_about" = "Пользователи, которых исключили администраторы группы, не смогут присоединиться снова с помощью ссылки-приглашения...)";
 
-"lng_chat_all_members_admins" = "Права администратора у всех)";
+"lng_chat_all_members_admins" = "Права администратора у всех...)";
 "lng_chat_about_all_admins" = "Участники группы могут добавлять новых участников, редактировать название и фотографию группы...)";
 "lng_chat_about_admins" = "Администраторы группы могут добавлять и исключать пользователей, редактировать название и фотографию группы...)";
 
@@ -970,7 +970,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_create_private_group_about" = "Присоединиться к группе можно только по приглашению или пригласительной ссылке...)";
 "lng_create_permanent_link_title" = "Постоянная ссылка...)";
 "lng_create_invite_link_title" = "Ссылка-приглашение...)";
-"lng_create_invite_link_about" = "Пользователи могут присоединиться по приглашению, пригласительной ссылке или через раздел \"Группы рядом\")";
+"lng_create_invite_link_about" = "Пользователи могут присоединиться по приглашению, пригласительной ссылке или через раздел \"Группы рядом\"...)";
 
 "lng_create_group_skip" = "Пропустить...)";
 
@@ -979,7 +979,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_create_channel_link_invalid" = "Ссылка некорректна...)";
 "lng_create_channel_link_occupied" = "Такая ссылка уже занята...)";
 "lng_create_channel_link_too_short" = "Ссылка слишком короткая...)";
-"lng_create_channel_link_bad_symbols" = "Допускаются символы 0-9, a-z и _)";
+"lng_create_channel_link_bad_symbols" = "Допускаются символы 0-9, a-z и _...)";
 "lng_create_channel_link_available" = "Такая ссылка доступна...)";
 "lng_create_channel_link_copied" = "Ссылка скопирована...)";
 
@@ -997,7 +997,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_sure_leave_channel" = "Вы точно хотите покинуть этот канал?...)";
 "lng_sure_delete_channel" = "Вы точно хотите удалить этот канал? Все его участники и сообщения в нем будут удалены...)";
 "lng_sure_leave_group" = "Вы точно хотите покинуть группу?...)";
-"lng_sure_delete_group" = "Вы точно хотите удалить эту группу? Все её участники и сообщения в ней будут удалены...)";
+"lng_sure_delete_group" = "Вы точно хотите удалить эту группу? Все её участники и сообщения в ней будут удалены)";
 "lng_sure_delete_saved_messages" = "Вы точно хотите удалить все сообщения, сохраненные в «Избранное»?\n\nЭто действие нельзя будет отменить...)";
 
 "lng_message_empty" = "Пустое сообщение...)";
@@ -1055,7 +1055,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_action_game_you_scored_no_game#other" = "Вы набрали {count} очков...)";
 "lng_action_payment_done" = "Вы успешно перевели {amount} для {user}...)";
 "lng_action_payment_done_for" = "Вы успешно перевели {amount} для {user} за {invoice}...)";
-"lng_action_took_screenshot" = "{from} сделал(а) снимок экрана!)";
+"lng_action_took_screenshot" = "{from} сделал(а) снимок экрана!...)";
 "lng_action_you_took_screenshot" = "Вы сделали снимок экрана!...)";
 "lng_action_bot_allowed_from_domain" = "Вы разрешили этому боту писать Вам, когда авторизовались на {domain}...)";
 "lng_action_secure_values_sent" = "{user} получит следующие документы: {documents}...)";
@@ -1085,7 +1085,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_convert_feature4" = "— Владелец может выбрать для группы публичную ссылку...)";
 "lng_profile_convert_warning" = "{bold_start}Важно:{bold_end} Это действие нельзя будет отменить...)";
 "lng_profile_convert_confirm" = "Преобразовать...)";
-"lng_profile_add_more_after_create" = "Вы сможете добавить больше участников после того, как создадите группу...)";
+"lng_profile_add_more_after_create" = "Вы сможете добавить больше участников после того, как создадите группу)";
 
 "lng_channel_not_accessible" = "Канал недоступен...)";
 "lng_group_not_accessible" = "Группа недоступна...)";
@@ -1096,7 +1096,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_channels_too_much_public_revoke_confirm_channel" = "Вы точно хотите сбросить ссылку {link}? \n\nКанал «{group}» станет частным...)";
 "lng_channels_too_much_public_revoke" = "Сбросить...)";
 "lng_channels_too_much_public_other" = "У этого пользователя максимальное число публичных групп и каналов. Пожалуйста, предложите ему сперва удалить одну из публичных ссылок на его группу или канал...)";
-"lng_channels_too_much_located_other" = "У этого пользователя максимальное число групп с геопозицией. Пожалуйста, предложите ему сперва удалить или передать кому-либо одну из его групп...)";
+"lng_channels_too_much_located_other" = "У этого пользователя максимальное число групп с геопозицией. Пожалуйста, предложите ему сперва удалить или передать кому-либо одну из его групп)";
 
 "lng_group_invite_bad_link" = "Эта пригласительная ссылка недействительна или устарела...)";
 "lng_group_invite_join" = "Присоединиться...)";
@@ -1173,7 +1173,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_emoji_category7" = "Символы и флаги...)";
 "lng_emoji_hide_panel" = "Нажмите здесь, чтобы скрыть панель с эмодзи...)";
 "lng_emoji_manage_sets" = "Выбрать набор эмодзи...)";
-"lng_emoji_set_ready" = "Загружен)";
+"lng_emoji_set_ready" = "Загружен...)";
 "lng_emoji_set_active" = "Текущий набор...)";
 "lng_emoji_set_download" = "Загрузить {size}...)";
 "lng_emoji_set_loading" = "{percent}, {progress}...)";
@@ -1222,7 +1222,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_stickers_attached_sets" = "Наборы прикреплённых стикеров...)";
 "lng_stickers_group_set" = "Набор стикеров группы...)";
 "lng_stickers_remove_group_set" = "Удалить набор стикеров группы?...)";
-"lng_stickers_group_from_your" = "Выберите из своих наборов...)";
+"lng_stickers_group_from_your" = "Выберите из своих наборов)";
 "lng_stickers_group_from_featured" = "Выберите из популярных стикеров...)";
 "lng_stickers_search_sets" = "Поиск стикеров...)";
 "lng_stickers_nothing_found" = "Стикеров не найдено...)";
@@ -1257,7 +1257,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_new_contact_add_name" = "Добавить {user} в контакты...)";
 "lng_new_contact_add_done" = "{user} теперь в списке Ваших контактов...)";
 "lng_cant_send_to_not_contact" = "К сожалению, в данный момент Вы можете отправлять сообщения только взаимным контактам.\n{more_info}...)";
-"lng_cant_invite_not_contact" = "К сожалению, пока что Вы можете добавлять в группы только тех, кто добавил Ваш номер в контакты.\n{more_info})";
+"lng_cant_invite_not_contact" = "К сожалению, пока что Вы можете добавлять в группы только тех, кто добавил Ваш номер в контакты.\n{more_info}...)";
 "lng_cant_more_info" = "Подробнее »...)";
 "lng_cant_invite_banned" = "Этого пользователя может добавить только администратор...)";
 "lng_cant_invite_privacy" = "Вы не можете приглашать этого пользователя в группы из-за его настроек приватности...)";
@@ -1271,17 +1271,17 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_schedule_button" = "Запланировать...)";
 "lng_send_silent_message" = "Отправить без звука...)";
 "lng_schedule_message" = "Отправить позже...)";
-"lng_reminder_message" = "Задать напоминание)";
+"lng_reminder_message" = "Задать напоминание...)";
 "lng_schedule_title" = "Время отправки...)";
 "lng_remind_title" = "Время напоминания...)";
-"lng_schedule_at" = "в)";
+"lng_schedule_at" = "в...)";
 "lng_message_ph" = "Написать сообщение...)";
 "lng_broadcast_ph" = "Публикация...)";
 "lng_broadcast_silent_ph" = "Тихая публикация...)";
 "lng_record_cancel" = "Для отмены отпустите курсор вне поля...)";
 "lng_will_be_notified" = "При отправке участники получат уведомление...)";
 "lng_wont_be_notified" = "Участники получат уведомление без звука...)";
-"lng_willbe_history" = "Выберите, кому хотели бы написать)";
+"lng_willbe_history" = "Выберите, кому хотели бы написать...)";
 "lng_from_you" = "Вы...)";
 "lng_from_draft" = "Черновик...)";
 "lng_bot_description" = "Что может делать этот бот?...)";
@@ -1290,7 +1290,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_channel_mute" = "Откл. уведомления...)";
 "lng_channel_unmute" = "Вкл. уведомления...)";
 "lng_channel_discuss" = "Обсудить...)";
-"lng_saved_messages" = "Избранное...)";
+"lng_saved_messages" = "Избранное)";
 "lng_saved_short" = "Избранное...)";
 "lng_saved_forward_here" = "Сохранить на память...)";
 
@@ -1315,7 +1315,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_dialogs_text_with_from" = "{from_part} {message}...)";
 "lng_dialogs_text_from_wrapped" = "{from}:...)";
 "lng_dialogs_text_media" = "{media_part} {caption}...)";
-"lng_dialogs_text_media_wrapped" = "{media},...)";
+"lng_dialogs_text_media_wrapped" = "{media},)";
 "lng_dialogs_show_all_chats" = "Показать все чаты...)";
 "lng_dialogs_hide_muted_chats" = "Скрыть чаты без уведомлений...)";
 "lng_dialogs_skip_archive_in_search" = "Пропускать чаты из архива...)";
@@ -1334,7 +1334,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_bot_no_groups" = "У Вас пока нет групп...)";
 "lng_bot_groups_not_found" = "Группы не найдены...)";
 "lng_bot_sure_invite" = "Добавить бота в «{group}»?...)";
-"lng_bot_already_in_group" = "Этот бот уже является участником группы)";
+"lng_bot_already_in_group" = "Этот бот уже является участником группы...)";
 "lng_bot_choose_chat" = "Выберите чат...)";
 "lng_bot_no_chats" = "У Вас нет чатов...)";
 "lng_bot_chats_not_found" = "Чаты не найдены...)";
@@ -1344,7 +1344,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_typing" = "печатает...)";
 "lng_user_typing" = "{user} печатает...)";
 "lng_users_typing" = "{user} и {second_user} печатают...)";
-"lng_many_typing#one" = "{count} печатает...)";
+"lng_many_typing#one" = "{count} печатает)";
 "lng_many_typing#other" = "{count} печатают...)";
 "lng_playing_game" = "играет...)";
 "lng_user_playing_game" = "{user} играет...)";
@@ -1359,7 +1359,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_user_action_record_audio" = "{user} записывает голосовое сообщение...)";
 "lng_send_action_upload_audio" = "отправляет голосовое сообщение...)";
 "lng_user_action_upload_audio" = "{user} отправляет голосовое сообщение...)";
-"lng_send_action_record_round" = "записывает видеосообщение...)";
+"lng_send_action_record_round" = "записывает видеосообщение)";
 "lng_user_action_record_round" = "{user} записывает видеосообщение...)";
 "lng_send_action_upload_round" = "отправляет видеосообщение...)";
 "lng_user_action_upload_round" = "{user} отправляет видеосообщение...)";
@@ -1383,7 +1383,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_date_and_duration" = "{date}, {duration}...)";
 "lng_choose_image" = "Выберите изображение...)";
 "lng_choose_file" = "Выбрать файл...)";
-"lng_choose_files" = "Выбор файлов)";
+"lng_choose_files" = "Выбор файлов...)";
 "lng_game_tag" = "Игра...)";
 
 "lng_context_view_profile" = "Показать профиль...)";
@@ -1434,7 +1434,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_context_delete_msg" = "Удалить сообщение...)";
 "lng_context_select_msg" = "Выделить сообщение...)";
 "lng_context_report_msg" = "Пожаловаться...)";
-"lng_context_pin_msg" = "Закрепить сообщение...)";
+"lng_context_pin_msg" = "Закрепить сообщение)";
 "lng_context_unpin_msg" = "Открепить сообщение...)";
 "lng_context_cancel_upload" = "Отменить отправку...)";
 "lng_context_copy_selected" = "Копировать выделенный текст...)";
@@ -1505,7 +1505,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_contact_not_joined" = "К сожалению, {name} пока не пользуется Telegram, но Вы можете отправить приглашение.\n\nКогда кто-либо из Ваших контактов регистрируется в Telegram, Вы будете получать уведомление...)";
 "lng_try_other_contact" = "Попробовать другой...)";
 "lng_create_group_link" = "Ссылка...)";
-"lng_create_group_invite_link" = "Ссылка-приглашение...)";
+"lng_create_group_invite_link" = "Ссылка-приглашение)";
 "lng_create_group_description" = "Описание (необязательно)...)";
 
 "lng_drag_images_here" = "Перетащите сюда изображения...)";
@@ -1517,7 +1517,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_drag_to_send_files" = "для их отправки в виде файлов...)";
 
 "lng_selected_clear" = "Отмена...)";
-"lng_selected_delete" = "Удалить...)";
+"lng_selected_delete" = "Удалить)";
 "lng_selected_forward" = "Переслать...)";
 "lng_selected_send_now" = "Отправить сейчас...)";
 "lng_selected_cancel_sure_this" = "Отменить отправку?...)";
@@ -1536,7 +1536,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_selected_unsend_about_user#one" = "Чтобы удалить {count} отправленное Вами сообщение из истории для {user}, выберите «Отозвать мои сообщения»...)";
 "lng_selected_unsend_about_user#other" = "Чтобы удалить {count} отправленных Вами сообщений из истории для {user}, выберите «Отозвать мои сообщения»...)";
 "lng_selected_unsend_about_group_one" = "Чтобы удалить отправленные Вами сообщения из истории для других участников группы, выберите «Отозвать мои сообщения»...)";
-"lng_selected_unsend_about_group#one" = "Чтобы удалить {count} отправленное Вами сообщение из истории для других участников группы, выберите «Отозвать мои сообщения»)";
+"lng_selected_unsend_about_group#one" = "Чтобы удалить {count} отправленное Вами сообщение из истории для других участников группы, выберите «Отозвать мои сообщения»...)";
 "lng_selected_unsend_about_group#other" = "Чтобы удалить {count} отправленных Вами сообщений из истории для других участников группы, выберите «Отозвать мои сообщения»...)";
 "lng_delete_for_everyone_check" = "Удалить для всех...)";
 "lng_delete_for_other_check" = "Также удалить для {user}...)";
@@ -1587,7 +1587,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_theme_preview_users#one" = "Число установок: {count}...)";
 "lng_theme_preview_users#other" = "Число установок: {count}...)";
 
-"lng_new_authorization" = "{name},\n{day}, {date} в {time} в Ваш аккаунт выполнен вход с нового устройства.\n\nУстройство: {device}\nМесто: {location}\n\nЕсли это были не Вы, перейдите в Настройки > Конфиденциальность > Показать все сеансы и завершите этот сеанс.\n\nЕсли Вы считаете, что кто-то вошёл в аккаунт без Вашего ведома, советуем включить двухэтапную аутентификацию в разделе Конфиденциальность.\n\nКоманда Telegram...)";
+"lng_new_authorization" = "{name},\n{day}, {date} в {time} в Ваш аккаунт выполнен вход с нового устройства.\n\nУстройство: {device}\nМесто: {location}\n\nЕсли это были не Вы, перейдите в Настройки > Конфиденциальность > Показать все сеансы и завершите этот сеанс.\n\nЕсли Вы считаете, что кто-то вошёл в аккаунт без Вашего ведома, советуем включить двухэтапную аутентификацию в разделе Конфиденциальность.\n\nКоманда Telegram)";
 
 "lng_new_version_wrap" = "Telegram Desktop обновился до версии {version}\n\n{changes}\n\nВся история изменений доступна здесь:\n{link}...)";
 "lng_new_version_minor" = "— Исправления и улучшения...)";
@@ -1596,9 +1596,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_menu_formatting" = "Форматирование...)";
 "lng_menu_formatting_bold" = "Жирный...)";
 "lng_menu_formatting_italic" = "Курсив...)";
-"lng_menu_formatting_underline" = "Подчёркнутый)";
+"lng_menu_formatting_underline" = "Подчёркнутый...)";
 "lng_menu_formatting_strike_out" = "Зачёркнутый...)";
-"lng_menu_formatting_monospace" = "Моноширинный)";
+"lng_menu_formatting_monospace" = "Моноширинный...)";
 "lng_menu_formatting_link_create" = "Добавить ссылку...)";
 "lng_menu_formatting_link_edit" = "Изменить ссылку...)";
 "lng_menu_formatting_clear" = "Без форматирования...)";
@@ -1615,21 +1615,21 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_full_name" = "{first_name} {last_name}...)";
 
 "lng_confirm_phone_link_invalid" = "Эта ссылка недействительна или устарела...)";
-"lng_confirm_phone_title" = "Отмена сброса аккаунта...)";
+"lng_confirm_phone_title" = "Отмена сброса аккаунта)";
 "lng_confirm_phone_about" = "Кто-то, у кого есть доступ к Вашему номеру телефона {phone}, запросил удаление Вашего аккаунта и сброс пароля для двухэтапной аутентификации.\n\nЕсли это были не Вы, введите код из SMS-сообщения, только что отправленного на Ваш номер...)";
 "lng_confirm_phone_success" = "Всё в порядке!\n\nУдаление аккаунта {phone} отменено. Это окно можно закрыть...)";
 "lng_confirm_phone_send" = "Отправить...)";
 "lng_confirm_phone_enter_code" = "Введите код...)";
 
 "lng_theme_editor_no_keys" = "В палитре ещё нет ключевых слов...)";
-"lng_theme_editor_cant_change_theme" = "Вы не можете применять новые темы, пока изменяете цветовую палитру. Сначала закройте редактор тем)";
+"lng_theme_editor_cant_change_theme" = "Вы не можете применять новые темы, пока изменяете цветовую палитру. Сначала закройте редактор тем...)";
 "lng_theme_editor_new_keys" = "Ещё не в палитре...)";
 "lng_theme_editor_background_image" = "Фоновое изображение...)";
 "lng_theme_editor_saved_to_jpg" = "Сохранено в JPEG, {size}...)";
 "lng_theme_editor_read_from_jpg" = "Изображение JPEG, {size}...)";
 "lng_theme_editor_read_from_png" = "Изображение PNG, {size}...)";
 "lng_theme_editor_export" = "Экспортировать...)";
-"lng_theme_editor_choose_image" = "Выберите фон)";
+"lng_theme_editor_choose_image" = "Выберите фон...)";
 "lng_theme_editor_save_palette" = "Сохранить файл палитры...)";
 "lng_theme_editor_choose_name" = "Сохранить файл с темой...)";
 "lng_theme_editor_error" = "Ошибка в редакторе. См. подробности в файле 'log.txt'...)";
@@ -1671,7 +1671,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_call_status_failed" = "ошибка соединения...)";
 "lng_call_status_ringing" = "вызов...)";
 "lng_call_status_busy" = "занято...)";
-"lng_call_fingerprint_tooltip" = "Если {user} видит те же эмодзи, что и Вы, звонок на 100% защищён...)";
+"lng_call_fingerprint_tooltip" = "Если {user} видит те же эмодзи, что и Вы, звонок на 100% защищён)";
 
 "lng_call_error_not_available" = "К сожалению, {user} не принимает звонки...)";
 "lng_call_error_outdated" = "Приложение {user} не поддерживает звонки. Пользователь должен обновить приложение, чтобы Вы могли ему звонить...)";
@@ -1712,7 +1712,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_about_add_admins_yes" = "Этот администратор сможет добавлять других администраторов с такими же или более ограниченными правами...)";
 "lng_rights_about_add_admins_no" = "Этот администратор не сможет добавлять новых администраторов...)";
 
-"lng_rights_about_admin_cant_edit" = "Вы не можете изменять права этого администратора)";
+"lng_rights_about_admin_cant_edit" = "Вы не можете изменять права этого администратора...)";
 "lng_rights_about_restriction_cant_edit" = "Вы не можете редактировать ограничения этого пользователя...)";
 "lng_rights_restriction_for_all" = "Это действие отключено для всех участников в настройках группы...)";
 "lng_rights_permission_for_all" = "Это действие включено для всех участников в настройках группы...)";
@@ -1720,7 +1720,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_permission_cant_edit" = "Вы не можете менять это разрешение...)";
 "lng_rights_user_restrictions" = "Права пользователя...)";
 "lng_rights_user_restrictions_header" = "Возможности участника:...)";
-"lng_rights_default_restrictions_header" = "Возможности участников:...)";
+"lng_rights_default_restrictions_header" = "Возможности участников:)";
 "lng_rights_slowmode_header" = "Медленный режим...)";
 "lng_rights_slowmode_off" = "Нет...)";
 "lng_rights_slowmode_seconds#one" = "{count} сек...)";
@@ -1737,7 +1737,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_slowmode_interval_minutes#other" = "{count} минут...)";
 
 "lng_slowmode_enabled" = "Включён медленный режим. Вы сможете написать через {left}...)";
-"lng_slowmode_no_many" = "Включён медленный режим. Вы не можете отправить больше одного сообщения за раз)";
+"lng_slowmode_no_many" = "Включён медленный режим. Вы не можете отправить больше одного сообщения за раз...)";
 "lng_slowmode_too_long" = "К сожалению, текст слишком длинный для одного сообщения. \n\nВключён медленный режим. Вы не можете отправить больше одного сообщения за раз...)";
 
 "lng_rights_channel_info" = "Изменение профиля канала...)";
@@ -1747,7 +1747,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_group_info" = "Изменение профиля группы...)";
 "lng_rights_group_ban" = "Блокировка участников...)";
 "lng_rights_group_invite_link" = "Пригласительные ссылки...)";
-"lng_rights_group_invite" = "Добавление участников)";
+"lng_rights_group_invite" = "Добавление участников...)";
 "lng_rights_group_pin" = "Закрепление сообщений...)";
 "lng_rights_group_delete" = "Удаление сообщений...)";
 "lng_rights_add_admins" = "Добавление администраторов...)";
@@ -1792,7 +1792,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_restricted_send_message_until" = "Администраторы группы запретили Вам писать в ней до {date}, {time}...)";
 "lng_restricted_send_media_until" = "Администраторы группы запретили Вам отправлять медиа до {date}, {time}...)";
 "lng_restricted_send_stickers_until" = "Администраторы группы запретили Вам отправлять стикеры до {date}, {time}...)";
-"lng_restricted_send_gifs_until" = "Администраторы группы запретили Вам отправлять GIF до {date}, {time})";
+"lng_restricted_send_gifs_until" = "Администраторы группы запретили Вам отправлять GIF до {date}, {time}...)";
 "lng_restricted_send_inline_until" = "Администраторы группы запретили Вам отправлять сообщения с помощью ботов до {date}, {time}...)";
 "lng_restricted_send_polls_until" = "Администраторы группы запретили Вам отправлять опросы до {date}, {time}...)";
 
@@ -1820,7 +1820,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_filter_all_actions" = "Все действия...)";
 "lng_admin_log_filter_restrictions" = "Новые ограничения...)";
 "lng_admin_log_filter_admins_new" = "Права администраторов...)";
-"lng_admin_log_filter_members_new" = "Новые участники)";
+"lng_admin_log_filter_members_new" = "Новые участники...)";
 "lng_admin_log_filter_info_group" = "Информация о группе...)";
 "lng_admin_log_filter_info_channel" = "Информация о канале...)";
 "lng_admin_log_filter_messages_deleted" = "Удалённые сообщения...)";
@@ -1828,7 +1828,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_filter_messages_pinned" = "Закреплённые сообщения...)";
 "lng_admin_log_filter_members_removed" = "Выход участников...)";
 "lng_admin_log_filter_all_admins" = "Все участники и администраторы...)";
-"lng_admin_log_about" = "Что это?)";
+"lng_admin_log_about" = "Что это?...)";
 "lng_admin_log_about_text" = "Это список всех служебных действий, совершённых администраторами группы за последние 48 часов...)";
 "lng_admin_log_no_results_title" = "Действий не найдено...)";
 "lng_admin_log_no_results_text" = "По Вашему запросу не удалось найти недавних действий...)";
@@ -1844,7 +1844,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_changed_description_channel" = "{from} изменил(а) описание канала:...)";
 "lng_admin_log_removed_description_channel" = "{from} удалил(а) описание канала...)";
 "lng_admin_log_previous_description" = "Предыдущее описание...)";
-"lng_admin_log_changed_link_group" = "{from} изменил(а) ссылку на группу:)";
+"lng_admin_log_changed_link_group" = "{from} изменил(а) ссылку на группу:...)";
 "lng_admin_log_removed_link_group" = "{from} удалил(а) ссылку на группу...)";
 "lng_admin_log_changed_link_channel" = "{from} изменил(а) ссылку на канал:...)";
 "lng_admin_log_removed_link_channel" = "{from} удалил(а) ссылку на канал...)";
@@ -1888,7 +1888,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_changed_location_chat" = "{from} изменил(а) геопозицию группы на {address}...)";
 "lng_admin_log_removed_location_chat" = "{from} удалил(а) геопозицию группы...)";
 "lng_admin_log_changed_slow_mode" = "{from} изменил(а) таймер медленного режима на {duration}...)";
-"lng_admin_log_removed_slow_mode" = "{from} отключил(а) медленный режим)";
+"lng_admin_log_removed_slow_mode" = "{from} отключил(а) медленный режим...)";
 "lng_admin_log_user_with_username" = "{name} ({mention})...)";
 "lng_admin_log_restricted_forever" = "навсегда...)";
 "lng_admin_log_restricted_until" = "до {date}...)";
@@ -1897,7 +1897,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_banned_send_media" = "Отправка фото и видео...)";
 "lng_admin_log_banned_send_stickers" = "Отправка стикеров и GIF...)";
 "lng_admin_log_banned_embed_links" = "Предпросмотр для ссылок...)";
-"lng_admin_log_banned_send_polls" = "Создание опросов...)";
+"lng_admin_log_banned_send_polls" = "Создание опросов)";
 "lng_admin_log_admin_change_info" = "Изменение информации...)";
 "lng_admin_log_admin_post_messages" = "Публикация сообщений...)";
 "lng_admin_log_admin_edit_messages" = "Редактирование сообщений...)";
@@ -1948,7 +1948,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_terms_decline_and_delete" = "Отклонить и удалить...)";
 "lng_terms_back" = "Назад...)";
 "lng_terms_delete_warning" = "Внимание: в этом случае Ваш аккаунт в Telegram будет необратимо удалён вместе со всей информацией, которую Вы храните на серверах Telegram.\n\nВажно: Вы можете отменить удаление и сначала экспортировать данные своего аккаунта, чтобы не потерять их. (Для этого зайдите в свежую версию Telegram для ПК и выберите Продвинутые настройки > Экспорт данных из Telegram.)...)";
-"lng_terms_delete_now" = "Удалить сейчас...)";
+"lng_terms_delete_now" = "Удалить сейчас)";
 "lng_terms_agree_to_proceed" = "Пожалуйста, подтвердите для перехода к {bot}...)";
 
 "lng_date_input_day" = "День...)";
@@ -1956,7 +1956,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_date_input_year" = "Год...)";
 
 "lng_passport_title" = "Telegram Passport...)";
-"lng_passport_request1" = "{bot} запрашивает доступ к Вашим персональным данным...)";
+"lng_passport_request1" = "{bot} запрашивает доступ к Вашим персональным данным)";
 "lng_passport_request2" = "для регистрации на их ресурсе...)";
 "lng_passport_create_password" = "Пожалуйста, задайте пароль, с помощью которого\nбудут зашифрованы Ваши данные...)";
 "lng_passport_about_password" = "Этот пароль также потребуется для входа с новых устройств...)";
@@ -1976,7 +1976,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_identity_card_upload" = "Загрузите скан удостоверения личности...)";
 "lng_passport_identity_license" = "Водительские права...)";
 "lng_passport_identity_license_upload" = "Загрузите скан водительских прав...)";
-"lng_passport_identity_internal" = "Внутренний паспорт)";
+"lng_passport_identity_internal" = "Внутренний паспорт...)";
 "lng_passport_identity_internal_upload" = "Загрузите скан внутреннего паспорта...)";
 "lng_passport_identity_about" = "В документе должны быть Ваша фотография, имя и фамилия, дата рождения, номер документа, страна получения и срок действия...)";
 "lng_passport_address_title" = "Адрес проживания...)";
@@ -1991,7 +1991,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_address_registration_upload" = "Загрузите скан страницы паспорта с пропиской...)";
 "lng_passport_address_temporary" = "Временная прописка...)";
 "lng_passport_address_temporary_upload" = "Загрузите скан временной прописки...)";
-"lng_passport_address_about" = "Чтобы подтвердить адрес, загрузите скан или фотографию выбранного документа (все страницы)...)";
+"lng_passport_address_about" = "Чтобы подтвердить адрес, загрузите скан или фотографию выбранного документа (все страницы))";
 "lng_passport_or_title" = "{document} или {second_document}...)";
 "lng_passport_document_type" = "Пожалуйста, выберите тип документа:...)";
 "lng_passport_upload_document" = "Загрузить документ...)";
@@ -2009,7 +2009,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_save_value" = "Сохранить...)";
 "lng_passport_saving" = "Сохранение...)";
 "lng_passport_uploading" = "Загрузка...)";
-"lng_passport_scan_index" = "Скан {index}...)";
+"lng_passport_scan_index" = "Скан {index})";
 "lng_passport_upload_scans" = "Загрузить сканы...)";
 "lng_passport_upload_more" = "Загрузить дополнительные сканы...)";
 "lng_passport_selfie_title" = "Селфи...)";
@@ -2017,7 +2017,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_upload_selfie" = "Загрузить селфи...)";
 "lng_passport_reupload_selfie" = "Загрузить новую фотографию...)";
 "lng_passport_front_side_title" = "Лицевая сторона...)";
-"lng_passport_front_side_description" = "Загрузите лицевую сторону документа)";
+"lng_passport_front_side_description" = "Загрузите лицевую сторону документа...)";
 "lng_passport_upload_front_side" = "Загрузить скан лицевой стороны...)";
 "lng_passport_reupload_front_side" = "Загрузить новый скан лицевой стороны...)";
 "lng_passport_reverse_side_title" = "Обратная сторона...)";
@@ -2064,7 +2064,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_use_existing_email" = "Используйте тот же адрес электронной почты, что и в Telegram...)";
 "lng_passport_new_email" = "Или введите новый адрес...)";
 "lng_passport_new_email_code" = "Обратите внимание: на указанный Вами email придёт код подтверждения...)";
-"lng_passport_confirm_phone" = "На Ваш номер {phone} отправлено сообщение с кодом подтверждения...)";
+"lng_passport_confirm_phone" = "На Ваш номер {phone} отправлено сообщение с кодом подтверждения)";
 "lng_passport_confirm_email" = "Код подтверждения отправлен на Ваш адрес электронной почты {email}...)";
 "lng_passport_sure_cancel" = "Если Вы продолжите, изменения будут потеряны...)";
 "lng_passport_scans_limit_reached" = "Слишком много сканов одного документа...)";
@@ -2110,9 +2110,9 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_option_public_channels" = "Публичные каналы...)";
 "lng_export_option_only_my" = "Только мои сообщения...)";
 "lng_export_header_media" = "Настройки экспорта для медиа...)";
-"lng_export_option_photos" = "Фотографии)";
+"lng_export_option_photos" = "Фотографии...)";
 "lng_export_option_video_files" = "Видеозаписи...)";
-"lng_export_option_voice_messages" = "Голосовые сообщения)";
+"lng_export_option_voice_messages" = "Голосовые сообщения...)";
 "lng_export_option_video_messages" = "Видеосообщения...)";
 "lng_export_option_stickers" = "Стикеры...)";
 "lng_export_option_gifs" = "GIF...)";
@@ -2122,7 +2122,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_option_location" = "Путь для сохранения: {path}...)";
 "lng_export_option_html" = "Удобочитаемый HTML...)";
 "lng_export_option_json" = "JSON для чтения компьютером...)";
-"lng_export_limits" = "С {from}, до {till}...)";
+"lng_export_limits" = "С {from}, до {till})";
 "lng_export_beginning" = "первого сообщения...)";
 "lng_export_end" = "настоящего времени...)";
 "lng_export_from_beginning" = "Сбросить...)";
@@ -2141,7 +2141,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_finished" = "Экспорт данных завершен...)";
 "lng_export_total_amount" = "Всего файлов: {amount}...)";
 "lng_export_total_size" = "Общий размер: {size}...)";
-"lng_export_folder" = "Выберите путь для экспорта)";
+"lng_export_folder" = "Выберите путь для экспорта...)";
 "lng_export_invalid" = "Вы заново запросили экспорт данных, поэтому текущий экспорт отменен...)";
 "lng_export_delay" = "В целях безопасности загрузку можно будет начать {hours}. На все Ваши устройства было отправлено оповещение о запросе на экспорт данных — чтобы убедиться, что запрос действительно от Вас, и дать Вам время отреагировать, если это не так.\n\nПожалуйста, зайдите снова {date} и повторите запрос с того же устройства...)";
 "lng_export_delay_less_than_hour" = "менее чем в течение часа...)";
@@ -2159,7 +2159,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_export_about_left_chats" = "Здесь перечислены экспортированные супергруппы и каналы, из которых Вы вышли.\n\nОбратите внимание: когда Вы покидаете созданные Вами каналы или супергруппы, Вы можете удалить их или просто выйти из участников (например, чтобы вернуться позже или позволить другим администраторам продолжать развивать сообщество)...)";
 
 "lng_language_switch_title" = "Изменить язык?...)";
-"lng_language_switch_about_official" = "Перевод ({lang_name}), который Вы собираетесь использовать, закончен на  {percent}%.\n\nЭто изменит язык всего интерфейса. Предложить свою версию перевода можно через {link}.\n\nВы можете в любой момент изменить язык в настройках приложения...)";
+"lng_language_switch_about_official" = "Перевод ({lang_name}), который Вы собираетесь использовать, закончен на  {percent}%.\n\nЭто изменит язык всего интерфейса. Предложить свою версию перевода можно через {link}.\n\nВы можете в любой момент изменить язык в настройках приложения)";
 "lng_language_switch_about_unofficial" = "Перевод ({lang_name}), который Вы собираетесь использовать, закончен на  {percent}%.\n\nЭто изменит язык всего интерфейса. Предложить свою версию перевода можно через {link}.\n\nВы можете в любой момент изменить язык в настройках приложения...)";
 "lng_language_switch_link" = "платформу переводов...)";
 "lng_language_switch_apply" = "Изменить...)";
@@ -2174,7 +2174,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_launch_exe_dont_ask" = "Не спрашивать снова...)";
 
 "lng_polls_anonymous" = "Анонимный опрос...)";
-"lng_polls_public" = "Опрос...)";
+"lng_polls_public" = "Опрос)";
 "lng_polls_anonymous_quiz" = "Анонимная викторина...)";
 "lng_polls_public_quiz" = "Викторина...)";
 "lng_polls_closed" = "Результаты...)";
@@ -2200,7 +2200,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_polls_create_limit#other" = "Можно добавить ещё {count} вариантов ответа...)";
 "lng_polls_create_maximum" = "Вы указали максимальное количество вариантов ответа...)";
 "lng_polls_create_settings" = "Настройки...)";
-"lng_polls_create_anonymous" = "Анонимное голосование...)";
+"lng_polls_create_anonymous" = "Анонимное голосование)";
 "lng_polls_create_multiple_choice" = "Выбор нескольких ответов...)";
 "lng_polls_create_quiz_mode" = "Режим викторины...)";
 "lng_polls_create_button" = "Создать...)";
@@ -2210,7 +2210,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_polls_choose_correct" = "Выберите правильный ответ...)";
 
 "lng_polls_poll_results_title" = "Результаты...)";
-"lng_polls_quiz_results_title" = "Результаты)";
+"lng_polls_quiz_results_title" = "Результаты...)";
 "lng_polls_show_more#one" = "Показать больше ({count})...)";
 "lng_polls_show_more#other" = "Показать больше ({count})...)";
 "lng_polls_votes_collapse" = "Скрыть...)";
@@ -2260,7 +2260,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_mac_menu_redo" = "Повторить...)";
 "lng_mac_menu_cut" = "Вырезать...)";
 "lng_mac_menu_copy" = "Копировать...)";
-"lng_mac_menu_paste" = "Вставить...)";
+"lng_mac_menu_paste" = "Вставить)";
 "lng_mac_menu_delete" = "Удалить...)";
 "lng_mac_menu_select_all" = "Выбрать всё...)";
 "lng_mac_menu_window" = "Окно...)";
@@ -2279,7 +2279,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 /* new from translations.telegram.org */
 
 "cloud_lng_passport_in_ar" = "на арабском языке...)";
-"cloud_lng_passport_in_az" = "на азербайджанском языке...)";
+"cloud_lng_passport_in_az" = "на азербайджанском языке)";
 "cloud_lng_passport_in_bg" = "на болгарском языке...)";
 "cloud_lng_passport_in_bn" = "на бенгальском языке...)";
 "cloud_lng_passport_in_cs" = "на чешском языке...)";
@@ -2315,7 +2315,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "cloud_lng_passport_in_nl" = "на нидерландском языке...)";
 "cloud_lng_passport_in_pl" = "на польском языке...)";
 "cloud_lng_passport_in_pt" = "на португальском языке...)";
-"cloud_lng_passport_in_ro" = "на румынском языке...)";
+"cloud_lng_passport_in_ro" = "на румынском языке)";
 "cloud_lng_passport_in_ru" = "на русском языке...)";
 "cloud_lng_passport_in_sk" = "на словацком языке...)";
 "cloud_lng_passport_in_sl" = "на словенском языке...)";
@@ -2340,8 +2340,8 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_admin_log_slow_mode_minutes#few" = "{count} минуты...)";
 "lng_admin_log_slow_mode_minutes#many" = "{count} минут...)";
 "lng_admin_log_slow_mode_seconds#few" = "{count} секунды...)";
-"lng_admin_log_slow_mode_seconds#many" = "{count} секунд)";
-"lng_archived_chats#one" = "{count} чат)";
+"lng_admin_log_slow_mode_seconds#many" = "{count} секунд...)";
+"lng_archived_chats#one" = "{count} чат...)";
 "lng_archived_chats#few" = "{count} чата...)";
 "lng_archived_chats#many" = "{count} чатов...)";
 "lng_archived_chats#other" = "{count} чатов...)";
@@ -2370,7 +2370,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_chat_status_members#many" = "{count} участников...)";
 "lng_chat_status_online#few" = "{count} в сети...)";
 "lng_chat_status_online#many" = "{count} в сети...)";
-"lng_cloud_password_waiting" = "Ссылка для подтверждения отправлена на {email})";
+"lng_cloud_password_waiting" = "Ссылка для подтверждения отправлена на {email}...)";
 "lng_code_telegram" = "Код отправлен в другое приложение [b]Telegram[/b].\nПожалуйста, введите его здесь...)";
 "lng_connection_type" = "Способ подключения:...)";
 "lng_delete_for_everyone_hint#few" = "Сообщения будут удалены для всех в этом чате...)";
@@ -2391,7 +2391,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_group_invites_only_admins" = "Только администраторы...)";
 "lng_edit_group_who_invites" = "Кто может добавлять участников?...)";
 "lng_edit_privacy_calls_always#one" = "Всегда разрешать {count} пользователю...)";
-"lng_edit_privacy_calls_always#few" = "Всегда разрешать {count} пользователям...)";
+"lng_edit_privacy_calls_always#few" = "Всегда разрешать {count} пользователям)";
 "lng_edit_privacy_calls_always#many" = "Всегда разрешать {count} пользователям...)";
 "lng_edit_privacy_calls_always#other" = "Всегда разрешать {count} пользователям...)";
 "lng_edit_privacy_calls_description" = "Вы можете выбрать, кто может позвонить Вам через Telegram...)";
@@ -2413,7 +2413,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_edit_privacy_lastseen_always#one" = "Всегда показывать {count} пользователю...)";
 "lng_edit_privacy_lastseen_always#few" = "Всегда показывать {count} пользователям...)";
 "lng_edit_privacy_lastseen_always#many" = "Всегда показывать {count} пользователям...)";
-"lng_edit_privacy_lastseen_always#other" = "Всегда показывать для {count} пользователей)";
+"lng_edit_privacy_lastseen_always#other" = "Всегда показывать для {count} пользователей...)";
 "lng_edit_privacy_lastseen_description" = "Кто видит время последнего входа...)";
 "lng_edit_privacy_lastseen_never#one" = "Всегда скрывать от {count} пользователя...)";
 "lng_edit_privacy_lastseen_never#few" = "Всегда скрывать от {count} пользователей...)";
@@ -2456,7 +2456,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_local_storage_voice#many" = "{count} голосовых сообщений...)";
 "lng_manage_discussion_group_visible" = "видна новым участникам...)";
 "lng_manage_peer_banned_users" = "Чёрный список...)";
-"lng_manage_peer_restricted_users" = "Ограничения...)";
+"lng_manage_peer_restricted_users" = "Ограничения)";
 "lng_many_playing_game#few" = "{count} человека сейчас в игре...)";
 "lng_many_playing_game#many" = "{count} человек сейчас в игре...)";
 "lng_many_typing#few" = "{count} печатают...)";
@@ -2480,7 +2480,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_media_selected_song#few" = "{count} аудиофайла...)";
 "lng_media_selected_song#many" = "{count} аудиофайлов...)";
 "lng_media_selected_video#few" = "{count} видео...)";
-"lng_media_selected_video#many" = "{count} видео...)";
+"lng_media_selected_video#many" = "{count} видео)";
 "lng_mediaview_file_n_of_count" = "{file} ({n} из {count})...)";
 "lng_mediaview_n_of_count" = "Фотография {n} из {count}...)";
 "lng_mediaview_saved" = "Изображение сохранено в папке [c]Загрузки[/c]...)";
@@ -2501,10 +2501,10 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_passport_reverse_side_name" = "Скан...)";
 "lng_passport_selfie_name" = "Фотография...)";
 "lng_phone_notreg" = "Если у Вас ещё нет аккаунта Telegram, [b]зарегистрируйтесь[/b] с {link_start}Android / iPhone{link_end} или {signup_start}здесь{signup_end}...)";
-"lng_polls_answers_count#few" = "{count} ответа)";
+"lng_polls_answers_count#few" = "{count} ответа...)";
 "lng_polls_answers_count#many" = "{count} ответов...)";
 "lng_polls_create_hint" = "Выберите правильный ответ...)";
-"lng_polls_create_limit#few" = "Можно добавить ещё {count} варианта ответа)";
+"lng_polls_create_limit#few" = "Можно добавить ещё {count} варианта ответа...)";
 "lng_polls_create_limit#many" = "Можно добавить ещё {count} вариантов ответа...)";
 "lng_polls_show_more#few" = "Показать больше ({count})...)";
 "lng_polls_show_more#many" = "Показать больше ({count})...)";
@@ -2533,7 +2533,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_profile_songs#few" = "{count} аудиофайла...)";
 "lng_profile_songs#many" = "{count} аудиофайлов...)";
 "lng_profile_unblock_bot" = "Разблокировать...)";
-"lng_profile_videos#few" = "{count} видео...)";
+"lng_profile_videos#few" = "{count} видео)";
 "lng_profile_videos#many" = "{count} видео...)";
 "lng_proxy_use" = "Использовать прокси...)";
 "lng_reconnecting#few" = "Переподключение через {count} секунды...)";
@@ -2550,7 +2550,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_rights_slowmode_hours#many" = "{count} ч...)";
 "lng_rights_slowmode_interval_minutes#few" = "{count} минуты...)";
 "lng_rights_slowmode_interval_minutes#many" = "{count} минут...)";
-"lng_rights_slowmode_interval_seconds#few" = "{count} секунды)";
+"lng_rights_slowmode_interval_seconds#few" = "{count} секунды...)";
 "lng_rights_slowmode_interval_seconds#many" = "{count} секунд...)";
 "lng_rights_slowmode_minutes#few" = "{count} мин...)";
 "lng_rights_slowmode_minutes#many" = "{count} мин...)";
@@ -2570,7 +2570,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_self_destruct_months#many" = "{count} месяцев...)";
 "lng_self_destruct_years#few" = "{count} года...)";
 "lng_self_destruct_years#many" = "{count} лет...)";
-"lng_send_files#few" = "Отправить {count} файла)";
+"lng_send_files#few" = "Отправить {count} файла...)";
 "lng_send_files#many" = "Отправить {count} файлов...)";
 "lng_send_files_selected#few" = "Выбрано {count} файла...)";
 "lng_send_files_selected#many" = "Выбрано {count} файлов...)";
@@ -2588,7 +2588,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 "lng_settings_calls_peer_to_peer" = "Звонки через Peer-to-Peer...)";
 "lng_settings_calls_privacy" = "Кто может позвонить...)";
 "lng_settings_edit_info" = "Редактировать информацию...)";
-"lng_settings_groups_invite_privacy" = "Настройки приглашений в группы и каналы)";
+"lng_settings_groups_invite_privacy" = "Настройки приглашений в группы и каналы...)";
 "lng_settings_images_cached#one" = "{count} изображение, {size}...)";
 "lng_settings_images_cached#few" = "{count} изображения, {size}...)";
 "lng_settings_images_cached#many" = "{count} изображений, {size}...)";

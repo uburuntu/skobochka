@@ -1,11 +1,11 @@
 ﻿
 "Messages.UnreadMark" = "Непрочитанные сообщения...)";
 "Messages.ForwardHeader" = "Пересланные сообщения...)";
-"Messages.File.State.FetchingIn_1" = "%d% загружено)";
+"Messages.File.State.FetchingIn_1" = "%d% загружено...)";
 "Messages.File.State.FetchingOut_1" = "%d% загружено...)";
 
 "Messages.File.State.Remote" = "Загрузить...)";
-"Messages.File.State.Local" = "Показать в Finder)";
+"Messages.File.State.Local" = "Показать в Finder...)";
 "Messages.DeletedMessage" = "Удалённое сообщение...)";
 
 "Messages.Placeholder.SentMessage" = "Сообщение...)";
@@ -36,7 +36,7 @@
 
 "Peer.Status.Member_countable" = "%d...)";
 
-"Peer.Status.Member_one" = "%d участник...)";
+"Peer.Status.Member_one" = "%d участник)";
 
 "Peer.Status.Member_few" = "%d участника...)";
 "Peer.Status.Member_many" = "%d участников...)";
@@ -88,7 +88,7 @@
 "PeerInfo.scam" = "мошенничество...)";
 "PeerInfo.info" = "информация...)";
 "PeerInfo.SetGroupPhoto" = "Изменить фото группы...)";
-"PeerInfo.AddMember" = "Добавить участников)";
+"PeerInfo.AddMember" = "Добавить участников...)";
 "PeerInfo.DeleteAndExit" = "Удалить и выйти...)";
 "PeerInfo.DeleteGroup" = "Удалить группу...)";
 "PeerInfo.Permissions" = "Разрешения...)";
@@ -111,7 +111,7 @@
 "PeerInfo.Confirm.LeaveChannel" = "Вы точно хотите покинуть канал?...)";
 "PeerInfo.Confirm.LeaveGroup" = "Вы точно хотите покинуть группу?\n\nЭто действие нельзя будет отменить...)";
 "PeerInfo.Confirm.DeleteChat" = "Вы точно хотите удалить всю историю чата и покинуть \"%@\"?\n\nЭто действие нельзя будет отменить...)";
-"Confirm.DeleteAdminedChannel" = "Важно! Если удалить канал, все участники и все сообщения в нём будут потеряны.\n\nУверены, что хотите продолжить?)";
+"Confirm.DeleteAdminedChannel" = "Важно! Если удалить канал, все участники и все сообщения в нём будут потеряны.\n\nУверены, что хотите продолжить?...)";
 "Confirm.DeleteChatUser" = "Вы уверены, что хотите удалить всю историю сообщений?\n\nЭто действие нельзя будет отменить...)";
 "Confirm.LeaveGroup" = "Хотите покинуть группу?...)";
 
@@ -136,7 +136,7 @@
 "Chat.DropQuickDesc" = "быстрым способом...)";
 "Chat.DropAsFilesDesc" = "без сжатия...)";
 
-"Chat.DropEditTitle" = "Для редактирования перенесите файл сюда)";
+"Chat.DropEditTitle" = "Для редактирования перенесите файл сюда...)";
 "Chat.DropEditDesc" = "Изменить медиа...)";
 
 
@@ -146,7 +146,7 @@
 "Chat.DropFolder.Desc" = "заархивировать и отправить...)";
 
 "Message.ActionsPanel.Delete" = "Удалить...)";
-"Message.ActionsPanel.Forward" = "Переслать...)";
+"Message.ActionsPanel.Forward" = "Переслать)";
 "Message.ActionsPanel.EmptySelected" = "Выберите сообщения...)";
 
 
@@ -176,7 +176,7 @@
 
 "ForwardModalAction.Title_one" = "Пересылка сообщения...)";
 
-"ForwardModalAction.Title_few" = "Пересылка сообщений...)";
+"ForwardModalAction.Title_few" = "Пересылка сообщений)";
 "ForwardModalAction.Title_many" = "Пересылка сообщений...)";
 "ForwardModalAction.Title_other" = "Пересылка сообщений...)";
 
@@ -212,7 +212,7 @@
 "PreviewSender.CommentPlaceholder" = "Добавить комментарий...)";
 "PreviewSender.FileTooltip" = "Отправка без сжатия...)";
 "PreviewSender.MediaTooltip" = "Быстрая отправка...)";
-"PreviewSender.CollageTooltip" = "Объединить фотографии в альбом...)";
+"PreviewSender.CollageTooltip" = "Объединить фотографии в альбом)";
 "PreviewSender.ArchiveTooltip" = "Отправить файлы одним zip-архивом...)";
 
 
@@ -247,7 +247,7 @@
 
 "Chat.Service.Channel.UpdatedPhoto" = "фотография канала обновлена...)";
 "Chat.Service.Channel.RemovedPhoto" = "фото канала удалено...)";
-"Chat.Service.Channel.UpdatedTitle" = "Название канала изменено на \"%@\"...)";
+"Chat.Service.Channel.UpdatedTitle" = "Название канала изменено на \"%@\")";
 
 
 "Chat.Service.SecretChat.SetTimer" = "%@ включил(а) удаление по таймеру через %@...)";
@@ -264,7 +264,7 @@
 "Chat.Input.Join" = "Присоединиться...)";
 "Chat.Input.Discuss" = "Обсудить...)";
 "Chat.Input.Unblock" = "Разблокировать...)";
-"Chat.Input.Restart" = "Перезапустить)";
+"Chat.Input.Restart" = "Перезапустить...)";
 "Chat.Input.Close" = "Закрыть...)";
 
 "Message.Context.Reply1" = "Ответить...)";
@@ -296,7 +296,7 @@
 "AccountSettings.Proxy.Connected" = "Подключён...)";
 "AccountSettings.Proxy.Disabled" = "Не используется...)";
 "AccountSettings.Stickers" = "Стикеры...)";
-"AccountSettings.Notifications" = "Уведомления и звук)";
+"AccountSettings.Notifications" = "Уведомления и звук...)";
 "AccountSettings.Username" = "Имя пользователя...)";
 "AccountSettings.Language" = "Язык...)";
 "AccountSettings.PrivacyAndSecurity" = "Конфиденциальность...)";
@@ -316,7 +316,7 @@
 
 "Chat.ConnectingStatus.connecting" = "Соединение...)";
 "Chat.ConnectingStatus.updating" = "Обновление...)";
-"Chat.ConnectingStatus.waitingNetwork" = "Ожидание сети)";
+"Chat.ConnectingStatus.waitingNetwork" = "Ожидание сети...)";
 "Chat.ConnectingStatus.connectingToProxy" = "Соединение с прокси...)";
 
 "InputAttach.Popover.PhotoOrVideo" = "Фото или видео...)";
@@ -344,7 +344,7 @@
 
 "PeerMedia.Popover.SharedMedia" = "Общие медиа...)";
 "PeerMedia.Popover.SharedFiles" = "Общие файлы...)";
-"PeerMedia.Popover.SharedLinks" = "Общие ссылки...)";
+"PeerMedia.Popover.SharedLinks" = "Общие ссылки)";
 "PeerMedia.Popover.SharedAudio" = "Общие аудио...)";
 
 
@@ -356,7 +356,7 @@
 "Chat.Message.Via" = "via...)";
 
 "Audio.UnknownArtist" = "Неизвестный исполнитель...)";
-"Audio.UntitledSong" = "Без названия)";
+"Audio.UntitledSong" = "Без названия...)";
 
 "AudioController.voiceMessage" = "голосовое сообщение...)";
 "AudioController.videoMessage" = "видеосообщение...)";
@@ -438,7 +438,7 @@
 
 
 "NotificationSettings.NotificationTone" = "Звук сообщений...)";
-"NotificationSettings.ResetNotifications" = "Сбросить настройки уведомлений...)";
+"NotificationSettings.ResetNotifications" = "Сбросить настройки уведомлений)";
 "NotificationSettings.ResetNotificationsText" = "Ниже Вы можете задать отдельные настройки уведомлений для каждого чата...)";
 "Telegram.NotificationSettingsViewController" = "Уведомления...)";
 "AccountSettings.DataAndStorage" = "Данные и память...)";
@@ -449,7 +449,7 @@
 "NotificationSettings.Confirm.Reset" = "Сбросить настройки...)";
 
 
-"Weekday.ShortFriday" = "Пт)";
+"Weekday.ShortFriday" = "Пт...)";
 "Weekday.ShortMonday" = "Пн...)";
 "Weekday.ShortSaturday" = "Сб...)";
 "Weekday.ShortSunday" = "Вс...)";
@@ -481,11 +481,11 @@
 "UsernameSettings.available" = " Имя %@ доступно...)";
 
 "Error.Username.UnderscopeStart" = "Имя пользователя не может начинаться с символа подчёркивания...)";
-"Error.Username.UnderscopeEnd" = "Имя пользователя не может заканчиваться символом подчёркивания...)";
+"Error.Username.UnderscopeEnd" = "Имя пользователя не может заканчиваться символом подчёркивания)";
 "Error.Username.NumberStart" = "Имя пользователя не может начинаться с цифры...)";
 "Error.Username.Invalid" = "Некорректное имя пользователя...)";
 "Error.Username.MinimumLength" = "Имя пользователя не может содержать меньше 5 символов...)";
-"Error.Username.AlreadyTaken" = "Это имя пользователя уже занято)";
+"Error.Username.AlreadyTaken" = "Это имя пользователя уже занято...)";
 "UsernameSettings.Done" = "Готово...)";
 
 "Search.Separator.ChatsAndContacts" = "контакты и чаты...)";
@@ -511,7 +511,7 @@
 "Compose.Next" = "Далее...)";
 "Channel.ChannelNameHolder" = "Название канала...)";
 "Channel.NameHeader" = "НАЗВАНИЕ КАНАЛА...)";
-"Channel.DescriptionHolder" = "Описание...)";
+"Channel.DescriptionHolder" = "Описание)";
 "Channel.DescHeader" = "ОПИСАНИЕ...)";
 "Channel.DescriptionHolderDescrpiton" = "Можете указать дополнительное описание для канала...)";
 
@@ -527,14 +527,14 @@
 "Channel.PrivateAboutChannel" = "На частные каналы можно подписаться только по ссылке-приглашению...)";
 "Channel.PublicAboutChannel" = "Публичные каналы можно найти через поиск, подписаться на них может любой пользователь...)";
 "Channel.PrivateAboutGroup" = "В частные группы можно вступить только по приглашению или пригласительной ссылке...)";
-"Channel.PublicAboutGroup" = "Публичные группы можно найти через поиск, история чата доступна всем, и присоединиться может любой пользователь...)";
+"Channel.PublicAboutGroup" = "Публичные группы можно найти через поиск, история чата доступна всем, и присоединиться может любой пользователь)";
 
 "Channel.PublicNamesLimitError" = "К сожалению, Вы используете слишком много публичных ссылок.\nВы можете сбросить одну из уже занятых ссылок на свои группы или каналы или не создавать новую публичную ссылку...)";
 
 
 "Channel.ExportLinkAboutChannel" = "По этой ссылке можно подписаться на Ваш канал. Вы можете сбросить ссылку в любой момент...)";
 "Channel.ExportLinkAboutGroup" = "По этой ссылке можно вступить в Вашу группу. Вы можете сбросить ссылку в любой момент...)";
-"Channel.UsernameAboutChannel" = "Пользователи могут делиться этой ссылкой между собой. Кроме того, канал можно найти через поиск в Telegram)";
+"Channel.UsernameAboutChannel" = "Пользователи могут делиться этой ссылкой между собой. Кроме того, канал можно найти через поиск в Telegram...)";
 "Channel.UsernameAboutGroup" = "Люди смогут делиться этой ссылкой, а также найти Вашу группу в поиске Telegram...)";
 
 
@@ -648,18 +648,18 @@
 
 "Timer.Seconds_one" = "%d секунда...)";
 
-"Timer.Seconds_few" = "%d секунды...)";
+"Timer.Seconds_few" = "%d секунды)";
 "Timer.Seconds_many" = "%d секунд...)";
 "Timer.Seconds_other" = "%d секунд...)";
 
 
 "Timer.Days_countable" = "%d...)";
 
-"Timer.Days_one" = "%d день...)";
+"Timer.Days_one" = "%d день)";
 
 "Timer.Days_few" = "%d дня...)";
 "Timer.Days_many" = "%d дней...)";
-"Timer.Days_other" = "%d дней...)";
+"Timer.Days_other" = "%d дней)";
 
 
 "Timer.Minutes_countable" = "%d...)";
@@ -670,7 +670,7 @@
 "Timer.Minutes_many" = "%d минут...)";
 "Timer.Minutes_other" = "%d минут...)";
 
-"Timer.Hours_countable" = "%d)";
+"Timer.Hours_countable" = "%d...)";
 
 "Timer.Hours_one" = "%d час...)";
 
@@ -724,7 +724,7 @@
 "Chat.Title.self" = "Ваше облачное хранилище...)";
 "Separator.ShowMore" = "ещё...)";
 "Separator.ShowLess" = "меньше...)";
-"Separator.Clear" = "очистить...)";
+"Separator.Clear" = "очистить)";
 "Stickers.Recent" = "Недавнее...)";
 "Stickers.Favorite" = "ИЗБРАННЫЕ...)";
 "Stickers.SearchAdd" = "Добавить...)";
@@ -763,7 +763,7 @@
 
 "Supergroup.Convert.Description" = "**В супергруппах:**\n\n• Новые участники могут видеть всю историю сообщений\n• Удалённые сообщения исчезают для всех участников\n• Администраторы могут указать описание группы\n• Создатель может выбрать для группы публичную ссылку...)";
 "Supergroup.Convert.Undone" = "**Внимание:** это действие нельзя отменить...)";
-"Supergroup.Convert.Button" = "Сделать супергруппой)";
+"Supergroup.Convert.Button" = "Сделать супергруппой...)";
 
 
 "PeerInfo.MembersHeader_countable" = "%d...)";
@@ -771,14 +771,14 @@
 "PeerInfo.MembersHeader_one" = "%d УЧАСТНИК...)";
 
 "PeerInfo.MembersHeader_few" = "%d УЧАСТНИКА...)";
-"PeerInfo.MembersHeader_many" = "%d УЧАСТНИКОВ...)";
+"PeerInfo.MembersHeader_many" = "%d УЧАСТНИКОВ)";
 "PeerInfo.MembersHeader_other" = "%d УЧАСТНИКОВ...)";
 
 "PeerInfo.InviteLink" = "Ссылка-приглашение...)";
 "PeerInfo.BlackList" = "Чёрный список...)";
 "PeerInfo.GroupType" = "Тип группы...)";
 "PeerInfo.ChannelType" = "Тип канала...)";
-"PeerInfo.GroupType.Public" = "Публичная)";
+"PeerInfo.GroupType.Public" = "Публичная...)";
 "PeerInfo.GroupType.Private" = "Частная...)";
 "PeerInfo.SetAboutDescription" = "Можете указать дополнительное описание для группы...)";
 "PeerInfo.About.Placeholder" = "Описание...)";
@@ -789,7 +789,7 @@
 "Telegram.ChannelBlacklistViewController" = "Чёрный список...)";
 "Telegram.ChannelAdminsViewController" = "Администраторы...)";
 
-"ChannelBlacklist.EmptyDescrpition" = "Заблокированные пользователи исключены из группы и могут вернуться обратно только по приглашению администратора. Пригласительные ссылки для них не работают)";
+"ChannelBlacklist.EmptyDescrpition" = "Заблокированные пользователи исключены из группы и могут вернуться обратно только по приглашению администратора. Пригласительные ссылки для них не работают...)";
 
 "Admins.GroupAdmins" = "АДМИНИСТРАТОРЫ ГРУППЫ...)";
 "Admins.ChannelAdmins" = "АДМИНИСТРАТОРЫ КАНАЛА...)";
@@ -862,8 +862,8 @@
 
 "StickerPack.Add1_one" = "Добавить %d стикер...)";
 
-"StickerPack.Add1_few" = "Добавить %d стикера)";
-"StickerPack.Add1_many" = "Добавить %d стикеров)";
+"StickerPack.Add1_few" = "Добавить %d стикера...)";
+"StickerPack.Add1_many" = "Добавить %d стикеров...)";
 "StickerPack.Add1_other" = "Добавить %d стикеров...)";
 
 "Compose.Select.SecretChat" = "Секретный чат...)";
@@ -935,12 +935,12 @@
 "ChatList.Service.GameScored1_other" = "набрал(а) %d очков в %@...)";
 
 "About.Description" = "Бесплатный мессенджер для macOS на основе протокола MTProto. Быстрый и безопасный...)";
-"ChatService.ChannelCreated" = "канал создан...)";
+"ChatService.ChannelCreated" = "канал создан)";
 "Telegram.BlockedPeersViewController" = "Чёрный список...)";
 "BlockedPeers.EmptyDescrpition" = "Заблокированные пользователи не могут писать Вам и приглашать Вас в группы. Они также не видят Ваше фото и время последней активности...)";
 
 "Sessions.CurrentSessionHeader" = "ТЕКУЩИЙ СЕАНС...)";
-"Sessions.TerminateOthers" = "Завершить все другие сеансы...)";
+"Sessions.TerminateOthers" = "Завершить все другие сеансы)";
 "Sessions.TerminateDescription" = "Выйти на всех устройствах, кроме этого...)";
 "Sessions.ActiveSessionsHeader" = "АКТИВНЫЕ СЕАНСЫ...)";
 
@@ -961,7 +961,7 @@
 "Passcode.Next" = "Далее...)";
 
 
-"Peer.ServiceNotifications" = "служебные уведомления)";
+"Peer.ServiceNotifications" = "служебные уведомления...)";
 
 "Alert.SendError.Header" = "Сообщение не может быть отправлено...)";
 "Alert.SendError.Text" = "При отправке предыдущего сообщения произошла ошибка. Отправить его снова?...)";
@@ -978,7 +978,7 @@
 "Alert.SendError.ResendItems_many" = "Отправить %d сообщений...)";
 "Alert.SendError.ResendItems_other" = "Отправить %d сообщений...)";
 
-"GeneralSettings.EnableSidebar" = "Боковая панель...)";
+"GeneralSettings.EnableSidebar" = "Боковая панель)";
 "Telegram.RecentSessionsController" = "Активные сеансы...)";
 "RecentSessions.Confirm.TerminateOthers" = "Вы точно хотите завершить все другие сеансы?...)";
 "RecentSessions.Confirm.Revoke" = "Завершить этот сеанс?...)";
@@ -1080,18 +1080,18 @@
 "StorageUsage.ChatsHeader" = "ЧАТЫ...)";
 "StorageUsage.Calculating" = "Telegram вычисляет размер кэша. Это может занять пару минут...)";
 "App.MaxFileSize" = "Максимальный размер файла — 1,5 ГБ...)";
-"Message.Context.SaveGif" = "Добавить GIF)";
+"Message.Context.SaveGif" = "Добавить GIF...)";
 "Message.Context.RemoveGif" = "Скрыть GIF...)";
 "Context.RecentGifRemove" = "Удалить...)";
 "Sidebar.Avalability" = "Боковая панель доступна при просмотре чатов...)";
-"Sidebar.Peer.Restricted" = "Боковая панель недоступна в этом чате...)";
+"Sidebar.Peer.Restricted" = "Боковая панель недоступна в этом чате)";
 
 
 "PrivacySettingsController.Header" = "Последняя активность...)";
 "PrivacySettingsController.Everbody" = "Все...)";
 "PrivacySettingsController.MyContacts" = "Мои контакты...)";
-"PrivacySettingsController.Nobody" = "Никто...)";
-"PrivacySettingsController.NeverShare" = "Всегда скрывать)";
+"PrivacySettingsController.Nobody" = "Никто)";
+"PrivacySettingsController.NeverShare" = "Всегда скрывать...)";
 "PrivacySettingsController.AlwaysShare" = "Всегда показывать...)";
 "PrivacySettingsController.NeverShareWith" = "Никогда не показывать...)";
 "PrivacySettingsController.AlwaysShareWith" = "Всегда показывать...)";
@@ -1118,7 +1118,7 @@
 
 "PrivacySettingsController.PhoneNumber.WhoCanSeePhoneNumber" = "КТО ВИДИТ МОЙ НОМЕР ТЕЛЕФОНА...)";
 "PrivacySettingsController.PhoneNumber.CustomHelp" = "Пользователи, которые уже знают Ваш номер и сохранили его в телефонную книгу, будут видеть его и в Telegram...)";
-"PrivacySettingsController.PhoneNumber.AlwaysAllow.Title" = "Всегда показывать...)";
+"PrivacySettingsController.PhoneNumber.AlwaysAllow.Title" = "Всегда показывать)";
 "PrivacySettingsController.PhoneNumber.NeverAllow.Title" = "Всегда скрывать...)";
 
 "PrivacySettingsController.UserCount_countable" = "%d...)";
@@ -1132,7 +1132,7 @@
 "PrivacySettingsController.AddUsers" = "Добавить...)";
 
 "PrivacySettingsController.LastSeenHeader" = "КТО ВИДИТ ВРЕМЯ МОЕЙ ПОСЛЕДНЕЙ АКТИВНОСТИ...)";
-"PrivacySettingsController.LastSeenDescription" = "Важно: Вы не будете видеть появление в сети и время активности пользователей, от которых скрыли свои. Вместо времени будет видно примерное значение (недавно, на этой неделе, в этом месяце))";
+"PrivacySettingsController.LastSeenDescription" = "Важно: Вы не будете видеть появление в сети и время активности пользователей, от которых скрыли свои. Вместо времени будет видно примерное значение (недавно, на этой неделе, в этом месяце)...)";
 
 "PrivacySettingsController.GroupHeader" = "КТО МОЖЕТ ДОБАВЛЯТЬ МЕНЯ В ГРУППЫ...)";
 "PrivacySettingsController.GroupDescription" = "Вы можете выбрать, кому разрешаете приглашать Вас в группы и каналы...)";
@@ -1145,7 +1145,7 @@
 "Chat.Call.Incoming" = "Входящий звонок...)";
 
 "CallHeader.EndCall" = "Завершить звонок...)";
-"Call.ParticipantVersionOutdatedError" = "Приложение %@ не поддерживает звонки. Пользователь должен обновить приложение, чтобы Вы могли ему звонить)";
+"Call.ParticipantVersionOutdatedError" = "Приложение %@ не поддерживает звонки. Пользователь должен обновить приложение, чтобы Вы могли ему звонить...)";
 "Call.UndefinedError" = "Неизвестная ошибка, повторите попытку позже...)";
 "Call.PrivacyErrorMessage" = "К сожалению, %@ не принимает звонки...)";
 
@@ -1171,11 +1171,11 @@
 
 "Call.ShortSeconds_few" = "%d сек...)";
 "Call.ShortSeconds_many" = "%d сек...)";
-"Call.ShortSeconds_other" = "%d сек)";
+"Call.ShortSeconds_other" = "%d сек...)";
 
 "Call.ShortMinutes_countable" = "%d...)";
 
-"Call.ShortMinutes_one" = "%d мин)";
+"Call.ShortMinutes_one" = "%d мин...)";
 
 "Call.ShortMinutes_few" = "%d мин...)";
 "Call.ShortMinutes_many" = "%d мин...)";
@@ -1190,7 +1190,7 @@
 "Call.RatingModal.Placeholder" = "Комментарий...)";
 "QuickSwitcher.Recently" = "Недавние...)";
 "QuickSwitcher.Popular" = "Популярные...)";
-"QuickSwitcher.Description" = "**TAB** или **↑ ↓** для навигации, **⮐** для выбора, **ESC** для отмены)";
+"QuickSwitcher.Description" = "**TAB** или **↑ ↓** для навигации, **⮐** для выбора, **ESC** для отмены...)";
 
 "Chat.Context.Edit1" = "Редактировать...)";
 "Chat.Context.EditHelp" = "нажмите на дату...)";
@@ -1254,7 +1254,7 @@
 "c8a-y6-VQd.title" = "Преобразования...)";
 "cwL-P1-jid.title" = "Умные ссылки...)";
 "d9M-CD-aMd.title" = "Нижний регистр (строчными)...)";
-"dRJ-4n-Yzg.title" = "Отмена...)";
+"dRJ-4n-Yzg.title" = "Отмена)";
 "gVA-U4-sdL.title" = "Вставить...)";
 "hQb-2v-fYv.title" = "Умные кавычки...)";
 "hz2-CU-CR7.title" = "Проверить документ...)";
@@ -1267,7 +1267,7 @@
 "uRl-iY-unG.title" = "Вырезать...)";
 "vmV-6d-7jI.title" = "Верхний регистр (ЗАГЛАВНЫМИ)...)";
 "x3v-GG-iWU.title" = "Копировать...)";
-"1000.title" = "Проверить обновления...)";
+"1000.title" = "Проверить обновления)";
 "z6F-FW-3nz.title" = "Показать автозамены...)";
 "sZh-ct-GQS.title" = "Быстрый поиск...)";
 
@@ -1277,7 +1277,7 @@
 /* This key for which language this file, for example: Italian -> Italiano, Russian -> Русский */
 "AccountSettings.CurrentLanguage" = "Русский...)";
 "Suggest.Localization.Header" = "Выберите язык...)";
-"Suggest.Localization.Other" = "Другой)";
+"Suggest.Localization.Other" = "Другой...)";
 
 "PrivacySettings.PeerSelect.AddNew" = "Добавить...)";
 "PrivacySettings.PeerSelect.AddUserOrGroup" = "Добавить людей или группы...)";
@@ -1350,13 +1350,13 @@
 
 "Group.EventLog.Service.TitleUpdated" = "%@ изменил(а) название группы:...)";
 "Group.EventLog.Service.LinkUpdated" = "%@ изменил(а) ссылку группы:...)";
-"Group.EventLog.Service.AboutUpdated" = "%@ изменил(а) описание группы:)";
+"Group.EventLog.Service.AboutUpdated" = "%@ изменил(а) описание группы:...)";
 
 "Channel.EventLog.Service.TitleUpdated" = "%@ изменил(а) название канала:...)";
 "Channel.EventLog.Service.LinkUpdated" = "%@ изменил(а) ссылку канала:...)";
 "Channel.EventLog.Service.AboutUpdated" = "%@ изменил(а) описание канала:...)";
 
-"Group.EventLog.Service.LinkRemoved" = "%@ удалил(а) ссылку группы:...)";
+"Group.EventLog.Service.LinkRemoved" = "%@ удалил(а) ссылку группы:)";
 "Group.EventLog.Service.AboutRemoved" = "%@ удалил(а) описание группы:...)";
 "Channel.EventLog.Service.LinkRemoved" = "%@ удалил(а) ссылку канала:...)";
 "Channel.EventLog.Service.AboutRemoved" = "%@ удалил(а) описание канала:...)";
@@ -1380,7 +1380,7 @@
 "EventLog.Service.PreviousDesc" = "Предыдущее описание...)";
 
 
-"EventLog.Service.Demote.SendMessages" = "Отправка сообщений...)";
+"EventLog.Service.Demote.SendMessages" = "Отправка сообщений)";
 "EventLog.Service.Demote.SendMedia" = "Отправка фото и видео...)";
 "EventLog.Service.Demote.SendStickers" = "Отправка стикеров...)";
 "EventLog.Service.Demote.ChangeInfo" = "Изменение профиля...)";
@@ -1404,7 +1404,7 @@
 "EventLog.Service.ChangedDefaultsRights" = "изменены разрешения по умолчанию...)";
 
 
-"EventLog.Service.Promoted.Changed" = "изменил(а) привилегии для %@ %@:)";
+"EventLog.Service.Promoted.Changed" = "изменил(а) привилегии для %@ %@:...)";
 "EventLog.Service.Promoted" = "назначил(а) %@ %@:...)";
 
 "EventLog.Service.Demoted" = "ограничил(а) %@ %@ навсегда...)";
@@ -1426,7 +1426,7 @@
 
 
 "Group.EventLog.Service.EnableInvites" = "%@ разрешил(а) приглашения в группу...)";
-"Group.EventLog.Service.DisableInvites" = "%@ запретил(а) приглашения в группу...)";
+"Group.EventLog.Service.DisableInvites" = "%@ запретил(а) приглашения в группу)";
 "Channel.EventLog.Service.EnableSignatures" = "%@ включил(а) подписи к сообщениям ...)";
 "Channel.EventLog.Service.DisableSignatures" = "%@ отключил(а) подписи к сообщениям...)";
 
@@ -1463,14 +1463,14 @@
 "ChannelBlacklist.Blocked" = "ЗАБЛОКИРОВАНЫ...)";
 
 "Channel.Blacklist.RemoveUser" = "Удалить пользователя...)";
-"Channel.Blacklist.Context.AddToGroup" = "Добавить в группу...)";
+"Channel.Blacklist.Context.AddToGroup" = "Добавить в группу)";
 "Channel.Blacklist.Context.Remove" = "Удалить...)";
 
 "Channel.Blacklist.DescChannel" = "Пользователи, которых исключили администраторы канала, не смогут присоединиться снова с помощью ссылки...)";
 "Channel.Blacklist.DescGroup" = "Пользователи, которых исключили администраторы группы, не смогут присоединиться снова с помощью ссылки...)";
 
 
-"Channel.Blacklist.RestrictedBy" = "ограничил(а): %@...)";
+"Channel.Blacklist.RestrictedBy" = "ограничил(а): %@)";
 "Channel.Blacklist.BlockedBy" = "заблокировал(а): %@...)";
 "Channel.Blacklist.DemoteAdminError" = "К сожалению, Вы не можете заблокировать этого пользователя, поскольку он администрирует эту группу, а у Вас нет прав, чтобы его разжаловать...)";
 
@@ -1485,7 +1485,7 @@
 "Channel.Blacklist.SelectNewUserTitle" = "Участники...)";
 
 "Channel.Exception.DisabledOption.Group" = "Это действие отключено для всех участников в настройках группы...)";
-"Channel.Exception.DisabledOption.Channel" = "Это действие отключено для всех в настройках канала...)";
+"Channel.Exception.DisabledOption.Channel" = "Это действие отключено для всех в настройках канала)";
 
 "Channel.Admins.PromotedBy" = "назначил(а): %@...)";
 "Channel.Admins.AddAdminError" = "К сожалению, Вы не можете назначить этого пользователя администратором...)";
@@ -1539,12 +1539,12 @@
 
 "Proxy.ForceEnable.Text.IP" = "Сервер: %@...)";
 "Proxy.ForceEnable.Text.Port" = "Порт: %d...)";
-"Proxy.ForceEnable.Text.Username" = "Логин: %@)";
+"Proxy.ForceEnable.Text.Username" = "Логин: %@...)";
 "Proxy.ForceEnable.Text.Password" = "Пароль: %@...)";
 "Proxy.ForceEnable.Text.Secret" = "Ключ: %@...)";
 "Proxy.ForceEnable.Text" = "Вы можете изменить настройки прокси-сервера позднее в настройках > Конфиденциальность...)";
 "ProxySettings.Share" = "Поделитесь этой ссылкой с друзьями, чтобы обходить цензуру...)";
-"ProxySettings.ExportLink" = "Вставить ссылку из буфера обмена)";
+"ProxySettings.ExportLink" = "Вставить ссылку из буфера обмена...)";
 "ProxySettings.CopyLink" = "Поделиться ссылкой...)";
 
 "ProxySettings.IncorrectSecret" = "Неверный ключ. Пожалуйста, попробуйте снова...)";
@@ -1606,7 +1606,7 @@
 "Chat.SearchFrom" = "от:...)";
 "Chat.SearchCount" = "%d из %d...)";
 
-"Entertainment.Emoji" = "ЭМОДЗИ)";
+"Entertainment.Emoji" = "ЭМОДЗИ...)";
 "Entertainment.Stickers" = "СТИКЕРЫ...)";
 "Entertainment.GIF" = "GIF...)";
 "ShareModal.Search.Placeholder" = "Поделиться...)";
@@ -1620,7 +1620,7 @@
 "Context.RemoveFaveSticker" = "Удалить...)";
 "Stickers.GroupStickers" = "ГРУППОВЫЕ СТИКЕРЫ...)";
 
-"PeerInfo.SetGroupStickersSet" = "Групповой набор стикеров...)";
+"PeerInfo.SetGroupStickersSet" = "Групповой набор стикеров)";
 "Telegram.GroupStickerSetController" = "Групповой набор стикеров...)";
 "GroupStickers.CreateDescription" = "Вы можете создать собственные наборы стикеров с помощью бота @stickers...)";
 "GroupStickers.ChooseHeader" = "ВЫБЕРИТЕ ИЗ СВОИХ НАБОРОВ...)";
@@ -1633,13 +1633,13 @@
 "FastSettings.EnableDarkMode" = "Включить тёмный режим...)";
 "FastSettings.DisableDarkMode" = "Включить светлый режим...)";
 "FastSettings.LockTelegram" = "Блокировка приложения...)";
-"FastSettings.Mute2Hours" = "2 часа без уведомлений)";
+"FastSettings.Mute2Hours" = "2 часа без уведомлений...)";
 "FastSettings.Unmute" = "Включить уведомления...)";
 "FastSettings.SetPasscode" = "Блокировка приложения...)";
 
 "GeneralSettings.AppearanceSettings" = "ОФОРМЛЕНИЕ...)";
 
-"Chat.Context.CopyBlock" = "Копировать с форматированием)";
+"Chat.Context.CopyBlock" = "Копировать с форматированием...)";
 
 "Compose.SelectGroupUsers.Placeholder" = "Кого Вы хотели бы пригласить?...)";
 
@@ -1670,7 +1670,7 @@
 
 "ChangeNumber.ConfirmCode.Error.Generic" = "Произошла ошибка...)";
 "ChangeNumber.ConfirmCode.Error.invalidCode" = "Неверный код. Пожалуйста, попробуйте ещё раз...)";
-"ChangeNumber.ConfirmCode.Error.codeExpired" = "Время действия кода истекло...)";
+"ChangeNumber.ConfirmCode.Error.codeExpired" = "Время действия кода истекло)";
 "ChangeNumber.ConfirmCode.Error.limitExceeded" = "Вы ввели неправильный код слишком много раз. Пожалуйста, попробуйте позже...)";
 "ChangeNumber.ConfirmCode.Success" = "Вы изменили номер телефона на %@...)";
 "Messages.Placeholder.Broadcast" = "Публикация...)";
@@ -1715,7 +1715,7 @@
 "TwoStepAuth.ConfirmationAbort" = "Отменить настройку двухэтапной аутентификации...)";
 
 "TwoStepAuth.SetupPasswordEnterPassword" = "Введите пароль...)";
-"TwoStepAuth.SetupPasswordEnterPasswordNew" = "Введите пароль)";
+"TwoStepAuth.SetupPasswordEnterPasswordNew" = "Введите пароль...)";
 
 "TwoStepAuth.SetupPasswordConfirmPassword" = "Повторите пароль...)";
 "TwoStepAuth.SetupPasswordConfirmPasswordDesc" = "Пожалуйста, подтвердите пароль...)";
@@ -1730,10 +1730,10 @@
 
 "TwoStepAuth.EnterPasswordPassword" = "Пароль...)";
 "TwoStepAuth.EnterPasswordHint" = "Подсказка: %@...)";
-"TwoStepAuth.EnterPasswordHelp" = "Включена двухэтапная аутентификация, Ваш аккаунт защищён дополнительным паролем...)";
+"TwoStepAuth.EnterPasswordHelp" = "Включена двухэтапная аутентификация, Ваш аккаунт защищён дополнительным паролем)";
 "TwoStepAuth.EnterPasswordForgot" = "Забыли пароль?...)";
 
-"TwoStep.AuthEmailSkip" = "Пропустить)";
+"TwoStep.AuthEmailSkip" = "Пропустить...)";
 
 "TwoStepAuth.EmailSkipAlert" = "Нет, серьёзно.\n\nЕсли Вы забудете пароль, Вы потеряете доступ к своему аккаунту. Не будет никакого способа его восстановить...)";
 "TwoStepAuth.Email" = "Электронная почта...)";
@@ -1820,7 +1820,7 @@
 
 "PreviewSender.SendAudio_one" = "Отправить %d аудио...)";
 
-"PreviewSender.SendAudio_few" = "Отправить %d аудио)";
+"PreviewSender.SendAudio_few" = "Отправить %d аудио...)";
 "PreviewSender.SendAudio_many" = "Отправить %d аудио...)";
 "PreviewSender.SendAudio_other" = "Отправить %d аудио...)";
 
@@ -1846,7 +1846,7 @@
 "Peer.CreatePeer.Context.UpdatePhoto" = "Обновить фотографию...)";
 "Peer.CreatePeer.Context.RemovePhoto" = "Удалить фотографию...)";
 
-"Chat.Webpage.MediaCount" = "%d из %d)";
+"Chat.Webpage.MediaCount" = "%d из %d...)";
 
 "Passcode.UseTouchId" = "Разблокировать с помощью Touch ID...)";
 "Passcode.UnlockTouchIdReason" = "разблокировать приложение...)";
@@ -1863,7 +1863,7 @@
 
 "Search.Global.Channel1_one" = "%@, %d подписчик...)";
 
-"Search.Global.Channel1_few" = "%@, %d подписчика)";
+"Search.Global.Channel1_few" = "%@, %d подписчика...)";
 "Search.Global.Channel1_many" = "%@, %d подписчиков...)";
 "Search.Global.Channel1_other" = "%@, %d подписчиков...)";
 
@@ -1980,7 +1980,7 @@
 
 "PeerInfo.Bot.AddToGroup" = "Добавить в группу...)";
 "PeerInfo.Bot.Share" = "Поделиться...)";
-"PeerInfo.Bot.Settings" = "Настройки...)";
+"PeerInfo.Bot.Settings" = "Настройки)";
 "PeerInfo.Bot.Help" = "Помощь...)";
 "PeerInfo.Bot.Privacy" = "Конфиденциальность...)";
 
@@ -2059,7 +2059,7 @@
 "SecureId.Identity.DriverLicense" = "Водительские права...)";
 "SecureId.Identity.UtilityBill" = "Коммунальный счёт...)";
 "SecureId.Identity.BankStatement" = "Справка из банка...)";
-"SecureId.Identity.TenancyAgreement" = "Договор об аренде)";
+"SecureId.Identity.TenancyAgreement" = "Договор об аренде...)";
 "SecureId.Identity.PassportRegistration" = "Прописка...)";
 
 "SecureId.IdentityDocument" = "Удостоверение личности...)";
@@ -2073,7 +2073,7 @@
 "SecureId.Gender.Female" = "Женский...)";
 
 
-"SecureId.Identity.Placeholder.Gender" = "Пол...)";
+"SecureId.Identity.Placeholder.Gender" = "Пол)";
 
 "SecureId.Identity.Placeholder.FirstName" = "Имя...)";
 "SecureId.Identity.InputPlaceholder.FirstName" = "Имя...)";
@@ -2232,7 +2232,7 @@
 "SecureId.Add.ResidentialAddress" = "Указать адрес проживания...)";
 "SecureId.Edit.ResidentialAddress" = "Изменить адрес проживания...)";
 "SecureId.Add.UtilityBill" = "Добавить счёт ЖКХ...)";
-"SecureId.Edit.UtilityBill" = "Изменить счёт ЖКХ...)";
+"SecureId.Edit.UtilityBill" = "Изменить счёт ЖКХ)";
 "SecureId.Add.BankStatement" = "Добавить справку из банка...)";
 "SecureId.Edit.BankStatement" = "Изменить справку из банка...)";
 "SecureId.Add.TenancyAgreement" = "Добавить договор об аренде...)";
@@ -2242,8 +2242,8 @@
 "SecureId.Add.TemporaryRegistration" = "Добавить врем. прописку...)";
 "SecureId.Edit.TemporaryRegistration" = "Изменить врем. прописку...)";
 
-"SecureId.Delete.PersonalDetails" = "Удалить личную информацию)";
-"SecureId.Delete.Confirm.PersonalDetails" = "Вы точно хотите удалить личную информацию?)";
+"SecureId.Delete.PersonalDetails" = "Удалить личную информацию...)";
+"SecureId.Delete.Confirm.PersonalDetails" = "Вы точно хотите удалить личную информацию?...)";
 "SecureId.Confirm.DeleteDocument" = "Вы точно хотите удалить этот документ?...)";
 "SecureId.Confirm.DeleteAddress" = "Удалить адрес...)";
 "SecureId.AppVersionOutdated" = "К сожалению, Ваша версия приложения устарела и не может обработать этот запрос. Пожалуйста, обновите Telegram...)";
@@ -2255,11 +2255,11 @@
 "SecureId.EmptyDescription.TemporaryRegistration" = "Загрузите скан временной прописки...)";
 
 "SecureId.EmptyDescription.PersonalDetails" = "Укажите данные о себе...)";
-"SecureId.EmptyDescription.Address" = "Укажите свой адрес)";
+"SecureId.EmptyDescription.Address" = "Укажите свой адрес...)";
 
 "SecureId.EmptyDescription.Passport" = "Загрузите скан своего паспорта...)";
 "SecureId.EmptyDescription.DriversLicense" = "Загрузите скан водительских прав...)";
-"SecureId.EmptyDescription.IdentityCard" = "Загрузите скан своего удостоверения личности)";
+"SecureId.EmptyDescription.IdentityCard" = "Загрузите скан своего удостоверения личности...)";
 "SecureId.EmptyDescription.InternalPassport" = "Загрузите скан внутреннего паспорта...)";
 
 "SecureId.CreatePassword.Intro.Header" = "Для регистрации %@ запрашивает \n**доступ к вашей личной информации**...)";
@@ -2290,7 +2290,7 @@
 "Error.AnError" = "Неизвестная ошибка. Пожалуйста, попробуйте позже...)";
 
 "InputData.Date.Day.Placeholder1" = "День...)";
-"InputData.Date.Month.Placeholder1" = "Месяц...)";
+"InputData.Date.Month.Placeholder1" = "Месяц)";
 "InputData.Date.Year.Placeholder1" = "Год...)";
 
 
@@ -2433,7 +2433,7 @@
 
 
 
-"SecureId.DiscardChanges.Header" = "Отменить изменения)";
+"SecureId.DiscardChanges.Header" = "Отменить изменения...)";
 "SecureId.DiscardChanges.Text" = "Вы точно хотите сбросить все изменения?...)";
 
 "SecureId.CorrectErrors" = "Пожалуйста, внесите исправления...)";
@@ -2450,7 +2450,7 @@
 "ContactInfo.PhoneLabelOther" = "другой...)";
 "ContactInfo.URLLabelHomepage" = "главная страница...)";
 "ContactInfo.BirthdayLabel" = "день рождения...)";
-"ContactInfo.Job" = "работа)";
+"ContactInfo.Job" = "работа...)";
 
 
 "ContactInfo.ContactInfo" = "Контактная информация...)";
@@ -2468,7 +2468,7 @@
 "ChatList.Swiping.Delete" = "Удалить...)";
 "ChatList.Swiping.Pin" = "Закрепить...)";
 "ChatList.Swiping.Unpin" = "Открепить...)";
-"ChatList.Swiping.Mute" = "Убрать звук)";
+"ChatList.Swiping.Mute" = "Убрать звук...)";
 "ChatList.Swiping.Unmute" = "Вкл. звук...)";
 
 "ChatList.Swiping.Archive" = "В архив...)";
@@ -2508,7 +2508,7 @@
 "Passport.Language.lt" = "на литовском языке...)";
 "Passport.Language.lv" = "на латышском языке...)";
 "Passport.Language.mk" = "на македонском языке...)";
-"Passport.Language.mn" = "на монгольском языке)";
+"Passport.Language.mn" = "на монгольском языке...)";
 "Passport.Language.ms" = "на малайском языке...)";
 "Passport.Language.my" = "на бирманском языке...)";
 "Passport.Language.ne" = "на непальском языке...)";
@@ -2540,7 +2540,7 @@
 
 "SecureId.InputError.LatinOnly" = "Пожалуйста, используйте только латиницу...)";
 
-"Alert.Confirm.Discard" = "Сбросить...)";
+"Alert.Confirm.Discard" = "Сбросить)";
 "Alert.Confirm.Stop" = "Остановить...)";
 
 "Appearance.Settings.AutoNight" = "Настроить ночную тему...)";
@@ -2554,15 +2554,15 @@
 
 "AutoNight.Settings.Sunrise.Desc" = "Чтобы определить время захода и восхода солнца, необходимо разово получить данные о Вашем примерном местоположении. Эта информация будет храниться только на данном устройстве.\n\nЗакат: %@\nРассвет: %@...)";
 "AutoNight.Settings.Sunrise.Desc.NA" = "Чтобы определить время захода и восхода солнца, необходимо разово получить данные о Вашем примерном местоположении. Эта информация будет храниться только на данном устройстве.\n\nЗакат: неизвестно\nРассвет: неизвестно...)";
-"AutoNight.Settings.Title" = "Смена темы ночью...)";
+"AutoNight.Settings.Title" = "Смена темы ночью)";
 "AutoNight.Settings.From" = "Начало...)";
 "AutoNight.Settings.To" = "Конец...)";
 "AutoNight.Settings.UpdateLocation" = "Обновить геопозицию...)";
-"AutoNight.Settings.SunsetAndSunrise" = "От заката до восхода солнца...)";
+"AutoNight.Settings.SunsetAndSunrise" = "От заката до восхода солнца)";
 "AutoNight.Settings.Disabled" = "Не использовать...)";
 "AutoNight.Settings.Scheduled" = "По расписанию...)";
 "AutoNight.Settings.SystemBased" = "Системная...)";
-"AutoNight.Settings.SystemBasedDesc" = "Интерфейс в приложении будет соответствовать системным настройкам оформления)";
+"AutoNight.Settings.SystemBasedDesc" = "Интерфейс в приложении будет соответствовать системным настройкам оформления...)";
 "AutoNight.Settings.PreferredTheme" = "ВЫБРАННАЯ НОЧНАЯ ТЕМА...)";
 
 "AutoNight.Settings.UpdateLocation.Error" = "Не удалось определить Вашу геопозицию. Проверьте настройки системы и попробуйте снова...)";
@@ -2608,7 +2608,7 @@
 "TouchBar.EditMessage.ReplaceWithFile" = "Заменить на файл...)";
 "TouchBar.StartSecretChat" = "Начать секретный чат...)";
 "TouchBar.Call" = "Позвонить...)";
-"TouchBar.SearchUsersOrMessages" = "Поиск сообщений или пользователей)";
+"TouchBar.SearchUsersOrMessages" = "Поиск сообщений или пользователей...)";
 "TouchBar.Attach" = "Приложить...)";
 "TouchBar.RecentlyUsed" = "Недавние...)";
 
@@ -2633,7 +2633,7 @@
 "SecureId.Edit.RentalAgreement" = "Изменить договор аренды...)";
 "_NS103.title" = "Правка...)";
 "_NS167.title" = "Окно...)";
-"_NS70.title" = "Вид...)";
+"_NS70.title" = "Вид)";
 "_NS81.title" = "Просмотр...)";
 "_NS88.title" = "Правка...)";
 
@@ -2699,7 +2699,7 @@
 "UnknownError" = "Произошла ошибка. Пожалуйста, попробуйте позже...)";
 
 
-"Chat.Poll.TotalVotes1_countable" = "%d...)";
+"Chat.Poll.TotalVotes1_countable" = "%d)";
 
 "Chat.Poll.TotalVotes1_one" = "%d голос...)";
 
@@ -2747,7 +2747,7 @@
 "Chat.Poll.Type.Public" = "Опрос...)";
 "Chat.Poll.Type.AnonymousQuiz" = "Анонимная викторина...)";
 "Chat.Poll.Type.Quiz" = "Викторина...)";
-"Chat.Poll.Type.Closed" = "Результаты...)";
+"Chat.Poll.Type.Closed" = "Результаты)";
 
 "Chat.Poll.Unvote" = "Отменить голос...)";
 "Chat.Poll.Stop" = "Остановить опрос...)";
@@ -2763,7 +2763,7 @@
 
 
 
-"Language.RemovePack" = "Вы точно хотите удалить этот перевод из списка?...)";
+"Language.RemovePack" = "Вы точно хотите удалить этот перевод из списка?)";
 
 "NewPoll.Title" = "Новый опрос...)";
 "NewPoll.Title.Quiz" = "Новая викторина...)";
@@ -2852,7 +2852,7 @@
 
 
 "Channel.BanUser.Title" = "Забанить пользователя...)";
-"Channel.BanUser.PermissionsHeader" = "Ограничения пользователя)";
+"Channel.BanUser.PermissionsHeader" = "Ограничения пользователя...)";
 "Channel.BanUser.PermissionReadMessages" = "Просмотр сообщений...)";
 "Channel.BanUser.PermissionSendMessages" = "Отправка сообщений...)";
 "Channel.BanUser.PermissionSendMedia" = "Отправка фото и видео...)";
@@ -2923,20 +2923,20 @@
 "EmptyGroupInfo.Line1" = "• До %@ участников...)";
 "EmptyGroupInfo.Line2" = "• Общая история переписки...)";
 "EmptyGroupInfo.Line3" = "• Публичные ссылки вида t.me/title...)";
-"EmptyGroupInfo.Line4" = "• Разный уровень прав...)";
+"EmptyGroupInfo.Line4" = "• Разный уровень прав)";
 
 
 "Chat.UndoManager.Undo" = "Отмена...)";
 
 
 
-"Chat.UndoManager.ChatsDeleted_countable" = "%d...)";
+"Chat.UndoManager.ChatsDeleted_countable" = "%d)";
 
 "Chat.UndoManager.ChatsDeleted_one" = "%d чат удалён...)";
 
 "Chat.UndoManager.ChatsDeleted_few" = "%d чата удалены...)";
 "Chat.UndoManager.ChatsDeleted_many" = "%d чатов удалены...)";
-"Chat.UndoManager.ChatsDeleted_other" = "%d чатов удалены...)";
+"Chat.UndoManager.ChatsDeleted_other" = "%d чатов удалены)";
 
 "Chat.UndoManager.ChatsHistoryCleared_countable" = "%d...)";
 
@@ -3011,7 +3011,7 @@
 
 
 
-"AccountViewController.Update" = "Обновление)";
+"AccountViewController.Update" = "Обновление...)";
 "AccountViewController.Desc.Updated" = "обновлено...)";
 "AccountViewController.Desc.Failed" = "ошибка...)";
 
@@ -3043,8 +3043,8 @@
 "Confirm.Desc.PermissionInlineBotContact" = "Бот будет знать номер Вашего телефона. Это может быть полезно для интеграции с другими сервисами...)";
 
 
-"AutoDownloadSettings.OnForAll" = "Включено для всех чатов...)";
-"AutoDownloadSettings.OnFor" = "%@...)";
+"AutoDownloadSettings.OnForAll" = "Включено для всех чатов)";
+"AutoDownloadSettings.OnFor" = "%@)";
 "AutoDownloadSettings.TypePrivateChats" = "личные чаты...)";
 "AutoDownloadSettings.TypeGroupChats" = "группы...)";
 "AutoDownloadSettings.TypeChannels" = "каналы...)";
@@ -3067,7 +3067,7 @@
 "LogoutOptions.ChangePhoneNumberTitle" = "Изменить номер...)";
 "LogoutOptions.ChangePhoneNumberText" = "Перенесите на новый номер телефона свой аккаунт со всеми чатами и файлами...)";
 "LogoutOptions.ContactSupportTitle" = "Обратиться в поддержку...)";
-"LogoutOptions.ContactSupportText" = "Если возникли неполадки, сообщите нам; выход из аккаунта обычно не помогает)";
+"LogoutOptions.ContactSupportText" = "Если возникли неполадки, сообщите нам; выход из аккаунта обычно не помогает...)";
 "LogoutOptions.LogOut" = "Выйти...)";
 "LogoutOptions.LogOutInfo" = "Важно: при выходе из аккаунта все секретные чаты на этом устройстве пропадут...)";
 
@@ -3135,7 +3135,7 @@
 
 "NotificationSettings.SnoofHeader" = "КОГДА ПРИЛОЖЕНИЕ АКТИВНО...)";
 "NotificationSettings.Snoof" = "Показывать уведомления...)";
-"NotificationSettings.Snoof.On" = "Выключите, если хотите получать уведомления, только когда приложение запущено в фоне)";
+"NotificationSettings.Snoof.On" = "Выключите, если хотите получать уведомления, только когда приложение запущено в фоне...)";
 "NotificationSettings.Snoof.Off" = "Включите, если хотите всегда получать уведомления...)";
 
 
@@ -3150,8 +3150,8 @@
 "ChatList.EmptyText" = "**Ваш список чатов пока что пуст**\nНажмите на карандаш в правом верхнем углу или перейдите в раздел «Контакты», чтобы начать общение...)";
 
 
-"ChatList.Popover.ReadAll" = "Прочитать все...)";
-"ChatList.Popover.Confirm" = "Вы точно хотите пометить все чаты как прочитанные?)";
+"ChatList.Popover.ReadAll" = "Прочитать все)";
+"ChatList.Popover.Confirm" = "Вы точно хотите пометить все чаты как прочитанные?...)";
 
 
 "Chat.Tooltip.HiddenForwardName" = "Аккаунт скрыт пользователем...)";
@@ -3165,7 +3165,7 @@
 
 
 "NotificationSettings.ContactJoined" = "Новые контакты...)";
-"NotificationSettings.ContactJoinedInfo" = "Показывать уведомление, когда кто-то из списка контактов регистрируется в Telegram...)";
+"NotificationSettings.ContactJoinedInfo" = "Показывать уведомление, когда кто-то из списка контактов регистрируется в Telegram)";
 
 
 
@@ -3213,7 +3213,7 @@
 
 
 "Privacy.GroupsAndChannels.InviteToChannelMultipleError" = "Вы не можете создать группу с этими пользователями из-за их настроек приватности...)";
-"PeerInfo.ScamWarning" = "⚠️ Внимание: на этот аккаунт много жаловались в связи с мошенничеством. Будьте осторожны, особенно если у Вас попросят денег)";
+"PeerInfo.ScamWarning" = "⚠️ Внимание: на этот аккаунт много жаловались в связи с мошенничеством. Будьте осторожны, особенно если у Вас попросят денег...)";
 "ChannelInfo.ScamWarning" = "⚠️ Внимание: на этот аккаунт много жаловались в связи с мошенничеством. Будьте осторожны, особенно если у Вас попросят денег...)";
 "GroupInfo.ScamWarning" = "⚠️ Внимание: на этот аккаунт много жаловались в связи с мошенничеством. Будьте осторожны, особенно если у Вас попросят денег...)";
 
@@ -3228,7 +3228,7 @@
 "ChatList.RevealAction.Pin" = "Закрепить...)";
 
 
-"Bot.InlineAuth.Header" = "Открыть ссылку)";
+"Bot.InlineAuth.Header" = "Открыть ссылку...)";
 "Bot.InlineAuth.Title" = "Перейти по ссылке\n%@?...)";
 "Bot.InlineAuth.Open" = "Открыть...)";
 
@@ -3237,12 +3237,12 @@
 
 
 "PeerInfo.Discussion" = "Обсуждение...)";
-"PeerInfo.LinkedChannel" = "Привязанный канал)";
+"PeerInfo.LinkedChannel" = "Привязанный канал...)";
 "PeerInfo.Discussion.Add" = "Добавить...)";
 "PeerInfo.Discussion.Desc" = "Добавьте группу для комментариев...)";
 
 
-"DiscussionController.Group.Title" = "Привязанный канал...)";
+"DiscussionController.Group.Title" = "Привязанный канал)";
 "DiscussionController.Channel.Title" = "Группа для обсуждения...)";
 
 "DiscussionController.Channel.Empty.Header" = "Подписчики смогут перейти в группу, нажав на кнопку «Обсудить»...)";
@@ -3282,7 +3282,7 @@
 "PrivacyAndSecurity.Item.Off" = "Выкл...)";
 "PrivacyAndSecurity.Item.On" = "Вкл...)";
 
-"DiscussionController.Group.Unset.Description" = "Группа отвязана от канала...)";
+"DiscussionController.Group.Unset.Description" = "Группа отвязана от канала)";
 
 "DiscussionController.IconText" = "Обсудить...)";
 
@@ -3297,7 +3297,7 @@
 "DiscussionController.Error.OK" = "Продолжить...)";
 
 
-"PreHistory.Confirm.Unlink" = "В этом случае группа будет отвязана от «%@»...)";
+"PreHistory.Confirm.Unlink" = "В этом случае группа будет отвязана от «%@»)";
 
 
 
@@ -3334,7 +3334,7 @@
 "BlockContact.Title" = "Запретить %@ писать Вам сообщения и звонить через Telegram?...)";
 "BlockContact.Options.Title" = "Управление пользователем...)";
 "BlockContact.Options.Action" = "Заблокировать %@...)";
-"BlockContact.Options.Report" = "Сообщить о спаме...)";
+"BlockContact.Options.Report" = "Сообщить о спаме)";
 "BlockContact.Options.DeleteChat" = "Удалить чат...)";
 
 
@@ -3390,7 +3390,7 @@
 "Chat.Send.WithoutSound" = "Отправить без звука...)";
 
 
-"PeerInfo.InviteError.ContactNeeded" = "Чтобы добавить этого пользователя в эту группу, Вам нужно быть в его списке контактов.\n\nОн также может присоединиться по ссылке-приглашению)";
+"PeerInfo.InviteError.ContactNeeded" = "Чтобы добавить этого пользователя в эту группу, Вам нужно быть в его списке контактов.\n\nОн также может присоединиться по ссылке-приглашению...)";
 
 
 
@@ -3417,7 +3417,7 @@
 "Chat.Date.ScheduledForToday" = "Отправка сегодня...)";
 
 
-"Chat.Context.Scheduled.SendNow" = "Отправить сейчас)";
+"Chat.Context.Scheduled.SendNow" = "Отправить сейчас...)";
 "Chat.Context.Scheduled.Reschedule" = "Изменить время...)";
 
 
@@ -3450,7 +3450,7 @@
 "PrivacyPhoneNumberSettings.DiscoveryHeader" = "КТО МОЖЕТ НАЙТИ МЕНЯ ПО НОМЕРУ...)";
 
 
-"Theme.GetTheme.Error" = "Данную тему не использовать в приложении для macOS...)";
+"Theme.GetTheme.Error" = "Данную тему не использовать в приложении для macOS)";
 
 "NewTheme.Create" = "Создать...)";
 "NewTheme.Title" = "Новая тема...)";
@@ -3463,12 +3463,12 @@
 "Appearance.Theme.Edit" = "Изменить...)";
 "Appearance.NewTheme" = "Новая тема...)";
 "Appearance.Reset" = "Восстановить по умолчанию...)";
-"Appearance.ExportTheme" = "Экспортировать тему...)";
-"Appearance.Theme.Share" = "Поделиться...)";
+"Appearance.ExportTheme" = "Экспортировать тему)";
+"Appearance.Theme.Share" = "Поделиться)";
 "Appearance.CloudThemes" = "ОБЛАЧНЫЕ ТЕМЫ...)";
 
 
-"Appearance.CloudTheme.Unsupported" = "Не подходит для macOS, нажмите для редактирования...)";
+"Appearance.CloudTheme.Unsupported" = "Не подходит для macOS, нажмите для редактирования)";
 
 "EditTheme.Title" = "Редактировать тему...)";
 
@@ -3491,7 +3491,7 @@
 "Appearance.Confirm.RemoveOK" = "Удалить...)";
 
 
-"Chat.Action.ViewTheme" = "ПРОСМОТР ТЕМЫ)";
+"Chat.Action.ViewTheme" = "ПРОСМОТР ТЕМЫ...)";
 
 
 "ThemePreview.UsesCount_countable" = "%d...)";
@@ -3524,7 +3524,7 @@
 
 
 "SettingsSearch.Synonyms.EditProfile.Title" = "Редактировать информацию...)";
-"SettingsSearch.Synonyms.EditProfile.Bio" = "Био\nБиография\nСтатус)";
+"SettingsSearch.Synonyms.EditProfile.Bio" = "Био\nБиография\nСтатус...)";
 "SettingsSearch.Synonyms.EditProfile.PhoneNumber" = " ...)";
 "SettingsSearch.Synonyms.EditProfile.Username" = "Юзернейм\nПубличный адрес...)";
 "SettingsSearch.Synonyms.EditProfile.AddAccount" = " ...)";
@@ -3535,7 +3535,7 @@
 
 "SettingsSearch.Synonyms.Stickers.Title" = " ...)";
 "SettingsSearch.Synonyms.Stickers.SuggestStickers" = "Предлагать стикеры по эмоджи\nПодсказывать по смайлам...)";
-"SettingsSearch.Synonyms.Stickers.FeaturedPacks" = " ...)";
+"SettingsSearch.Synonyms.Stickers.FeaturedPacks" = " )";
 "SettingsSearch.Synonyms.Stickers.ArchivedPacks" = "Старые стикеры...)";
 "SettingsSearch.Synonyms.Stickers.Masks" = " ...)";
 
@@ -3556,7 +3556,7 @@
 "SettingsSearch.Synonyms.Notifications.InAppNotificationsVibrate" = " ...)";
 "SettingsSearch.Synonyms.Notifications.InAppNotificationsPreview" = "Превью\nПредпросмотр сообщений...)";
 "SettingsSearch.Synonyms.Notifications.DisplayNamesOnLockScreen" = "Показывать отправителей...)";
-"SettingsSearch.Synonyms.Notifications.BadgeIncludeMutedChats" = "Учитывать в счетчике замьюченные беседы)";
+"SettingsSearch.Synonyms.Notifications.BadgeIncludeMutedChats" = "Учитывать в счетчике замьюченные беседы...)";
 "SettingsSearch.Synonyms.Notifications.BadgeIncludeMutedPublicGroups" = " ...)";
 "SettingsSearch.Synonyms.Notifications.BadgeIncludeMutedChannels" = " ...)";
 "SettingsSearch.Synonyms.Notifications.BadgeCountUnreadMessages" = "Учитывать в счетчике непрочитанные сообщения...)";
@@ -3568,7 +3568,7 @@
 "SettingsSearch.Synonyms.Privacy.LastSeen" = "Онлайн\nВ сети\nОфлайн\nОффлайн\nЗаходил\nНевидимка...)";
 "SettingsSearch.Synonyms.Privacy.ProfilePhoto" = "Аватар\nЮзерпик...)";
 "SettingsSearch.Synonyms.Privacy.Forwards" = "Ссылка в пересланных сообщениях...)";
-"SettingsSearch.Synonyms.Privacy.Calls" = " Кто может звонить...)";
+"SettingsSearch.Synonyms.Privacy.Calls" = " Кто может звонить)";
 "SettingsSearch.Synonyms.Privacy.GroupsAndChannels" = "Приглашения\nДобавлять в группы\nПодписывать на каналы...)";
 "SettingsSearch.Synonyms.Privacy.Passcode" = "Пин-код\nЗалочить...)";
 "SettingsSearch.Synonyms.Privacy.PasscodeAndTouchId" = "Пин-код\nЗалочить...)";
@@ -3581,13 +3581,13 @@
 "SettingsSearch.Synonyms.Privacy.Data.ContactsReset" = " ...)";
 "SettingsSearch.Synonyms.Privacy.Data.ContactsSync" = "Не импортировать контакты из телефона...)";
 "SettingsSearch.Synonyms.Privacy.Data.TopPeers" = "Популярные контакты...)";
-"SettingsSearch.Synonyms.Privacy.Data.DeleteDrafts" = " )";
+"SettingsSearch.Synonyms.Privacy.Data.DeleteDrafts" = " ...)";
 "SettingsSearch.Synonyms.Privacy.Data.ClearPaymentsInfo" = "Стереть банковскую информацию и адрес доставки...)";
 "SettingsSearch.Synonyms.Privacy.Data.SecretChatLinkPreview" = " ...)";
 
 "SettingsSearch.Synonyms.Data.Title" = " ...)";
 "SettingsSearch.Synonyms.Data.Storage.Title" = "Кэш\nКеш\nМесто\nХранилище\nДиск...)";
-"SettingsSearch.Synonyms.Data.Storage.KeepMedia" = "сохранять мультимедиа\nвремя хранения медиа\nавтоматически чистить кеш через\nудалять кэш спустя...)";
+"SettingsSearch.Synonyms.Data.Storage.KeepMedia" = "сохранять мультимедиа\nвремя хранения медиа\nавтоматически чистить кеш через\nудалять кэш спустя)";
 "SettingsSearch.Synonyms.Data.Storage.ClearCache" = "Удалить кеш...)";
 "SettingsSearch.Synonyms.Data.NetworkUsage" = " ...)";
 "SettingsSearch.Synonyms.Data.AutoDownloadUsingCellular" = "Мобильный интернет\nМобильная сеть...)";
@@ -3614,18 +3614,18 @@
 "SettingsSearch.Synonyms.Appearance.ChatMode" = "блоки\nпузыри\nсообщения...)";
 
 
-"SettingsSearch.Synonyms.SavedMessages" = "Сохраненные сообщения\nЗакладки\nОблачное хранилище...)";
+"SettingsSearch.Synonyms.SavedMessages" = "Сохраненные сообщения\nЗакладки\nОблачное хранилище)";
 "SettingsSearch.Synonyms.AppLanguage" = "Перевод\nЛокализация\nРусский...)";
 "SettingsSearch.Synonyms.Passport" = "Паспорт...)";
 "SettingsSearch.Synonyms.Watch" = "Apple Watch\nЧасы...)";
-"SettingsSearch.Synonyms.Support" = "Поддержка\nПомощь\nТехподдержка\nВолонтеры\nВолонтёры\nЗадать вопрос...)";
+"SettingsSearch.Synonyms.Support" = "Поддержка\nПомощь\nТехподдержка\nВолонтеры\nВолонтёры\nЗадать вопрос)";
 "SettingsSearch.Synonyms.FAQ" = "Ответы на частые распространенные вопросы о Telegram\nСправка\nПомощь\nИнформация\nFAQ\nЧАВО...)";
 
 
 "SettingsSearch.EmptyItem" = "Здесь будут показаны результаты поиска по настройкам и часто задаваемым вопросам...)";
 
 
-"SettingsSearch.Recent" = "НЕДАВНИЕ)";
+"SettingsSearch.Recent" = "НЕДАВНИЕ...)";
 "SettingsSearch.Recent.Clear" = "очистить\nудалить\nскрыть...)";
 
 
@@ -3639,13 +3639,13 @@
 
 "InactiveChannels.InactiveMonth_countable" = "%d...)";
 
-"InactiveChannels.InactiveMonth_one" = "нет активности %d месяц...)";
+"InactiveChannels.InactiveMonth_one" = "нет активности %d месяц)";
 
 "InactiveChannels.InactiveMonth_few" = "нет активности %d месяца...)";
 "InactiveChannels.InactiveMonth_many" = "нет активности %d месяцев...)";
 "InactiveChannels.InactiveMonth_other" = "нет активности %d месяцев...)";
 
-"InactiveChannels.InactiveYear_countable" = "%d...)";
+"InactiveChannels.InactiveYear_countable" = "%d)";
 
 "InactiveChannels.InactiveYear_one" = "нет активности %d год...)";
 
@@ -3934,7 +3934,7 @@
 "Chat.Input.SecretChat.WaitingToOnline" = "Ждём, когда пользователь появится в сети...)";
 "Chat.Poll.TotalVotes_one" = "%d голос...)";
 "Chat.Poll.TotalVotes_few" = "%d голоса...)";
-"Chat.Poll.TotalVotes_many" = "%d голосов...)";
+"Chat.Poll.TotalVotes_many" = "%d голосов)";
 "Chat.Poll.TotalVotes_other" = "%d голосов...)";
 "Chat.Poll.TotalVotes_countable" = "%d...)";
 "Discussion.Set.Modal.Text.Private" = "Назначить **%@** группой для обсуждения **%@**?\n\nВсе участники группы смогут видеть публикации канала...)";

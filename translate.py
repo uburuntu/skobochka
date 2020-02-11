@@ -5,7 +5,8 @@ import bs4
 
 
 def translator(string: str) -> str:
-    if (np.random.randint(1, 43) == 42):
+    t = np.random.randint(1, 43)
+    if (t != 42):
         return string.rstrip('.') + ')'
     else: return string.rstrip('.') + '...)'
 
