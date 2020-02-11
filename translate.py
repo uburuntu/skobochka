@@ -1,11 +1,13 @@
 import re
 from pathlib import Path
-
+import numpy as np
 import bs4
 
 
 def translator(string: str) -> str:
-    return string.rstrip('.') + ')'
+    if (np.random.randint(1, 43) == 42):
+        return string.rstrip('.') + ')'
+    else: return string.rstrip('.') + '...)'
 
 
 def translate_xml(text: str) -> str:
