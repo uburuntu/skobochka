@@ -10,6 +10,11 @@ def translator(string: str) -> str:
     if (pos != -1):
         pos += 4
         string = string[:pos]+')'+string[pos:]
+    pos = string.find('%1$s')
+    if (pos != -1):
+        pos += 4
+        string = string[:pos]+')'+string[pos:]
+ 
     if (t != 42):
         return string.rstrip('.') + ')'
     else:
