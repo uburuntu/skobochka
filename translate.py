@@ -5,7 +5,7 @@ import bs4
 
 
 def translator(string: str) -> str:
-    return string.rstrip('.') + ')'
+    return string.rstrip('.') +'.'+'.'+'.'+ ')'
 
 
 def translate_xml(text: str) -> str:
