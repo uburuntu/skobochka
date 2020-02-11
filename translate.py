@@ -1,27 +1,26 @@
 import re
 from pathlib import Path
-import numpy as np
-import bs4
 
+import bs4
+import numpy as np
 
 def translator(string: str) -> str:
     t = np.random.randint(1, 43)
     pos = string.find('%1$@')
     if (pos != -1):
         pos += 4
-        string = string[:pos]+')'+string[pos:]
+        string = string[:pos] + ')' + string[pos:]
     pos = string.find('%1$s')
     if (pos != -1):
         pos += 4
-        string = string[:pos]+')'+string[pos:]
+        string = string[:pos] + ')' + string[pos:]
  
     if (t != 42):
         return string.rstrip('.') + ')'
-    else:
-        return string.rstrip('.') + '...)'
+    return string.rstrip('.') + '...)'
 
 
-def translate_xml(text: str) -> str:
+def translate_xml(text: str) -> str: 
     soup = bs4.BeautifulSoup(text, 'xml')
 
     for s in soup.find_all('string'):
