@@ -2,10 +2,17 @@
 Very fun Telegram translation
 
 # Use this translation
-
-## Link
 https://t.me/setlanguage/skobochka
 
-# Example
+# Translation page
+https://translations.telegram.org/skobochka/
 
-![](.github/tdesktop.png)
+# Examples
+
+### Android
+> ![](.github/android.jpg)
+>
+> ![](.github/android_push.jpg)
+
+### TDesktop
+> ![](.github/tdesktop.png)
