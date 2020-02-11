@@ -8,7 +8,8 @@ def translator(string: str) -> str:
     t = np.random.randint(1, 43)
     if (t != 42):
         return string.rstrip('.') + ')'
-    else: return string.rstrip('.') + '...)'
+    else:
+        return string.rstrip('.') + '...)'
 
 
 def translate_xml(text: str) -> str:
