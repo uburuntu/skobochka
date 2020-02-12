@@ -7,7 +7,7 @@ import bs4
 def translator(string: str) -> str:
     t = random.randint(1, 43)
     pos = string.find('%1$@')
-    if (pos != -1):
+    if pos != -1:
         pos += 4
         string = string[:pos] + ')' + string[pos:]
     pos = string.find('%1$s')
