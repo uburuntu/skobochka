@@ -4,21 +4,20 @@ from pathlib import Path
 
 import bs4
 
+
 def translator(string: str) -> str:
-    t = random.randint(1, 43)
-    pos = string.find('%1$@')
-    if pos != -1:
-        pos += 4
-        string = string[:pos] + ')' + string[pos:]
-    pos = string.find('%1$s')
-    if pos != -1:
-        pos += 4
-        string = string[:pos] + ')' + string[pos:]
+    string = string.rstrip('.')
+
+    for pattern in ('%1$@', '%1$s'):
+        pos = string.find(pattern)
+        if pos != -1:
+            pos += len(pattern)
+            string = string[:pos] + ')' + string[pos:]
  
-    if t == 42:
-        return string.rstrip('.') + '...)'
-    return string.rstrip('.') + ')'
-    
+    if random.randint(1, 43) == 42:
+        return string + '...)'
+
+    return string + ')'
 
 
 def translate_xml(text: str) -> str:
