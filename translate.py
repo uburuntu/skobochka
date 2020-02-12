@@ -1,3 +1,4 @@
+import random
 import re
 from pathlib import Path
 
@@ -5,7 +6,18 @@ import bs4
 
 
 def translator(string: str) -> str:
-    return string.rstrip('.') + ')'
+    string = string.rstrip('.')
+
+    for pattern in ('%1$@', '%1$s'):
+        pos = string.find(pattern)
+        if pos != -1:
+            pos += len(pattern)
+            string = string[:pos] + ')' + string[pos:]
+ 
+    if random.randint(1, 43) == 42:
+        return string + '...)'
+
+    return string + ')'
 
 
 def translate_xml(text: str) -> str:
