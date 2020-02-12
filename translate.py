@@ -2,7 +2,6 @@ import re
 from pathlib import Path
 
 import bs4
-import numpy as np
 
 def translator(string: str) -> str:
     t = np.random.randint(1, 43)
