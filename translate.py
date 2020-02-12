@@ -1,10 +1,11 @@
+import random
 import re
 from pathlib import Path
 
 import bs4
 
 def translator(string: str) -> str:
-    t = np.random.randint(1, 43)
+    t = random.randint(1, 43)
     pos = string.find('%1$@')
     if (pos != -1):
         pos += 4
