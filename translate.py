@@ -15,9 +15,10 @@ def translator(string: str) -> str:
         pos += 4
         string = string[:pos] + ')' + string[pos:]
  
-    if (t != 42):
-        return string.rstrip('.') + ')'
-    return string.rstrip('.') + '...)'
+    if (t == 42):
+        return string.rstrip('.') + '...)'
+    return string.rstrip('.') + ')'
+    
 
 
 def translate_xml(text: str) -> str: 
