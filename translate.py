@@ -21,7 +21,7 @@ def translator(string: str) -> str:
     
 
 
-def translate_xml(text: str) -> str: 
+def translate_xml(text: str) -> str:
     soup = bs4.BeautifulSoup(text, 'xml')
 
     for s in soup.find_all('string'):
