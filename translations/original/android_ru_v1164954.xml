@@ -37,7 +37,7 @@
     <string name="DidNotGetTheCode">Не получили код?</string>
     <string name="DidNotGetTheCodeSms">Отправить код через SMS</string>
     <string name="CancelAccountReset">Отмена сброса аккаунта</string>
-    <string name="CancelAccountResetInfo">Кто-то с доступом к Вашему номеру телефона **%1$s** запросил удаление Вашего аккаунта Telegram и сброс Вашего пароля двухэтапной аутентификации.\n\nЕсли это были не Вы, пожалуйста, введите код из SMS, только что отправленного на Ваш номер.</string>
+    <string name="CancelAccountResetInfo">Кто-то с доступом к **%1$s** запросил удаление Вашего аккаунта Telegram и сброс пароля двухэтапной аутентификации.\n\nЕсли это были не Вы, введите код из SMS, отправленного на Ваш номер. Вы также можете удалить удаление, **изменив номер телефона**.</string>
     <string name="ResetAccount">Сброс аккаунта</string>
     <string name="ResetAccountInfo">Поскольку аккаунт **%1$s** используется и защищён паролем, в целях безопасности мы удалим его только через неделю.\n\nВы можете передумать и остановить отсчёт в любой момент.</string>
     <string name="ResetAccountStatus">Вы сможете сбросить свой аккаунт через:</string>
@@ -162,6 +162,8 @@
     <string name="DeleteChat">Удалить и выйти</string>
     <string name="HideOnTop">Скрыть</string>
     <string name="UnhideFromTop">Закрепить</string>
+    <string name="DialogPin">Закрепить</string>
+    <string name="DialogUnpin">Открепить</string>
     <string name="Archive">В архив</string>
     <string name="Unarchive">Вернуть</string>
     <string name="ArchivedChats">Архив</string>
@@ -191,12 +193,13 @@
     <string name="HistoryCleared">История очищена</string>
     <string name="ArticleByAuthor">от %1$s</string>
     <string name="ArticleDateByAuthor">%1$s от %2$s</string>
-    <string name="PreviewFeedback">Оставить отзыв об этом превью</string>
+    <string name="PreviewFeedback2">Ошибка в превью?</string>
     <string name="SendStickerPreview">Отправить стикер</string>
     <string name="SendGifPreview">Отправить GIF</string>
     <string name="ViewPackPreview">Посмотреть набор</string>
     <string name="PinToTop">Закрепить</string>
-    <string name="PinToTopLimitReached">К сожалению, закрепить можно не больше %1$s. Упорядочить список чатов можно также с помощью добавления в архив: в архиве можно закрепить неограниченное число чатов.</string>
+    <string name="PinToTopLimitReached2">Вы можете закрепить не более %1$s чатов в основном списке. В Архиве и папках можно закрепить больше чатов.</string>
+    <string name="PinFolderLimitReached">У Вас закреплено максимальное число чатов.</string>
     <string name="UnpinFromTop">Открепить</string>
     <string name="MarkAsUnread">Пометить как непрочитанное</string>
     <string name="MarkAsRead">Пометить как прочитанное</string>
@@ -219,7 +222,7 @@
     <string name="ArchiveHintText2">Чаты с выключенными уведомлениями остаются в архиве, когда приходят новые сообщения.</string>
     <string name="ArchiveHintHeader3">Закрепленные чаты</string>
     <string name="ArchiveHintText3">Вы можете закрепить неограниченное количество чатов наверху архива.</string>
-    <string name="ScheduledOrNoSoundHint">Удерживайте кнопку, чтобы отправить&#160;сообщение&#160;позже или без звука.</string>
+    <string name="ScheduledOrNoSoundHint">Удерживайте кнопку, чтобы отправить&#160;позже или без звука.</string>
     <!--channels-->
     <string name="SetAsAdmin">Сделать администратором</string>
     <string name="EditAdminRights">Изменить права админа</string>
@@ -267,6 +270,7 @@
     <string name="AddMutual">Пригласить подписаться на канал</string>
     <string name="ChannelUsernameHelp">Если у канала будет постоянная публичная ссылка, другие пользователи смогут найти его и подписаться.\n\nМожно использовать латиницу (a-z), цифры (0-9) и подчёркивание. Минимальная длина — 5 символов.</string>
     <string name="MegaUsernameHelp">Если у группы будет постоянная публичная ссылка, другие пользователи смогут найти её и присоединиться.\n\nМожно использовать латиницу (a-z), цифры (0-9) и подчёркивание. Минимальная длина — 5 символов.</string>
+    <string name="ChannelVerifiedWarning">Внимание</string>
     <string name="ChannelUsernamePlaceholder">ссылка</string>
     <string name="ChannelPrivateLinkHelp">По этой ссылке можно подписаться на Ваш канал. Вы можете сбросить её в любой момент.</string>
     <string name="MegaPrivateLinkHelp">По этой ссылке можно вступить в Вашу группу. Вы можете сбросить ссылку в любой момент.</string>
@@ -286,8 +290,8 @@
     <string name="MegaPrivateInfo">В частные группы можно вступить только по приглашению или пригласительной ссылке.</string>
     <string name="ChannelLinkTitle">Постоянная ссылка</string>
     <string name="ChannelInviteLinkTitle">Ссылка-приглашение</string>
-    <string name="ChannelAddMembers">Добавить участников</string>
     <string name="GroupAddMembers">Добавить участников</string>
+    <string name="ChannelAddSubscribers">Добавить подписчиков</string>
     <string name="LeaveChannel">Покинуть канал</string>
     <string name="LeaveChannelMenu">Покинуть канал</string>
     <string name="ChannelSettings">Настройки</string>
@@ -326,7 +330,7 @@
     <string name="ChannelAdministrators">Администраторы</string>
     <string name="ChannelDelete">Удалить канал</string>
     <string name="ChannelDeleteMenu">Удалить канал</string>
-    <string name="ChannelDeleteAlert">Важно! Если удалить канал, все участники и все сообщения в нём будут потеряны. Всё равно удалить?</string>
+    <string name="ChannelDeleteAlert">Важно! Если удалить канал, все подписчики и все сообщения в нём будут потеряны. Всё равно удалить?</string>
     <string name="ChannelLeaveAlert">Вы точно хотите покинуть канал?</string>
     <string name="ChannelLeaveAlertWithName">Вы точно хотите покинуть **%1$s**?</string>
     <string name="ChannelDeleteInfo">Вы потеряете все сообщения из этого канала.</string>
@@ -394,7 +398,7 @@
     <string name="WhoCanAddMembersAllMembers">Все участники</string>
     <string name="WhoCanAddMembersAdmins">Только администраторы</string>
     <string name="ChannelNotifyMembersInfoOn">Участники получают уведомления о публикациях</string>
-    <string name="ChannelNotifyMembersInfoOff">Участники получат уведомление без звука</string>
+    <string name="ChannelNotifyMembersInfoOff">Подписчики получат уведомление без звука</string>
     <string name="ChannelSignMessages">Подписывать сообщения</string>
     <string name="ChannelSignMessagesInfo">Добавлять имена администраторов к их сообщениям в канале.</string>
     <string name="EditAdmin">Права админов</string>
@@ -527,9 +531,9 @@
     <string name="NewPoll">Новый опрос</string>
     <string name="NewQuiz">Новая викторина</string>
     <string name="Poll">Опрос</string>
-    <string name="Question">Вопрос</string>
+    <string name="PollQuestion">Вопрос</string>
     <string name="QuestionHint">Задайте вопрос</string>
-    <string name="PollOptions">Варианты ответа</string>
+    <string name="AnswerOptions">Варианты ответа</string>
     <string name="QuizAnswers">Варианты ответа</string>
     <string name="PollResults">Результаты</string>
     <string name="PollAnonymous">Анонимное голосование</string>
@@ -718,6 +722,7 @@
     <string name="SdCard">Карта памяти</string>
     <string name="Folder">Папка</string>
     <string name="RecentFiles">Недавние файлы</string>
+    <string name="RecentFilesAZ">Файлы А-Я</string>
     <string name="NoFilesFound">Ничего не найдено</string>
     <string name="NoFilesFoundInfo">В выбранной папке ничего не найдено по запросу **%1$s**.</string>
     <string name="NoFilesInfo">Эта папка пустая.</string>
@@ -726,6 +731,7 @@
     <string name="AppFolderInfo">Поиск в папке приложения</string>
     <string name="InternalFolderInfo">Поиск в файловой системе</string>
     <string name="ExternalFolderInfo">Поиск во внешнем хранилище</string>
+    <string name="SearchMusic">Поиск музыки</string>
     <!--group stickers-->
     <string name="GroupStickers">Стикеры группы</string>
     <string name="ChooseFromYourStickers">Выберите из своих наборов</string>
@@ -795,6 +801,8 @@
     <string name="YouLeft">Вы покинули группу</string>
     <string name="DeleteThisGroup">Удалить группу</string>
     <string name="DeleteThisChat">Удалить чат</string>
+    <string name="DeleteThisChatBothSides">Удалить чат</string>
+    <string name="DeleteTheseChatsBothSides">Удалить чаты</string>
     <string name="SlideToCancel">ВЛЕВО —&#160;ОТМЕНА</string>
     <string name="SaveToDownloads">Сохранить в загрузки</string>
     <string name="SaveToGIFs">Сохранить в свои GIF</string>
@@ -901,6 +909,7 @@
     <string name="DeleteForUser">Удалить для %1$s</string>
     <string name="DeleteForAll">Удалить у всех участников</string>
     <string name="TextCopied">Текст скопирован в буфер обмена</string>
+    <string name="HoldToAudioOnly">Удерживайте для записи аудио.</string>
     <string name="HoldToAudio">Удерживайте для записи аудио. Нажмите для переключения на видео.</string>
     <string name="HoldToVideo">Удерживайте для записи видео. Нажмите для переключения на аудио.</string>
     <string name="DiscardVoiceMessageTitle">Отмена голосового сообщения</string>
@@ -914,7 +923,7 @@
     <string name="AttachGifRestricted">Администраторы группы запретили Вам отправлять GIF до %1$s</string>
     <string name="SendMessageRestricted">Администраторы группы запретили Вам отправлять сообщения до %1$s</string>
     <string name="AttachMediaRestrictedForever">Администраторы группы запретили Вам отправлять в нее фото и видео.</string>
-    <string name="AttachInlineRestrictedForever">Администраторы группы запретили Вам отправлять сообщения с помощью ботов</string>
+    <string name="AttachInlineRestrictedForever">Администраторы группы запретили Вам отправлять сообщения с помощью ботов.</string>
     <string name="AttachStickersRestrictedForever">Администраторы группы запретили Вам отправлять стикеры</string>
     <string name="AttachGifRestrictedForever">Администраторы группы запретили Вам отправлять GIF.</string>
     <string name="SendMessageRestrictedForever">Администраторы группы запретили Вам писать в ней.</string>
@@ -927,6 +936,7 @@
     <string name="ApkRestricted">Приложению не разрешена установка APK. Вы можете изменить это в настройках системы.</string>
     <string name="UnreadMessages">Непрочитанные сообщения</string>
     <string name="SearchStickersHint">Поиск стикеров</string>
+    <string name="SearchTrendingStickersHint">Поиск популярных стикеров</string>
     <string name="SearchEmojiHint">Поиск эмодзи</string>
     <string name="URL">URL</string>
     <string name="MapPreviewProvider">Предпросмотр карты</string>
@@ -962,6 +972,23 @@
     <string name="OneResult">1 результат</string>
     <string name="VideoQualityIsTooLow">Качество видео слишком низкое для изменения настроек сжатия.</string>
     <string name="TextSelectionHit">Удерживайте нужное **слово**, затем выделите курсором текст, чтобы скопировать его.</string>
+    <string name="CardNumberCopied">Номер карты скопирован в буфер обмена</string>
+    <string name="CopyCardNumber">Копировать</string>
+    <string name="DiceInfo2">Чтобы сделать бросок, отправьте эмодзи **:кубик:**</string>
+    <string name="DartInfo">Отправьте эмодзи **:дартс:**, чтобы испытать удачу.</string>
+    <string name="DiceEmojiInfo">Отправьте эмодзи %1$s, чтобы испытать удачу.</string>
+    <string name="SendDice">ОТПРАВИТЬ</string>
+    <string name="PsaType_covid">COVID-19</string>
+    <string name="PsaTypeDefault">PSA</string>
+    <string name="PsaInfo_covid">Это экстренная новость о пандемии COVID-19. Подробнее об этой инициативе: https://telegram.org/blog/coronavirus</string>
+    <string name="PsaInfoDefault">PSA info test</string>
+    <string name="PsaMessage_covid">Новость о COVID-19</string>
+    <string name="PsaMessageInfo_covid">Это экстренная новость о пандемии COVID-19. Подробнее об этой инициативе: https://telegram.org/blog/coronavirus</string>
+    <string name="PsaMessageDefault">Важное уведомление</string>
+    <string name="PsaMessageInfoDefault">Это важное уведомление.</string>
+    <string name="PsaHideChatAlertTitle">Скрыть чат</string>
+    <string name="PsaHideChatAlertText">Вы точно хотите скрыть этот чат?</string>
+    <string name="PsaHide">Скрыть</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s включил(а) удаление по таймеру через %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">Вы включили удаление по таймеру через %1$s</string>
@@ -1088,6 +1115,7 @@
     <string name="TodayAt">в</string>
     <string name="YesterdayAt">вчера в</string>
     <string name="TodayAtFormatted">в %1$s</string>
+    <string name="TodayAtFormattedWithToday">сегодня в %1$s</string>
     <string name="YesterdayAtFormatted">вчера в %1$s</string>
     <string name="Online">в сети</string>
     <string name="LastSeen">был(а)</string>
@@ -1113,10 +1141,9 @@
     <string name="PhoneNumberSearch">Номер телефона</string>
     <!--group create view-->
     <string name="SendMessageTo">Добавить людей...</string>
-    <string name="SoftUserLimitAlert">Вы сможете добавить в группу больше участников, если сделаете её супергруппой после создания.</string>
+    <string name="SoftUserLimitAlert">Вы сможете добавить больше участников после создания группы.</string>
     <string name="EnterGroupNamePlaceholder">Введите имя группы</string>
     <string name="GroupName">Имя группы</string>
-    <string name="MembersCount">Выбрано %1$d из %2$d</string>
     <string name="MembersCountZero">до %1$s</string>
     <string name="JoinToGroupErrorFull">К сожалению, группа переполнена.</string>
     <string name="JoinToGroupErrorNotExist">Похоже, такого чата не существует.</string>
@@ -1168,6 +1195,9 @@
     <string name="Invite">Пригласить</string>
     <string name="BlockContact">Заблокировать</string>
     <string name="BlockUser">Заблокировать</string>
+    <string name="BlockUsers">Заблокировать</string>
+    <string name="BlockUserMessage">Запретить&#160;**%1$s** писать Вам сообщения и звонить через Telegram?</string>
+    <string name="BlockUsersMessage">Запретить&#160;**%1$s** писать Вам сообщения и звонить через Telegram?</string>
     <string name="UserBlocked">Пользователь заблокирован</string>
     <string name="UserUnblocked">Пользователь разблокирован</string>
     <string name="EditContact">Изменить контакт</string>
@@ -1212,6 +1242,8 @@
     <string name="SharedPhotosAndVideos">Фотографии и видео</string>
     <string name="SharedLinks">Ссылки</string>
     <string name="SharedAudioFiles">Аудиофайлы</string>
+    <string name="SendMessageLocation">Написать</string>
+    <string name="ReportUserLocation">Пожаловаться</string>
     <!--usernames-->
     <string name="Username">Имя пользователя</string>
     <string name="UsernamePlaceholder">Ваше имя пользователя</string>
@@ -1229,6 +1261,7 @@
     <!--stickers view-->
     <string name="StickersName">Стикеры и маски</string>
     <string name="LoopAnimatedStickers">Зациклить анимацию</string>
+    <string name="LoopAnimatedStickersInfo">Анимированные стикеры будут проигрываться без остановки.</string>
     <string name="AnimatedStickers">Анимированные стикеры</string>
     <string name="AddStickers">Добавить стикеры</string>
     <string name="AddStickersCount">ДОБАВИТЬ %1$s</string>
@@ -1238,20 +1271,33 @@
     <string name="AddToFavorites">Добавить в избранные</string>
     <string name="AddedToFavorites">Стикер добавлен в избранные</string>
     <string name="RemovedFromFavorites">Стикер удалён из избранных</string>
+    <string name="RemovedFromRecent">Стикер был удалён из списка недавних</string>
     <string name="RecentStickers">Недавние</string>
     <string name="FavoriteStickers">Избранные</string>
     <string name="CurrentGroupStickers">Стикеры группы</string>
+    <string name="OtherStickers">Больше стикеров</string>
     <string name="DeleteFromFavorites">Удалить из избранных</string>
+    <string name="DeleteFromRecent">Удалить из недавних</string>
     <string name="AddToMasks">Добавить в маски</string>
     <string name="AddStickersNotFound">Стикеры не найдены</string>
     <string name="StickersRemoved">Стикеры удалены</string>
+    <string name="StickersRemovedInfo">Набор %1$s удалён из Ваших стикеров.</string>
     <string name="MasksRemoved">Маски удалены</string>
+    <string name="MasksRemovedInfo">Набор %1$s удалён из Ваших масок.</string>
+    <string name="StickersArchived">Стикеры архивированы.</string>
+    <string name="StickersArchivedInfo">Набор %1$s перемещён в архив.</string>
+    <string name="MasksArchived">Маски архивированы.</string>
+    <string name="MasksArchivedInfo">Набор %1$s перемещён в архив.</string>
     <string name="AddStickersInstalled">Добавлены новые стикеры</string>
+    <string name="AddStickersInstalledInfo">Набор %1$s добавлен к Вашим стикерам.</string>
     <string name="AddMasksInstalled">Добавлены новые маски</string>
+    <string name="AddMasksInstalledInfo">Набор %1$s добавлен к Вашим маскам.</string>
     <string name="StickersHide">Архивировать</string>
     <string name="StickersShare">Поделиться</string>
     <string name="StickersCopy">Копировать ссылку</string>
+    <string name="StickersReorder">Изменить порядок</string>
     <string name="StickersRemove">Удалить</string>
+    <string name="StickersReorderHint">Передвиньте нужные наборы.</string>
     <string name="NoStickers">Стикеров пока нет</string>
     <string name="NoStickersFound">Стикеры не найдены</string>
     <string name="NoGIFsFound">GIF не найдены</string>
@@ -1263,11 +1309,13 @@
     <string name="Masks">Маски</string>
     <string name="MasksInfo">Вы можете добавлять маски на отправляемые фото. Для этого перед отправкой откройте фоторедактор.</string>
     <string name="FeaturedStickers">Популярные стикеры</string>
+    <string name="FeaturedGifs">Популярные GIF</string>
     <string name="SuggestStickers">Подсказка по эмодзи</string>
     <string name="SuggestStickersAll">Любые стикеры</string>
     <string name="SuggestStickersInstalled">Стикеры из своих наборов</string>
     <string name="SuggestStickersNone">Нет</string>
     <string name="FeaturedStickersInfo">Эти стикеры сейчас популярны в Telegram. Вы можете добавлять свои стикеры с помощью бота @stickers.</string>
+    <string name="StickersBotInfo">Художники могут создавать собственные наборы с помощью бота @stickers.</string>
     <string name="ArchivedStickers">Архив стикеров</string>
     <string name="ArchivedMasks">Архив масок</string>
     <string name="ArchivedStickersEmpty">Нет стикеров в архиве</string>
@@ -1279,6 +1327,10 @@
     <string name="ArchivedStickersAlertInfo">Некоторые из ваших старых наборов стикеров были архивированы. Вы можете снова активировать их в настройках стикеров.</string>
     <string name="ArchivedMasksAlertTitle">Архив масок</string>
     <string name="ArchivedMasksAlertInfo">Некоторые из старых наборов масок были архивированы. Вы можете снова активировать их в настройках масок.</string>
+    <string name="DeleteStickerSetsAlertTitle">Удалить %1$s</string>
+    <string name="DeleteStickersAlertMessage">Удалить выбранные наборы?</string>
+    <string name="ArchiveStickerSetsAlertTitle">Архивировать %1$s</string>
+    <string name="ArchiveStickersAlertMessage">Архивировать выбранные наборы стикеров?</string>
     <!--theme view-->
     <string name="Theme">Тема</string>
     <string name="AutoNightTheme">Настроить ночную тему</string>
@@ -1403,10 +1455,13 @@
     <string name="ResetNotificationsAlert">Вы точно хотите сбросить настройки уведомлений и использовать настройки по умолчанию?</string>
     <string name="TextSizeHeader">Размер текста сообщений</string>
     <string name="AskAQuestion">Задать вопрос</string>
+    <string name="AddAnExplanation">Добавить объяснение</string>
+    <string name="AddAnExplanationInfo">Участники увидят этот текст, если выберут неправильный ответ (полезно для образовательных тестов).</string>
     <string name="EnableAnimations">Анимация</string>
     <string name="ChatSettings">Настройки чатов</string>
     <string name="Devices">Устройства</string>
     <string name="SettingsHelp">Помощь</string>
+    <string name="SettingsDebug">Отладка</string>
     <string name="Account">Аккаунт</string>
     <string name="Unblock">Разблокировать</string>
     <string name="UnblockText">Нажмите и удерживайте имя пользователя для разблокировки</string>
@@ -1601,6 +1656,7 @@
     <string name="AutoDownloadTypes">Загружать мультимедиа</string>
     <string name="AutoDownloadAudioInfo">Голосовые сообщения имеют небольшой размер и всегда загружаются автоматически.</string>
     <string name="NoMediaAutoDownload">Не загружать</string>
+    <string name="NoGIFs">Нет GIF</string>
     <string name="ResetAutomaticMediaDownload">Сбросить настройки автозагрузки</string>
     <string name="ResetAutomaticMediaDownloadAlertTitle">Сбросить настройки</string>
     <string name="ResetAutomaticMediaDownloadAlert">Вы точно хотите сбросить настройки автозагрузки?</string>
@@ -1614,6 +1670,7 @@
     <string name="AutoplayMedia">Автовоспроизведение</string>
     <string name="RaiseToSpeak">Запись голоса при приближении</string>
     <string name="SaveToGallerySettings">Сохранять в галерее</string>
+    <string name="SoundMuted">Уведомления выключены</string>
     <string name="EditName">Изменить имя</string>
     <string name="NotificationsCustomize">Настроить</string>
     <string name="NotificationsCustom">Особые</string>
@@ -1675,6 +1732,10 @@
     <string name="DebugMenuReloadContacts">Перезагрузить контакты</string>
     <string name="DebugMenuResetDialogs">Сбросить кэш чатов</string>
     <string name="DebugMenuReadAllDialogs">Прочесть все чаты</string>
+    <string name="DebugMenuEnablePauseMusic">Останавливать музыку при записи</string>
+    <string name="DebugMenuDisablePauseMusic">Продолжать музыку при записи</string>
+    <string name="DebugMenuEnableSmoothKeyboard">Анимация клавиатуры</string>
+    <string name="DebugMenuDisableSmoothKeyboard">Клавиатура без анимации</string>
     <string name="DebugMenuEnableCamera">Включить встроенную камеру</string>
     <string name="DebugMenuDisableCamera">Выключить встроенную камеру</string>
     <string name="DebugMenuResetContacts">Сбросить контакты</string>
@@ -1744,7 +1805,7 @@
     <string name="SetPasscode">Установить код-пароль</string>
     <string name="SetPasscodeInfo">Включите код-пароль для разблокировки приложения на Вашем устройстве.</string>
     <string name="ClearCache">Очистить кэш</string>
-    <string name="ClearCacheInfo">Освободит память устройства; файлы останутся в облаке.</string>
+    <string name="ClearCacheInfo">Освободите память устройства; файлы останутся в облаке.</string>
     <string name="ChangePhoneNumber">Изменить номер</string>
     <string name="ChangePhoneNumberInfo">Перенесите на новый номер телефона свой аккаунт со всеми чатами и файлами.</string>
     <string name="ContactSupport">Обратиться в поддержку</string>
@@ -1772,6 +1833,7 @@
     <string name="AuthAnotherClientInfo2">Запустите Telegram Desktop, чтобы получить QR-код.</string>
     <string name="AuthAnotherClientInfo3">Сканируйте этот QR-код для входа в аккаунт.</string>
     <string name="AuthAnotherClientUrl">Этот код можно использовать для входа в Ваш аккаунт в Telegram.\n\nДля подтверждения входа перейдите в Настройки &gt; Устройства &gt; Сканировать QR и отсканируйте этот код.</string>
+    <string name="QRCodePermissionNoCamera">Чтобы Вы могли сканировать QR-коды, Telegram нужен доступ к камере.</string>
     <!--cache view-->
     <string name="LocalDatabase">Локальная база данных</string>
     <string name="LocalDatabaseClearTextTitle">Очистить базу данных</string>
@@ -1782,7 +1844,7 @@
     <string name="CalculatingSize">Подсчёт…</string>
     <string name="LocalDocumentCache">Файлы</string>
     <string name="LocalPhotoCache">Фото</string>
-    <string name="LocalAudioCache">Голосовые/видеосообщения</string>
+    <string name="LocalAudioCache">Аудио/видеосообщения</string>
     <string name="LocalVideoCache">Видео</string>
     <string name="LocalMusicCache">Музыка</string>
     <string name="LocalGifCache">GIF</string>
@@ -2012,6 +2074,90 @@
     <string name="ClearOtherWebSessionsHelp">Вы можете использовать свой аккаунт для авторизации на сайтах, которые поддерживают вход через Telegram.</string>
     <string name="LoginAttempts">Незавершенные попытки входа</string>
     <string name="LoginAttemptsInfo">С этих устройств нет доступа к Вашему аккаунту. Код для входа был введен верно, но правильный пароль указан не был.</string>
+    <!--filters-->
+    <string name="Filters">Папки</string>
+    <string name="FiltersSetup">Настройка</string>
+    <string name="FiltersSetupPinAlert">Настроить папки</string>
+    <string name="CreateNewFilter">Создать новую папку</string>
+    <string name="CreateNewFilterInfo">Вы можете создать папки с нужными чатами и переключаться между ними.</string>
+    <string name="FilterRecommended">Рекомендованные папки</string>
+    <string name="FilterAllChats">Все чаты</string>
+    <string name="FilterAllChatsShort">Все</string>
+    <string name="FilterReorder">Изменить порядок</string>
+    <string name="FilterEdit">Настроить папку</string>
+    <string name="FilterEditAll">Настроить папки</string>
+    <string name="FilterContacts">Контакты</string>
+    <string name="FilterNonContacts">Не контакты</string>
+    <string name="FilterGroups">Группы</string>
+    <string name="FilterChannels">Каналы</string>
+    <string name="FilterExcludeMuted">Исключить чаты без звука</string>
+    <string name="FilterExcludeRead">Исключить прочитанные</string>
+    <string name="FilterEditItem">Изменить</string>
+    <string name="FilterDeleteItem">Удалить</string>
+    <string name="FilterExcludeArchived">Исключить архив</string>
+    <string name="FilterUnread">Новые</string>
+    <string name="FilterDelete">Удалить папку</string>
+    <string name="FilterMuted">Без уведомлений</string>
+    <string name="FilterRead">Прочитанные</string>
+    <string name="FilterArchived">Архивированные</string>
+    <string name="FilterAlwaysShow">Чаты в папке</string>
+    <string name="FilterNeverShow">Чаты не в папке</string>
+    <string name="FilterAddChats">Добавить чаты</string>
+    <string name="FilterRemoveChats">Исключить чаты</string>
+    <string name="FilterChatTypes">Типы чатов</string>
+    <string name="FilterChats">Чаты</string>
+    <string name="FilterInclude">Выбранные чаты</string>
+    <string name="FilterExclude">Исключённые чаты</string>
+    <string name="FilterIncludeInfo">Выберите чаты или типы чатов, которые нужно показывать в этой папке.</string>
+    <string name="FilterExcludeInfo">Выберите чаты или типы чатов, которые не нужно показывать в этой папке.</string>
+    <string name="FilterSecretChats">Секретные чаты</string>
+    <string name="FilterBots">Боты</string>
+    <string name="FilterAddingChats">Добавление чатов</string>
+    <string name="FilterAddingChatsInfo">Добавление чатов в папку...</string>
+    <string name="FilterNoChatsToDisplay">Нет чатов</string>
+    <string name="FilterNoChatsToDisplayInfo">В этой папке пока нет чатов.</string>
+    <string name="FilterNew">Новая папка</string>
+    <string name="FilterNoChats">Нет чатов</string>
+    <string name="FilterContact">Контакт</string>
+    <string name="FilterNonContact">Не контакт</string>
+    <string name="FilterAddException">Добавить исключение</string>
+    <string name="FilterNameHint">Название папки</string>
+    <string name="FilterDeleteAlert">Удалить эту папку? Это не затронет чаты, которые в ней находятся.</string>
+    <string name="FilterDiscardTitle">Применить изменения?</string>
+    <string name="FilterDiscardAlert">Вы изменили настройки папки. Применить изменения?</string>
+    <string name="FilterDiscardNewTitle">Создать папку?</string>
+    <string name="FilterDiscardNewAlert">Вы не закончили создание папки. Создать?</string>
+    <string name="FilterDiscardNewSave">Создать</string>
+    <string name="FilterShowMoreChats_zero">Показать ещё %1$d</string>
+    <string name="FilterShowMoreChats_one">Показать ещё %1$d</string>
+    <string name="FilterShowMoreChats_two">Показать ещё %1$d</string>
+    <string name="FilterShowMoreChats_few">Показать ещё %1$d</string>
+    <string name="FilterShowMoreChats_many">Показать ещё %1$d</string>
+    <string name="FilterShowMoreChats_other">Показать ещё %1$d</string>
+    <string name="FilterRemoveExclusionTitle">Убрать исключение</string>
+    <string name="FilterRemoveInclusionTitle">Убрать исключение</string>
+    <string name="FilterRemoveExclusionText">Убрать \"%1$s\" из списка чатов, которые не должны показываться в папке?</string>
+    <string name="FilterRemoveExclusionChatText">Убрать \"%1$s\" из списка чатов, которые не должны показываться в папке?</string>
+    <string name="FilterRemoveExclusionUserText">Убрать \"%1$s\" из списка чатов, которые не должны показываться в папке?</string>
+    <string name="FilterRemoveInclusionText">Убрать \"%1$s\" из списка чатов, которые должны показываться в папке?</string>
+    <string name="FilterRemoveInclusionChatText">Убрать \"%1$s\" из списка чатов, которые должны показываться в папке?</string>
+    <string name="FilterRemoveInclusionUserText">Убрать \"%1$s\" из списка чатов, которые должны показываться в папке?</string>
+    <string name="FilterAvailableTitle">Папки с чатами</string>
+    <string name="FilterAvailableText">Чаты можно сгруппировать в настройках, в разделе *Папки*.</string>
+    <string name="FilterNameNonMuted">Важные</string>
+    <string name="FilterNameUnread">Новые</string>
+    <string name="FilterAddTo">Добавить в папку</string>
+    <string name="FilterRemoveFrom">Убрать из папки</string>
+    <string name="FilterChoose">Выбрать папку</string>
+    <string name="FilterUserAddedToExisting">Чат с **%1$s** добавлен в **%2$s**</string>
+    <string name="FilterChatAddedToExisting">Чат **%1$s** добавлен в **%2$s**</string>
+    <string name="FilterChatsAddedToExisting">**%1$s** добавлены в **%2$s**</string>
+    <string name="FilterUserRemovedFrom">Чат с **%1$s** исключён из **%2$s**</string>
+    <string name="FilterChatRemovedFrom">Чат **%1$s** исключён из **%2$s**</string>
+    <string name="FilterChatsRemovedFrom">**%1$s** исключены из **%2$s**</string>
+    <string name="FilterAddToAlertFullTitle">Достигнут лимит</string>
+    <string name="FilterRemoveFromAlertFullText">В папку нельзя добавить больше 100 чатов.</string>
+    <string name="FilterAddToAlertFullText">Из папки нельзя исключить больше 100 чатов.</string>
     <!--passcode view-->
     <string name="Passcode">Код-пароль</string>
     <string name="ChangePasscode">Сменить код-пароль</string>
@@ -2049,11 +2195,14 @@
     <string name="October">Октябрь</string>
     <string name="November">Ноябрь</string>
     <string name="December">Декабрь</string>
-    <string name="SharedFilesTab">ФАЙЛЫ</string>
-    <string name="SharedMediaTab">МЕДИА</string>
-    <string name="SharedLinksTab">ССЫЛКИ</string>
-    <string name="SharedMusicTab">АУДИО</string>
-    <string name="SharedVoiceTab">ГОЛОС</string>
+    <string name="SharedFilesTab2">Файлы</string>
+    <string name="SharedMediaTab2">Медиа</string>
+    <string name="SharedMediaTabFull2">Общие материалы</string>
+    <string name="SharedGroupsTab2">Группы</string>
+    <string name="SharedLinksTab2">Ссылки</string>
+    <string name="SharedMusicTab2">Аудио</string>
+    <string name="SharedVoiceTab2">Аудиосообщения</string>
+    <string name="SharedGIFsTab2">GIF</string>
     <string name="DocumentsTitle">Общие файлы</string>
     <string name="SharedContentTitle">Общие материалы</string>
     <string name="LinksTitle">Общие ссылки</string>
@@ -2068,6 +2217,7 @@
     <string name="NoSharedFilesSecret">Здесь будут отображаться файлы и документы из этого чата.</string>
     <string name="NoSharedLinksSecret">Здесь будут отображаться общие ссылки из этого чата.</string>
     <string name="NoSharedVoiceSecret">Здесь будут отображаться голосовые сообщения из этого чата.</string>
+    <string name="NoSharedGifSecret">Здесь будут отображаться GIF из этого чата.</string>
     <!--map view-->
     <string name="Map">Карта</string>
     <string name="Satellite">Спутник</string>
@@ -2111,6 +2261,10 @@
     <string name="LiveLocationAlertGroup">Выберите, как долго участники этого чата смогут видеть, где Вы находитесь.</string>
     <string name="GpsDisabledAlertTitle">Требуется GPS</string>
     <string name="GpsDisabledAlertText">Чтобы использовать геопозицию, пожалуйста, включите GPS.</string>
+    <string name="MakeMyselfVisible">Показать меня</string>
+    <string name="MakeMyselfVisibleTitle">Показывать профиль</string>
+    <string name="MakeMyselfVisibleInfo">Те, кто находится рядом с Вами, смогут видеть Ваш профиль и написать Вам. Это даёт возможность найти новых друзей, но может привлечь излишнее внимание. Вы можете отключить эту функцию в любой момент.\n\nВаш номер телефона по-прежнему не будет виден.</string>
+    <string name="StopShowingMe">Не показывать меня</string>
     <string name="PeopleNearby">Люди рядом</string>
     <string name="AddPeopleNearby">Найти людей рядом</string>
     <string name="PeopleNearbyAccessInfo">Вы можете быстро связаться с теми, кто находится рядом с Вами и зашёл в этот раздел, а также найти локальные группы.\n\nДля этого необходимо разрешить приложению доступ к геопозиции.</string>
@@ -2119,7 +2273,7 @@
     <string name="PeopleNearbyGpsInfo">Вы можете быстро связаться с теми, кто находится рядом с Вами и зашёл в этот раздел, а также найти локальные группы.\n\nДля этого необходимо разрешить приложению доступ к геопозиции.</string>
     <string name="PeopleNearbyGps">Включить</string>
     <string name="ChatsNearbyHeader">Группы рядом</string>
-    <string name="PeopleNearbyInfo">Предложите другу зайти в этот раздел, чтобы обменяться номерами телефона.</string>
+    <string name="PeopleNearbyInfo2">Вы можете быстро обменяться контактами с людьми рядом и найти новых друзей.</string>
     <string name="PeopleNearbyEmpty">Поиск пользователей рядом с Вами...</string>
     <string name="NearbyCreateGroup">Локальная группа</string>
     <string name="NearbyStartGroup">Создать группу</string>
@@ -2133,7 +2287,9 @@
     <string name="ShowAsList">Показать списком</string>
     <string name="ShowAsGrid">Показать в виде сетки</string>
     <string name="ShowAllMedia">Показать все медиа</string>
+    <string name="ShowStickers">Показать стикеры</string>
     <string name="ShowAllFiles">Все файлы</string>
+    <string name="ShowAllGIFs">Показать все GIF</string>
     <string name="TapToDownload">Нажмите для загрузки</string>
     <string name="OpenFile">ОТКРЫТЬ ФАЙЛ</string>
     <string name="ShowInChat">Показать в чате</string>
@@ -2150,8 +2306,8 @@
     <string name="VideoDoesNotSupportStreaming">Это видео не рассчитано на потоковую загрузку. Возможно, для просмотра потребуется скачать его.</string>
     <string name="CantPlayVideo">Не удалось воспроизвести видео в приложении. Попробовать сторонний видеоплеер?</string>
     <string name="NoRecentSearches">Нет недавних запросов</string>
-    <string name="ImagesTab">ИЗОБРАЖЕНИЯ</string>
-    <string name="GifsTab">GIF</string>
+    <string name="ImagesTab2">Изображения</string>
+    <string name="GifsTab2">GIF</string>
     <string name="NoRecentGIFs">Нет недавних GIF</string>
     <string name="SearchImages">НАЙТИ ИЗОБРАЖЕНИЯ</string>
     <string name="SearchImagesInfo">ПОИСК В СЕТИ</string>
@@ -2191,6 +2347,10 @@
     <string name="ClearSearch">Очистить историю поиска?</string>
     <string name="ClearSearchAlert">Вы точно хотите очистить историю поиска?</string>
     <string name="ClearSearchAlertTitle">Очистить историю поиска</string>
+    <string name="ClearSearchSingleAlertTitle">История поиска</string>
+    <string name="ClearSearchSingleUserAlertText">Вы точно хотите удалить \"%1$s\" из истории поиска?</string>
+    <string name="ClearSearchSingleChatAlertText">Вы точно хотите удалить \"%1$s\" из истории поиска?</string>
+    <string name="ClearSearchRemove">Убрать</string>
     <string name="ClearButton">Очистить</string>
     <string name="AddCaption">Добавить подпись...</string>
     <string name="PhotoCaption">Подпись к фото</string>
@@ -2202,6 +2362,7 @@
     <string name="PaintDuplicate">Дублировать</string>
     <string name="PaintOutlined">Контур</string>
     <string name="PaintRegular">Обычный</string>
+    <string name="PaintFramed">С фоном</string>
     <string name="CropReset">Сброс</string>
     <string name="CropOriginal">Оригинал</string>
     <string name="CropSquare">Квадрат</string>
@@ -2212,15 +2373,24 @@
     <!--password view-->
     <string name="TwoStepVerification">Двухэтапная аутентификация</string>
     <string name="TwoStepVerificationTitle">Двухэтапная аутентификация</string>
+    <string name="TwoStepVerificationPasswordSet">Пароль установлен</string>
+    <string name="TwoStepVerificationPasswordSetInfo">Этот пароль потребуется вводить при авторизации с нового устройства в дополнение к коду из SMS.</string>
+    <string name="TwoStepVerificationPasswordReturnSettings">Вернуться к настройкам</string>
+    <string name="TwoStepVerificationPasswordReturnPassport">Вернуться к паспорту</string>
+    <string name="TwoStepVerificationSetPassword">Задать пароль</string>
     <string name="SetAdditionalPassword">Установить дополнительный пароль</string>
     <string name="SetAdditionalPasswordInfo">Вы можете установить пароль, который будет запрашиваться при входе с нового устройства в дополнение к коду из SMS.</string>
     <string name="YourPassword">Пароль</string>
+    <string name="PasswordOn">Вкл.</string>
+    <string name="PasswordOff">Выкл.</string>
     <string name="PleaseEnterCurrentPassword">Введите пароль</string>
     <string name="PleaseEnterCurrentPasswordTransfer">Введите пароль, чтобы подтвердить передачу прав.</string>
     <string name="PleaseEnterFirstPassword">Введите пароль</string>
+    <string name="PleaseEnterNewFirstPassword">Введите новый пароль</string>
     <string name="PleaseEnterPassword">Введите новый пароль</string>
     <string name="PleaseReEnterPassword">Повторите пароль</string>
     <string name="RecoveryEmail">Электронная почта</string>
+    <string name="RecoveryEmailTitle">Электронная почта</string>
     <string name="YourEmail">Адрес электронной почты</string>
     <string name="YourEmailCode">Код из письма</string>
     <string name="YourEmailCodeInfo">Пожалуйста, введите код, который мы отправили на  %1$s, чтобы подтвердить свой адрес электронной почты.</string>
@@ -2232,7 +2402,9 @@
     <string name="YourEmailAlmostThereText">Пожалуйста, проверьте почту (не забудьте о папке со спамом), чтобы закончить настройку двухэтапной аутентификации.</string>
     <string name="YourPasswordSuccess">Готово!</string>
     <string name="YourPasswordSuccessText">Ваш пароль для двухэтапной аутентификации включён.</string>
+    <string name="YourPasswordChangedSuccessText">Пароль двухэтапной аутентификации изменён.</string>
     <string name="YourEmailSuccessText">Адрес для восстановления пароля двухэтапной аутентификации активирован.</string>
+    <string name="YourEmailSuccessChangedText">Почта для двухэтапной аутентификации изменена.</string>
     <string name="ChangePassword">Сменить пароль</string>
     <string name="TurnPasswordOff">Отключить пароль</string>
     <string name="SetRecoveryEmail">Указать адрес электронной почты</string>
@@ -2244,9 +2416,11 @@
     <string name="CancelEmailQuestionTitle">Прервать установку</string>
     <string name="TurnPasswordOffPassport">Внимание! Все данные, сохранённые в Вашем Telegram Passport, будут потеряны!</string>
     <string name="PasswordHint">Подсказка</string>
+    <string name="PasswordHintPlaceholder">Подсказка</string>
     <string name="PasswordHintText">Введите подсказку для пароля</string>
     <string name="PasswordDoNotMatch">Пароли не совпадают</string>
     <string name="AbortPassword">Прервать настройку двухэтапной аутентификации</string>
+    <string name="AbortPasswordMenu">Отменить настройку</string>
     <string name="AbortEmail">Прервать настройку почты</string>
     <string name="Abort">Прервать</string>
     <string name="Disable">Отключить</string>
@@ -2274,6 +2448,8 @@
     <string name="PasswordCode">Код</string>
     <string name="PasswordReset">Пароль отключён</string>
     <string name="ResendCode">Отправить ещё раз</string>
+    <string name="VerificationCode">Код подтверждения</string>
+    <string name="EnterCode">Ввести код</string>
     <string name="ResendCodeInfo">На Ваш email отправлен код подтверждения.</string>
     <string name="EnabledPasswordText">Включена двухэтапная аутентификация.\nДля входа в свой аккаунт в Telegram Вам нужно будет вводить установленный здесь пароль.</string>
     <!--data settings-->
@@ -2281,16 +2457,16 @@
     <string name="DataUsage">Использование сети и кэша</string>
     <string name="StorageUsage">Использование памяти</string>
     <string name="NetworkUsage">Использование трафика</string>
-    <string name="NetworkUsageMobile">МОБ. СЕТЬ</string>
-    <string name="NetworkUsageWiFi">WI-FI</string>
-    <string name="NetworkUsageRoaming">РОУМИНГ</string>
+    <string name="NetworkUsageMobileTab">Мобильный</string>
+    <string name="NetworkUsageWiFiTab">Wi-Fi</string>
+    <string name="NetworkUsageRoamingTab">Роуминг</string>
     <string name="MessagesDataUsage">Сообщения и прочие данные</string>
     <string name="CountSent">Отправлено</string>
     <string name="CountReceived">Получено</string>
     <string name="BytesSent">Отправлено байт</string>
     <string name="BytesReceived">Получено байт</string>
     <string name="FilesDataUsage">Файлы</string>
-    <string name="CallsDataUsage">Звонки</string>
+    <string name="CallsDataUsage">Настройки звонков</string>
     <string name="OutgoingCalls">Исходящие звонки</string>
     <string name="IncomingCalls">Входящие звонки</string>
     <string name="CallsTotalTime">Всего времени</string>
@@ -2516,6 +2692,7 @@
     <string name="UserChannelTooMuchJoin">У пользователя максимальное число групп и каналов. Пожалуйста, предложите ему сперва покинуть какую-нибудь группу или канал.</string>
     <!--Alert messages-->
     <string name="DeleteAllMessagesAlert">Внимание! **Все сообщения** в чате будут удалены для Вас и **для Вашего собеседника**.</string>
+    <string name="DeleteAllMessagesSavedAlert">Важно: это **удалит все сообщения** в чате.</string>
     <string name="DeleteAll">Удалить все</string>
     <string name="StopLoading">Остановить загрузку?</string>
     <string name="UpdateTelegram">Обновление Telegram</string>
@@ -2560,6 +2737,7 @@
     <string name="AreYouSureDeleteAndExitName">Вы точно хотите удалить и покинуть группу **%1$s**?</string>
     <string name="AreYouSureDeleteThisChat">Вы точно хотите удалить этот чат?</string>
     <string name="AreYouSureDeleteThisChatWithUser">Вы точно хотите удалить чат с **%1$s**?</string>
+    <string name="AreYouSureDeleteThisChatWithBot">Вы точно хотите удалить чат с **%1$s** и заблокировать его?</string>
     <string name="AreYouSureDeleteThisChatSavedMessages">Вы точно хотите удалить чат **Избранное**?</string>
     <string name="AreYouSureDeleteThisChatWithSecretUser">Вы точно хотите удалить секретный чат с **%1$s**?</string>
     <string name="AreYouSureDeleteThisChatWithGroup">Вы точно хотите удалить чат **%1$s**?</string>
@@ -2618,6 +2796,7 @@
     <string name="JoinGroup">ВСТУПИТЬ В ГРУППУ</string>
     <string name="AddAdminErrorNotAMember">Вы не можете назначить этого пользователя администратором, потому что он не состоит в группе и Вы не можете его пригласить.</string>
     <string name="AddAdminErrorBlacklisted">К сожалению, Вы не можете назначить этого пользователя администратором, поскольку он находится в чёрном списке, а Вы не можете убирать людей из чёрного списка.</string>
+    <string name="AddUserErrorBlacklisted">Вы не можете добавить этого пользователя, так как он в чёрном списке, а у Вас недостаточно прав, чтобы его изменить.</string>
     <string name="AddBannedErrorAdmin">К сожалению, Вы не можете заблокировать этого пользователя, поскольку он администрирует эту группу, а у Вас нет прав, чтобы его разжаловать.</string>
     <string name="ErrorSendRestrictedStickers">Администраторы группы запретили Вам отправлять стикеры.</string>
     <string name="ErrorSendRestrictedMedia">Администраторы группы запретили Вам отправлять медиа.</string>
@@ -2642,6 +2821,33 @@
     <string name="PermissionDrawAboveOtherApps">Telegram требуется доступ к работе поверх других приложений, чтобы показывать видео в режиме картинка в картинке.</string>
     <string name="PermissionOpenSettings">НАСТРОЙКИ</string>
     <string name="PermissionXiaomiLockscreen">Для корректной работы звонков, пожалуйста, разрешите приложению показываться на экране блокировки.</string>
+    <!--charts-->
+    <string name="GrowthChartTitle">Рост</string>
+    <string name="FollowersChartTitle">Подписчики</string>
+    <string name="InteractionsChartTitle">Активность</string>
+    <string name="ViewsBySourceChartTitle">Источники просмотров</string>
+    <string name="NewFollowersBySourceChartTitle">Источники новых подписчиков</string>
+    <string name="LanguagesChartTitle">Языки</string>
+    <string name="RecentPosts">Недавние посты</string>
+    <string name="ZoomOut">Уменьшить</string>
+    <string name="IVInteractionsChartTitle">Активность в IV</string>
+    <string name="LoadingStats">Загрузка статистики...</string>
+    <string name="LoadingStatsDescription">Создание графиков может занять некоторое время.</string>
+    <string name="TopHoursChartTitle">Просмотры по часам (UTC)</string>
+    <string name="SlideUpToLock">Вверх — продолжать запись</string>
+    <string name="NotificationsChartTitle">Уведомления</string>
+    <string name="DeviceStorage">Память устройства</string>
+    <string name="TotalDeviceFreeSize">%s свободно</string>
+    <string name="ClearTelegramCache">Очистить кэш Telegram</string>
+    <string name="StatisticOverview">Общая</string>
+    <string name="ViewsPerPost">Просмотры постов</string>
+    <string name="SharesPerPost">Пересылка постов</string>
+    <string name="EnabledNotifications">Уведомления включены</string>
+    <string name="ClearLocalDatabase">Очистить базу данных</string>
+    <string name="TelegramCacheSize">%s кэша Telegram</string>
+    <string name="LocalDatabaseSize">%s — база данных приложения</string>
+    <string name="CacheWasCleared">%s освободилось</string>
+    <string name="TotalDeviceSize">%s других данных</string>
     <!--Intro view-->
     <string name="Page1Title">Telegram</string>
     <string name="Page2Title">Быстрый</string>
@@ -2740,164 +2946,6 @@
     <string name="RateCallSilentLocal">Собеседника не слышно</string>
     <string name="RateCallSilentRemote">Собеседник не слышал меня</string>
     <string name="RateCallDropped">Звонок оборвался</string>
-    <!--wallet-->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <!--plural-->
     <string name="DeleteBackground_zero">Удалить %1$d фонов</string>
     <string name="DeleteBackground_one">Удалить %1$d фон</string>
@@ -3007,12 +3055,6 @@
     <string name="items_few">%1$d элемента</string>
     <string name="items_many">%1$d элементов</string>
     <string name="items_other">%1$d элементов</string>
-    
-    
-    
-    
-    
-    
     <string name="FromChats_zero">из %1$d чатов</string>
     <string name="FromChats_one">из %1$d чата</string>
     <string name="FromChats_two">из %1$d чатов</string>
@@ -3145,6 +3187,24 @@
     <string name="DaysBold_few">**%1$d** д.</string>
     <string name="DaysBold_many">**%1$d** д.</string>
     <string name="DaysBold_other">**%1$d** д.</string>
+    <string name="Views_zero">%1$s просмотров</string>
+    <string name="Views_one">%1$s просмотр</string>
+    <string name="Views_two">%1$s просмотров</string>
+    <string name="Views_few">%1$s просмотра</string>
+    <string name="Views_many">%1$s просмотров</string>
+    <string name="Views_other">%1$s просмотров</string>
+    <string name="Shares_zero">%1$s поделились</string>
+    <string name="Shares_one">%1$s поделился</string>
+    <string name="Shares_two">%1$s поделились</string>
+    <string name="Shares_few">%1$s поделились</string>
+    <string name="Shares_many">%1$s поделились</string>
+    <string name="Shares_other">%1$s поделились</string>
+    <string name="StickerSets_zero">%1$s наборов стикеров</string>
+    <string name="StickerSets_one">%1$s набор стикеров</string>
+    <string name="StickerSets_two">%1$s наборов стикеров</string>
+    <string name="StickerSets_few">%1$s набора стикеров</string>
+    <string name="StickerSets_many">%1$s наборов стикеров</string>
+    <string name="StickerSets_other">%1$s наборов стикеров</string>
     <!--forwarded messages-->
     <string name="ForwardedMessageCount_zero">%1$d пересылаемых сообщений</string>
     <string name="ForwardedMessageCount_one">%1$d пересылаемое сообщение</string>
@@ -3170,12 +3230,42 @@
     <string name="Files_few">%1$d файла</string>
     <string name="Files_many">%1$d файлов</string>
     <string name="Files_other">%1$d файлов</string>
+    <string name="MusicFiles_zero">%1$d файлов с музыкой</string>
+    <string name="MusicFiles_one">%1$d файл с музыкой</string>
+    <string name="MusicFiles_two">%1$d файлов с музыкой</string>
+    <string name="MusicFiles_few">%1$d файла с музыкой</string>
+    <string name="MusicFiles_many">%1$d файлов с музыкой</string>
+    <string name="MusicFiles_other">%1$d файлов с музыкой</string>
+    <string name="CommonGroups_zero">%1$d общих групп</string>
+    <string name="CommonGroups_one">%1$d общая группа</string>
+    <string name="CommonGroups_two">%1$d общих групп</string>
+    <string name="CommonGroups_few">%1$d общих группы</string>
+    <string name="CommonGroups_many">%1$d общих групп</string>
+    <string name="CommonGroups_other">%1$d общих групп</string>
     <string name="Media_zero">%1$d медиафайлов</string>
     <string name="Media_one">%1$d медиафайл</string>
     <string name="Media_two">%1$d медиафайлов</string>
     <string name="Media_few">%1$d медиафайла</string>
     <string name="Media_many">%1$d медиафайлов</string>
     <string name="Media_other">%1$d медиафайлов</string>
+    <string name="Voice_zero">%1$d голосовых сообщений</string>
+    <string name="Voice_one">%1$d голосовое сообщение</string>
+    <string name="Voice_two">%1$d голосовых сообщений</string>
+    <string name="Voice_few">%1$d голосовых сообщения</string>
+    <string name="Voice_many">%1$d голосовых сообщений</string>
+    <string name="Voice_other">%1$d голосовых сообщений</string>
+    <string name="Links_zero">%1$d ссылок</string>
+    <string name="Links_one">%1$d ссылка</string>
+    <string name="Links_two">%1$d ссылок</string>
+    <string name="Links_few">%1$d ссылки</string>
+    <string name="Links_many">%1$d ссылок</string>
+    <string name="Links_other">%1$d ссылок</string>
+    <string name="GIFs_zero">%1$d GIF</string>
+    <string name="GIFs_one">%1$d GIF</string>
+    <string name="GIFs_two">%1$d GIF</string>
+    <string name="GIFs_few">\n%1$d GIF</string>
+    <string name="GIFs_many">\n%1$d GIF</string>
+    <string name="GIFs_other">%1$d GIF</string>
     <string name="BlockedUsersCount_zero">%1$d заблокированных пользователей</string>
     <string name="BlockedUsersCount_one">%1$d заблокированный пользователь</string>
     <string name="BlockedUsersCount_two">%1$d заблокированных пользователей</string>
@@ -3266,18 +3356,36 @@
     <string name="MediaSelected_few">выбраны %1$d медиафайла</string>
     <string name="MediaSelected_many">выбрано %1$d медиафайлов</string>
     <string name="MediaSelected_other">выбрано %1$d медиафайлов</string>
-    <string name="ThemeInstallCount_zero">Тема установлена у %1$d человек</string>
-    <string name="ThemeInstallCount_one">Тема установлена у %1$d человека</string>
-    <string name="ThemeInstallCount_two">Тема установлена у %1$d человек</string>
-    <string name="ThemeInstallCount_few">Тема установлена у %1$d человек</string>
-    <string name="ThemeInstallCount_many">Тема установлена у %1$d человек</string>
-    <string name="ThemeInstallCount_other">Тема установлена у %1$d человек</string>
+    <string name="ThemeInstallCount_zero">"Число установок: %1$d "</string>
+    <string name="ThemeInstallCount_one">"Число установок: %1$d "</string>
+    <string name="ThemeInstallCount_two">"Число установок: %1$d "</string>
+    <string name="ThemeInstallCount_few">"Число установок: %1$d "</string>
+    <string name="ThemeInstallCount_many">"Число установок: %1$d "</string>
+    <string name="ThemeInstallCount_other">"Число установок: %1$d "</string>
     <string name="CountOfResults_zero">%1$d из %2$d</string>
     <string name="CountOfResults_one">%1$d из %2$d</string>
     <string name="CountOfResults_two">%1$d из %2$d</string>
     <string name="CountOfResults_few">%1$d из %2$d</string>
     <string name="CountOfResults_many">%1$d из %2$d</string>
     <string name="CountOfResults_other">%1$d из %2$d</string>
+    <string name="UsersCount_zero">%1$d пользователям</string>
+    <string name="UsersCount_one">%1$d пользователю</string>
+    <string name="UsersCount_two">%1$d пользователям</string>
+    <string name="UsersCount_few">%1$d пользователям</string>
+    <string name="UsersCount_many">%1$d пользователям</string>
+    <string name="UsersCount_other">%1$d пользователям</string>
+    <string name="UsersCountTitle_zero">%1$d человек</string>
+    <string name="UsersCountTitle_one">%1$d человека</string>
+    <string name="UsersCountTitle_two">%1$d человек</string>
+    <string name="UsersCountTitle_few">%1$d человек</string>
+    <string name="UsersCountTitle_many">%1$d человек</string>
+    <string name="UsersCountTitle_other">%1$d человек</string>
+    <string name="MembersCountSelected_zero">Выбрано %1$d из %2$d</string>
+    <string name="MembersCountSelected_one">Выбрано %1$d из %2$d</string>
+    <string name="MembersCountSelected_two">Выбрано %1$d из %2$d</string>
+    <string name="MembersCountSelected_few">Выбрано %1$d из %2$d</string>
+    <string name="MembersCountSelected_many">Выбрано %1$d из %2$d</string>
+    <string name="MembersCountSelected_other">Выбрано %1$d из %2$d</string>
     <!--accessibility descriptions-->
     <string name="AccDescrGroup">Группа</string>
     <string name="AccDescrChannel">Канал</string>
@@ -3402,6 +3510,7 @@
   <string name="AreYouSureDeleteMessages">Вы точно хотите удалить %1$s?</string>
   <string name="AutoNightAutomatic">Автоматически</string>
   <string name="AutoplayGifs">Автозапуск GIF</string>
+  <string name="ChannelAddMembers">Добавить участников</string>
   <string name="ChannelAlertCreate">СОЗДАТЬ КАНАЛ</string>
   <string name="ChannelMessageContact">В канал %1$s отправили контакт</string>
   <string name="ChannelMessagePoll">В канале «%1$s» новый опрос</string>
@@ -3413,17 +3522,25 @@
   <string name="CreateNewThemeInfo">Создайте собственную тему, изменяя цвета в приложении. Здесь Вы всегда можете вернуться к теме, которая использовалась по умолчанию.</string>
   <string name="DeleteAccountIfAwayFor">Если Вас не было</string>
   <string name="DeleteLocalization">Удалить локализацию?</string>
+  <string name="DeleteTheseChats">Удалить чаты</string>
+  <string name="DiceInfo">Отправьте эмодзи &#127922; в любой чат, чтобы получить случайное число.</string>
   <string name="EmailPasswordConfirmText">Пожалуйста, выполните эти шаги, чтобы закончить настройку двухэтапной аутентификации:\n\n1. Проверьте почту (не забудьте о папке со спамом)\n%1$s\n\n2. Перейдите по ссылке для подтверждения.</string>
   <string name="EmojiBigSize">Большие одиночные эмодзи</string>
   <string name="EnableProxyAlert">Хотите включить этот прокси?</string>
   <string name="EnableProxyAlert2">Вы всегда можете изменить прокси-сервер в настройках &gt; Данные и память.</string>
+  <string name="GifsTab">GIF</string>
   <string name="GpsDisabledAlert">Похоже, у Вас отключён GPS. Включите его, чтобы использовать функции геопозиции в приложении.</string>
+  <string name="ImagesTab">ИЗОБРАЖЕНИЯ</string>
   <string name="KMetersAway">км отсюда</string>
   <string name="KickFromSupergroup">Ограничить пользователя</string>
   <string name="LocalDatabaseClear">Очистить кэш текстовых сообщений?</string>
+  <string name="MembersCount">Выбрано %1$d из %2$d</string>
   <string name="MetersAway">м отсюда</string>
   <string name="MobileUsage">Использование мобильной сети</string>
   <string name="NearbyPlaces">Или выберите место</string>
+  <string name="NetworkUsageMobile">МОБ. СЕТЬ</string>
+  <string name="NetworkUsageRoaming">РОУМИНГ</string>
+  <string name="NetworkUsageWiFi">WI-FI</string>
   <string name="NeverAllowPlaceholder">Всегда запрещать...</string>
   <string name="NeverShareWithPlaceholder">Всегда скрывать от пользователей...</string>
   <string name="NewThemePreviewLine2">В Токио утро &#128526;</string>
@@ -3450,10 +3567,15 @@
   <string name="PassportSDK_OpenGooglePlay">Открыть Google Play</string>
   <string name="PassportSDK_TelegramPassport">Telegram Passport</string>
   <string name="PendingEmailText">Ваш адрес электронной почты для восстановления %1$s ещё не активирован и ожидает подтверждения.</string>
+  <string name="PeopleNearbyInfo">Предложите другу зайти в этот раздел, чтобы обменяться номерами телефона.</string>
   <string name="PhoneNumberChange">СМЕНИТЬ НОМЕР</string>
+  <string name="PinToTopLimitReached">Можно закрепить не больше %1$s. Чтобы упорядочить список чатов, можно использовать архив: в нём можно закрепить неограниченное число чатов.</string>
+  <string name="PollOptions">Варианты ответа</string>
+  <string name="PreviewFeedback">Сообщить об ошибке в превью</string>
   <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
   <string name="PrivacyPayments">Платежи</string>
   <string name="PrivacyPaymentsClearInfo">Вы можете удалить свою платёжную информацию и запросить удаление сохраненных кредитных карт у платёжных провайдеров. Обратите внимание, что сам Telegram не хранит информацию о Ваших кредитных картах.</string>
+  <string name="Question">Вопрос</string>
   <string name="RegisterText">Укажите имя и фамилию</string>
   <string name="RoamingUsage">Использование сети в роуминге</string>
   <string name="SendContactTo">Отправить контакт %1$s?</string>
@@ -3466,7 +3588,12 @@
   <string name="SetAdminsAllInfo">Все участники могут добавлять новых участников, закреплять сообщения, изменять имя и фото группы.</string>
   <string name="SetAdminsNotAllInfo">Только администраторы могут добавлять и удалять участников, закреплять сообщения, изменять имя и фото группы.</string>
   <string name="SetAdminsTitle">Администраторы чата</string>
+  <string name="SharedFilesTab">ФАЙЛЫ</string>
+  <string name="SharedLinksTab">ССЫЛКИ</string>
+  <string name="SharedMediaTab">МЕДИА</string>
   <string name="SharedMediaTitle">Общие медиа</string>
+  <string name="SharedMusicTab">АУДИО</string>
+  <string name="SharedVoiceTab">ГОЛОС</string>
   <string name="ShowNearbyPlaces">Потяните, чтобы выбрать место</string>
   <string name="StopLiveLocationAlertAll">Вы точно хотите остановить трансляцию геопозиции?</string>
   <string name="StopLiveLocationAlertToGroup">Вы точно хотите прекратить транслировать свою геопозицию в чат %1$s?</string>

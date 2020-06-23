@@ -262,6 +262,11 @@
 "State.Updating" = "Обновление…";
 "State.WaitingForNetwork" = "Ожидание сети";
 
+"ChatState.Connecting" = "соединение...";
+"ChatState.ConnectingToProxy" = "подключение к прокси...";
+"ChatState.Updating" = "обновление...";
+"ChatState.WaitingForNetwork" = "ожидание сети...";
+
 // Presence
 "Presence.online" = "в сети";
 
@@ -637,7 +642,7 @@
 "GroupInfo.SetGroupPhotoStop" = "Остановить";
 "GroupInfo.SetGroupPhotoDelete" = "Удалить фото";
 "GroupInfo.Notifications" = "Уведомления";
-"GroupInfo.Sound" = "Звук сообщения";
+"GroupInfo.Sound" = "Звук";
 "GroupInfo.SetSound" = "Настроить звук";
 "GroupInfo.SharedMedia" = "Общие материалы";
 "GroupInfo.SharedMediaNone" = "Нет";
@@ -719,11 +724,11 @@
 "Notifications.ChannelNotifications" = "УВЕДОМЛЕНИЯ ОТ КАНАЛОВ";
 "Notifications.ChannelNotificationsAlert" = "Показывать уведомления";
 "Notifications.ChannelNotificationsPreview" = "Показывать текст";
-"Notifications.ChannelNotificationsSound" = "Звук сообщения";
+"Notifications.ChannelNotificationsSound" = "Звук";
 "Notifications.ChannelNotificationsHelp" = "Уведомления для отдельных каналов можно настроить в их профилях.";
 "Notifications.ChannelNotificationsExceptionsHelp" = "Настройте свои уведомления для отдельных каналов.";
 
-"Notifications.TextTone" = "Звук сообщения";
+"Notifications.TextTone" = "Звук";
 "Notifications.AlertTones" = "ЗВУКИ СООБЩЕНИЙ";
 "Notifications.ClassicTones" = "КЛАССИЧЕСКИЕ";
 
@@ -1434,7 +1439,7 @@
 "StickerPacksSettings.ShowStickersButtonHelp" = "Иконка стикера появится в поле ввода сообщений.";
 
 "StickerPacksSettings.StickerPacksSection" = "НАБОРЫ СТИКЕРОВ";
-"StickerPacksSettings.ManagingHelp" = "Любой художник может добавить собственные наборы стикеров с помощью бота @stickers.\n\nНажмите на стикер, чтобы просмотреть и добавить весь набор.";
+"StickerPacksSettings.ManagingHelp" = "Художники могут создавать собственные наборы с помощью бота @stickers.\n\nНажмите на стикер, чтобы просмотреть и добавить весь набор.";
 
 "StickerPack.BuiltinPackName" = "Великие люди";
 "StickerPack.StickerCount_1" = "%@ стикер";
@@ -1516,7 +1521,6 @@
 
 "Channel.UpdatePhotoItem" = "Загрузить фото канала";
 
-"Channel.AboutItem" = "описание";
 "Channel.LinkItem" = "ссылка";
 "Channel.Edit.AboutItem" = "Описание";
 "Channel.Edit.LinkItem" = "Ссылка";
@@ -1606,7 +1610,7 @@
 "Notification.GroupInviterSelf" = "Вы присоединились к этой группе";
 
 "ChannelInfo.DeleteChannel" = "Удалить канал";
-"ChannelInfo.DeleteChannelConfirmation" = "Внимание! Если удалить этот канал, все участники и сообщения будут потеряны. Вы точно хотите его удалить?";
+"ChannelInfo.DeleteChannelConfirmation" = "Внимание! Если удалить этот канал, все подписчики и сообщения будут потеряны. Вы точно хотите его удалить?";
 
 "ChannelInfo.ChannelForbidden" = "Канал \"%@\" больше недоступен.";
 "ChannelInfo.AddParticipantConfirmation" = "Пригласить %@ в канал?";
@@ -1839,7 +1843,7 @@
 
 "Conversation.MessageViaUser" = "с помощью %@";
 
-"CreateGroup.SoftUserLimitAlert" = "Вы сможете добавить в группу больше участников, если сделаете её супергруппой после создания.";
+"CreateGroup.SoftUserLimitAlert" = "Вы сможете добавить больше участников после создания группы.";
 
 "Privacy.GroupsAndChannels" = "Группы и каналы";
 "Privacy.GroupsAndChannels.WhoCanAddMe" = "КТО МОЖЕТ ПРИГЛАШАТЬ МЕНЯ";
@@ -2068,7 +2072,7 @@
 "Login.SmsRequestState3" = "СМС от Telegram отправлена\n[Не получили код?]";
 
 "CancelResetAccount.Title" = "Отменить сброс аккаунта";
-"CancelResetAccount.TextSMS" = "Кто-то, у кого есть доступ к Вашему номеру телефона %@, запросил удаление Вашего аккаунта и сброс пароля для двухэтапной аутентификации.\n\nЕсли это были не Вы, введите код из SMS, только что отправленного на Ваш номер.";
+"CancelResetAccount.TextSMS" = "Кто-то с доступом к Вашему номеру телефона %@ запросил удаление Вашего аккаунта Telegram и сброс Вашего пароля двухэтапной аутентификации.\n\nЕсли это были не Вы, пожалуйста, введите код из SMS, только что отправленного на Ваш номер. Чтобы отменить удаление, Вы также можете **изменить номер телефона**.";
 
 "CancelResetAccount.Success" = "Отменено удаление аккаунта %@.";
 
@@ -2147,6 +2151,7 @@
 
 
 "Stickers.Install" = "ДОБАВИТЬ";
+"Stickers.Installed" = "ДОБАВЛЕНЫ";
 
 "MaskStickerSettings.Title" = "Маски";
 "MaskStickerSettings.Info" = "Вы можете добавлять маски на отправляемые фото и видео. Для этого перед отправкой откройте визуальный редактор.";
@@ -2195,7 +2200,7 @@ Unused sets are archived when you add more.";
 
 "StickerPack.ViewPack" = "Посмотреть набор";
 "InstantPage.AuthorAndDateTitle" = "%1$@ • %2$@";
-"InstantPage.FeedbackButton" = "Оставить отзыв об этом превью";
+"InstantPage.FeedbackButton" = "Сообщить об ошибке в превью";
 "Conversation.JumpToDate" = "Перейти";
 "Conversation.AddToReadingList" = "Добавить в список для чтения";
 
@@ -2207,6 +2212,7 @@ Unused sets are archived when you add more.";
 "DialogList.Pin" = "Закрепить";
 "DialogList.Unpin" = "Открепить";
 "DialogList.PinLimitError" = "К сожалению, закрепить можно не больше %@ чатов.";
+"DialogList.UnknownPinLimitError" = "У Вас закреплено максимальное число чатов.";
 
 "Conversation.DeleteMessagesForMe" = "Удалить у меня";
 "Conversation.DeleteMessagesFor" = "Удалить у меня и у %@";
@@ -4393,7 +4399,7 @@ Any member of this group will be able to see messages in the channel.";
 "Exceptions.AddToExceptions" = "ДОБАВИТЬ В ИСКЛЮЧЕНИЯ";
 
 "Notification.Exceptions.NewException.MessagePreviewHeader" = "ПРЕДПРОСМОТР СООБЩЕНИЯ";
-"Notification.Exceptions.PreviewAlwaysOn" = "показывать сообщение";
+"Notification.Exceptions.PreviewAlwaysOn" = "Показывать сообщение";
 "Notification.Exceptions.PreviewAlwaysOff" = "скрывать сообщение";
 "Notification.Exceptions.RemoveFromExceptions" = "Убрать из исключений";
 
@@ -4508,7 +4514,7 @@ Any member of this group will be able to see messages in the channel.";
 "Channel.BotDoesntSupportGroups" = "К сожалению, разработчики бота запретили добавлять его в группы. Вы не сможете добавить его, пока они не решат изменить настройки.";
 
 "StickerPacksSettings.AnimatedStickers" = "Зациклить анимацию";
-"StickerPacksSettings.AnimatedStickersInfo" = "Анимированные стикеры в чатах будут проигрываться без остановки.";
+"StickerPacksSettings.AnimatedStickersInfo" = "Анимированные стикеры будут проигрываться без остановки.";
 "GroupInfo.Permissions.SlowmodeHeader" = "МЕДЛЕННЫЙ РЕЖИМ";
 "GroupInfo.Permissions.SlowmodeInfo" = "Выберите, как часто каждый участник сможет писать в группу.";
 "Channel.AdminLog.DisabledSlowmode" = "%@ отключил(а) медленный режим";
@@ -4525,7 +4531,7 @@ Any member of this group will be able to see messages in the channel.";
 "Chat.MultipleTextMessagesDisabled" = "Включён медленный режим. Вы не можете отправить несколько сообщений за раз.";
 "Share.MultipleMessagesDisabled" = "Включён медленный режим. Вы не можете отправить несколько сообщений за раз.";
 "Chat.SlowmodeSendError" = "Включён медленный режим.";
-"StickerPacksSettings.AnimatedStickersInfo" = "Анимированные стикеры в чатах будут проигрываться без остановки.";
+"StickerPacksSettings.AnimatedStickersInfo" = "Анимированные стикеры будут проигрываться без остановки.";
 
 "Conversation.Owner" = "владелец";
 
@@ -4750,11 +4756,11 @@ Any member of this group will be able to see messages in the channel.";
 "Theme.ErrorNotFound" = "Похоже, такой темы не существует.";
 "Theme.Unsupported" = "К сожалению, тема пока не поддерживается на Вашем устройстве";
 
-"Theme.UsersCount_1" = "Тема установлена у %@ человека";
+"Theme.UsersCount_1" = "Число установок: %@ ";
 
-"Theme.UsersCount_3_10" = "Тема установлена у %@ человек";
-"Theme.UsersCount_any" = "Тема установлена у %@ человек";
-"Theme.UsersCount_many" = "Тема установлена у %@ человек";
+"Theme.UsersCount_3_10" = "Число установок: %@ ";
+"Theme.UsersCount_any" = "Число установок: %@ ";
+"Theme.UsersCount_many" = "Число установок: %@ ";
 
 
 "Conversation.SendMessageErrorTooMuchScheduled" = "Вы не можете добавить больше 100 отложенных сообщений.";
@@ -4795,6 +4801,7 @@ Any member of this group will be able to see messages in the channel.";
  //three to ten
  // more than ten
  // more than ten
+
 
 
 
@@ -5299,6 +5306,245 @@ Any member of this group will be able to see messages in the channel.";
 
 "Conversation.LiveLocationYouAndOther" = "**Вы** и %@";
 
+"PeopleNearby.MakeVisible" = "Показать меня";
+"PeopleNearby.MakeInvisible" = "Не показывать меня";
+
+
+"PeopleNearby.ShowMorePeople_1" = "Показать ещё %@";
+
+"PeopleNearby.ShowMorePeople_3_10" = "Показать ещё %@";
+"PeopleNearby.ShowMorePeople_many" = "Показать ещё %@";
+"PeopleNearby.ShowMorePeople_any" = "Показать ещё %@";
+
+"PeopleNearby.VisibleUntil" = "показывается до %@";
+
+"PeopleNearby.MakeVisibleTitle" = "Показывать профиль";
+"PeopleNearby.MakeVisibleDescription" = "Те, кто находится рядом с Вами, смогут видеть Ваш профиль и написать Вам. Это даёт возможность найти новых друзей, но может привлечь излишнее внимание. Вы можете отключить эту функцию в любой момент.\n\nВаш номер телефона по-прежнему не будет виден.";
+
+"PeopleNearby.DiscoverDescription" = "Вы можете быстро обменяться контактами с людьми рядом и найти новых друзей.";
+
+"Time.TomorrowAt" = "завтра в %@";
+
+"PeerInfo.ButtonMessage" = "Чат";
+"PeerInfo.ButtonDiscuss" = "Обсудить";
+"PeerInfo.ButtonCall" = "Звонок";
+"PeerInfo.ButtonMute" = "Звук";
+"PeerInfo.ButtonUnmute" = "Звук";
+"PeerInfo.ButtonMore" = "Ещё";
+"PeerInfo.ButtonAddMember" = "Пригласить";
+"PeerInfo.ButtonSearch" = "Поиск";
+"PeerInfo.ButtonLeave" = "Покинуть";
+
+"PeerInfo.PaneMedia" = "Медиа";
+"PeerInfo.PaneFiles" = "Файлы";
+"PeerInfo.PaneLinks" = "Ссылки";
+"PeerInfo.PaneVoiceAndVideo" = "Голос";
+"PeerInfo.PaneAudio" = "Аудио";
+"PeerInfo.PaneGroups" = "Группы";
+"PeerInfo.PaneMembers" = "Участники";
+"PeerInfo.PaneGifs" = "GIF";
+
+"PeerInfo.AddToContacts" = "Добавить в контакты";
+
+"PeerInfo.BioExpand" = "ещё";
+
+"External.OpenIn" = "Открыть в %@";
+
+"ChatList.EmptyChatList" = "Чатов пока нет.";
+"ChatList.EmptyChatListFilterTitle" = "Папка пуста.";
+"ChatList.EmptyChatListFilterText" = "В этой папке пока нет чатов.";
+
+"ChatList.EmptyChatListNewMessage" = "Новое сообщение";
+"ChatList.EmptyChatListEditFilter" = "Настроить папку";
+
+"ChatListFilter.AddChatsTitle" = "Найти чат...";
+
+"Stats.Overview" = "ОБЩАЯ";
+"Stats.Followers" = "Подписчики";
+"Stats.EnabledNotifications" = "Уведомления включены";
+"Stats.ViewsPerPost" = "Просмотры постов";
+"Stats.SharesPerPost" = "Пересылка постов";
+
+"Stats.GrowthTitle" = "РОСТ";
+"Stats.FollowersTitle" = "ПОДПИСЧИКИ";
+"Stats.NotificationsTitle" = "УВЕДОМЛЕНИЯ";
+"Stats.InteractionsTitle" = "АКТИВНОСТЬ";
+"Stats.InstantViewInteractionsTitle" = "АКТИВНОСТЬ В INSTANT VIEW";
+"Stats.ViewsBySourceTitle" = "ИСТОЧНИКИ ПРОСМОТРОВ";
+"Stats.ViewsByHoursTitle" = "ПРОСМОТРЫ ПО ЧАСАМ (UTC)";
+"Stats.FollowersBySourceTitle" = "ИСТОЧНИКИ ПОДПИСЧИКОВ";
+"Stats.LanguagesTitle" = "ЯЗЫКИ";
+"Stats.PostsTitle" = "НЕДАВНИЕ ПОСТЫ";
+
+
+"Stats.MessageViews_1" = "%@ просм.";
+
+"Stats.MessageViews_3_10" = "%@ просм.";
+"Stats.MessageViews_many" = "%@ просм.";
+"Stats.MessageViews_any" = "%@ просм.";
+
+
+"Stats.MessageForwards_1" = "%@ поделился";
+
+"Stats.MessageForwards_3_10" = "%@ поделились";
+"Stats.MessageForwards_many" = "%@ поделились";
+"Stats.MessageForwards_any" = "%@ поделились";
+
+"Stats.LoadingTitle" = "Подготовка статистики";
+"Stats.LoadingText" = "Создание графиков может\nзанять некоторое время";
+
+"Stats.ZoomOut" = "Уменьшить";
+"Stats.Total" = "Всего";
+
+
+"InstantPage.Views_1" = "%@ просмотр";
+
+"InstantPage.Views_3_10" = "%@ просмотра";
+"InstantPage.Views_many" = "%@ просмотров";
+"InstantPage.Views_any" = "%@ просмотров";
+"InstantPage.FeedbackButtonShort" = "Ошибка в превью?";
+
+"ChatList.EditFolder" = "Настроить папку";
+"ChatList.AddChatsToFolder" = "Добавить чаты";
+"ChatList.RemoveFolderConfirmation" = "Папка будет удалена из списка. Это не затронет чаты, которые в ней находятся.";
+"ChatList.RemoveFolderAction" = "Удалить";
+"ChatList.RemoveFolder" = "Убрать";
+"ChatList.ReorderTabs" = "Изменить порядок";
+"ChatList.TabIconFoldersTooltipNonEmptyFolders" = "Удерживайте кнопку 'Чаты', чтобы настроить или выбрать папки.";
+"ChatList.TabIconFoldersTooltipEmptyFolders" = "Нажмите и удерживайте, чтобы создать папки для чатов.";
+"ChatList.AddFolder" = "Добавить папку";
+"ChatList.EditFolders" = "Настроить папки";
+"ChatList.FolderAllChats" = "Все чаты";
+"ChatList.Tabs.AllChats" = "Все чаты";
+"ChatList.Tabs.All" = "Все";
+"Settings.ChatFolders" = "Папки с чатами";
+"ChatList.ChatTypesSection" = "ТИПЫ ЧАТОВ";
+"ChatList.PeerTypeNonContact" = "не контакт";
+"ChatList.PeerTypeContact" = "контакт";
+"ChatList.PeerTypeBot" = "бот";
+"ChatList.PeerTypeGroup" = "группа";
+"ChatList.PeerTypeChannel" = "канал";
+"ChatListFolderSettings.Info" = "Вы можете создать папки с нужными чатами и переключаться между ними.";
+
+"ChatListFolderSettings.Title" = "Папки";
+"ChatListFolderSettings.FoldersSection" = "ПАПКИ";
+"ChatListFolderSettings.NewFolder" = "Создать новую папку";
+"ChatListFolderSettings.EditFoldersInfo" = "Чтобы удалить папку или изменить порядок, нажмите \"Изм\".";
+"ChatListFolderSettings.RecommendedFoldersSection" = "РЕКОМЕНДОВАННЫЕ ПАПКИ";
+"ChatListFolderSettings.RecommendedNewFolder" = "Создать свою папку";
+
+"ChatListFolder.TitleCreate" = "Новая папка";
+"ChatListFolder.TitleEdit" = "Настройки папки";
+"ChatListFolder.CategoryContacts" = "Контакты";
+"ChatListFolder.CategoryNonContacts" = "Не контакты";
+"ChatListFolder.CategoryBots" = "Боты";
+"ChatListFolder.CategoryGroups" = "Группы";
+"ChatListFolder.CategoryChannels" = "Каналы";
+"ChatListFolder.CategoryMuted" = "Без уведомлений";
+"ChatListFolder.CategoryRead" = "Прочитанные";
+"ChatListFolder.CategoryArchived" = "Архивированные";
+"ChatListFolder.NameSectionHeader" = "НАЗВАНИЕ ПАПКИ";
+"ChatListFolder.NamePlaceholder" = "Название папки";
+"ChatListFolder.IncludedSectionHeader" = "ВЫБРАННЫЕ ЧАТЫ";
+"ChatListFolder.AddChats" = "Добавить чаты";
+"ChatListFolder.IncludeSectionInfo" = "Выберите чаты или типы чатов, которые нужно показывать в этой папке.";
+"ChatListFolder.ExcludedSectionHeader" = "ИСКЛЮЧЁННЫЕ ЧАТЫ";
+"ChatListFolder.ExcludeSectionInfo" = "Выберите чаты или типы чатов, которые не нужно показывать в этой папке.";
+"ChatListFolder.NameNonMuted" = "Важные";
+"ChatListFolder.NameUnread" = "Новые";
+"ChatListFolder.NameChannels" = "Каналы";
+"ChatListFolder.NameContacts" = "Контакты";
+"ChatListFolder.NameNonContacts" = "Не контакты";
+"ChatListFolder.NameBots" = "Боты";
+"ChatListFolder.NameGroups" = "Группы";
+"ChatListFolder.DiscardConfirmation" = "Вы редактировали эту папку. Сбросить изменения?";
+"ChatListFolder.DiscardDiscard" = "Сбросить";
+"ChatListFolder.DiscardCancel" = "Нет";
+"ChatListFolder.IncludeChatsTitle" = "Чаты в папке";
+"ChatListFolder.ExcludeChatsTitle" = "Чаты не в папке";
+
+"ChatListFolderSettings.AddRecommended" = "СОЗДАТЬ";
+
+
+"ChatListFilter.ShowMoreChats_1" = "Показать ещё %@";
+
+"ChatListFilter.ShowMoreChats_3_10" = "Показать ещё %@";
+"ChatListFilter.ShowMoreChats_many" = "Показать ещё %@";
+"ChatListFilter.ShowMoreChats_any" = "Показать ещё %@";
+
+"MuteFor.Forever" = "Выключить уведомления";
+
+"Conversation.Dice.u1F3B2" = "Отправьте эмодзи кубика, чтобы сделать бросок.";
+"Conversation.Dice.u1F3AF" = "Отправьте эмодзи дартс, чтобы испытать удачу.";
+"Conversation.SendDice" = "Отправить";
+
+"Conversation.ContextMenuDiscuss" = "Обсудить";
+
+"CreatePoll.ExplanationHeader" = "ОБЪЯСНЕНИЕ";
+"CreatePoll.Explanation" = "Добавить комментарий (необязательно)";
+"CreatePoll.ExplanationInfo" = "Участники увидят этот текст, если выберут неправильный ответ (полезно для образовательных тестов).";
+
+"FeaturedStickers.OtherSection" = "ДРУГИЕ СТИКЕРЫ";
+
+"ChatList.GenericPsaAlert" = "Это канал для экстренных оповещений.";
+"ChatList.PsaAlert.covid" = "Это экстренная новость о пандемии COVID-19. Подробнее об этой инициативе: https://telegram.org/blog/coronavirus";
+"ChatList.GenericPsaLabel" = "PSA";
+"ChatList.PsaLabel.covid" = "COVID-19";
+"Chat.GenericPsaTooltip" = "Это экстренное оповещение";
+"Chat.PsaTooltip.covid" = "Это экстренная новость о пандемии COVID-19. Подробнее об этой инициативе: https://telegram.org/blog/coronavirus";
+
+"Message.GenericForwardedPsa" = "Экстренное оповещение\nОт: %@";
+"Message.ForwardedPsa.covid" = "Новость о COVID-19\nОт: %@";
+
+"Channel.AboutItem" = "описание";
+"PeerInfo.GroupAboutItem" = "описание";
+
+"Widget.ApplicationStartRequired" = "Чтобы использовать виджет, зайдите в приложение";
+
+"ChatList.Context.AddToFolder" = "Добавить в папку";
+"ChatList.Context.RemoveFromFolder" = "Убрать из папки";
+"ChatList.Context.Back" = "Назад";
+"ChatList.AddedToFolderTooltip" = "Чат с %1$@ добавлен в папку «%2$@»";
+"ChatList.RemovedFromFolderTooltip" = "Чат с %1$@ удален из папки «%2$@»";
+
+"OwnershipTransfer.Transfer" = "Передать";
+
+"TwoStepAuth.Disable" = "Отключить";
+
+"Chat.Gifs.TrendingSectionHeader" = "ПОПУЛЯРНЫЕ GIF";
+"Chat.Gifs.SavedSectionHeader" = "МОИ GIF";
+
+"Paint.Framed" = "С фоном";
+
+"Media.SendingOptionsTooltip" = "Удерживайте кнопку, чтобы задать таймер для удаления.";
+"Media.SendWithTimer" = "Задать таймер";
+
+"Conversation.Timer.Title" = "Задать таймер";
+"Conversation.Timer.Send" = "Задать таймер";
+
+
+
+
+
+
+"Conversation.NoticeInvitedByInChannel" = "%@ пригласил(а) вас в этот канал";
+"Conversation.NoticeInvitedByInGroup" = "%@ пригласил(а) вас в эту группу";
+
+"ChatList.MessagePhotos_1" = "%@ фото";
+"ChatList.MessagePhotos_any" = "%@ фото";
+"ChatList.MessageVideos_1" = "%@ видео";
+"ChatList.MessageVideos_any" = "%@ видео";
+
+"Conversation.PrivateChannelTimeLimitedAlertTitle" = "Подписаться";
+"Conversation.PrivateChannelTimeLimitedAlertText" = "Этот частный канал. Чтобы видеть материалы в дальнейшем, необходимо подписаться на него.";
+"Conversation.PrivateChannelTimeLimitedAlertJoin" = "Подписаться";
+
+
+
+
+
+
+
 
 /* new from translations.telegram.org */
 
@@ -5404,6 +5650,13 @@ Any member of this group will be able to see messages in the channel.";
 "Chat.DeleteMessagesConfirmation_many" = "Удалить %@ сообщений";
 "ChatList.DeletedChats_3_10" = "Удалено %@ чата";
 "ChatList.DeletedChats_many" = "Удалено %@ чатов";
+"ChatList.EmptyChatFilterList" = "Эта папка пуста.";
+"ChatList.MessagePhotos_3_10" = "%@ фото";
+"ChatList.MessagePhotos_many" = "%@ фото";
+"ChatList.MessageVideos_3_10" = "%@ видео";
+"ChatList.MessageVideos_many" = "%@ видео";
+"Conversation.Dice" = "Отправьте эмодзи 🎲 в любой чат, чтобы получить случайное число.";
+"Conversation.Dice." = "Чтобы сделать бросок, отправьте эмодзи кубика.";
 "DataUpgrade.Running" = "Оптимизация...";
 "ENCRYPTED_MESSAGE" = "Вам пришло сообщение%1$@";
 "ENCRYPTION_ACCEPT" = "Ваш секретный чат принят%1$@";
@@ -5412,6 +5665,10 @@ Any member of this group will be able to see messages in the channel.";
 "EditTheme.ThemeTemplateAlert" = "Тема добавлена\n\nНажмите на тему и удерживайте, чтобы отредактировать её или задать короткую ссылку. При изменениях тема будет обновляться у тех, кто её установил.\n\nДля тонкой настройки можно использовать файл с темой, который доступен в Вашем чате «Избранное».";
 "EditTheme.UploadEditedInfo" = "Загрузите файл с изменениями, и тема обновится у всех пользователей.";
 "EditTheme.UploadNewInfo" = "По умолчанию тема будет создана на основе темы и фона, которые Вы используете. Вы также можете загрузить файл с нужной темой.";
+"ForwardedDices_1" = "Переслан %@ кубик";
+"ForwardedDices_3_10" = "Переслано %@ кубика";
+"ForwardedDices_many" = "Переслано %@ кубиков";
+"ForwardedDices_any" = "Переслано %@ кубика";
 "InviteText.ContactsCount_1" = "Привет, я использую Telegram для переписки. Присоединяйся! Скачать можно здесь: %@";
 "InviteText.ContactsCount_3_10" = "Привет, я использую Telegram для переписки — как и ещё %@ наших контакта. Присоединяйся! Скачать можно здесь: %@";
 "InviteText.ContactsCount_many" = "Привет, я использую Telegram для переписки — как и ещё %@ наших контактов. Присоединяйся! Скачать можно здесь: %@";
@@ -5580,6 +5837,7 @@ Any member of this group will be able to see messages in the channel.";
 "PassportKit.Button.GetTelegramAlertTitle" = "Установка Telegram Messenger";
 "PassportKit.Button.Title" = "Войти через Telegram";
 "Peer.DeletedUser" = "Удалённый аккаунт";
+"PeerInfo.PaneVoice" = "Голосовые сообщения";
 "PollResults.ShowMore_3_10" = "Показать ещё (%@)";
 "PollResults.ShowMore_many" = "Показать ещё (%@)";
 "SocksProxySetup.UseSocks5" = "SOCKS5-прокси";

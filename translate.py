@@ -13,7 +13,7 @@ def translator(string: str) -> str:
         if pos != -1:
             pos += len(pattern)
             string = string[:pos] + ')' + string[pos:]
- 
+
     if random.randint(1, 43) == 42:
         return string + '...)'
 
@@ -47,7 +47,7 @@ def translate(path: Path = Path('translations')):
         print(f'   Processing: {f_original}')
         f_dest = path_dest / f_original.name.replace('_ru_', '_skobochka_')
 
-        translation = f_original.read_text()
+        translation = f_original.read_text(encoding='utf-8')
         result = translation
 
         if f_original.suffix == '.strings':
@@ -57,7 +57,7 @@ def translate(path: Path = Path('translations')):
             result = translate_xml(translation)
 
         print(f'Saving result: {f_dest}\n')
-        f_dest.write_text(result)
+        f_dest.write_text(result, encoding='utf-8')
 
     print('Finished!')
 
