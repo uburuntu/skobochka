@@ -36,6 +36,8 @@
   <string name="language_appliedLanguage">Теперь Вы используете приложение на русском.</string>
   <string name="MoreLanguages">Другие языки</string>
   <string name="timestamp_now">только что</string>
+  <string name="timestamp_seconds_one">%1$s секунду назад</string>
+  <string name="timestamp_seconds_other">%1$s секунды назад</string>
   <string name="timestamp_minutes_one">%1$s минуту назад</string>
   <string name="timestamp_minutes_other">%1$s минут назад</string>
   <string name="timestamp_hours_one">%1$s час назад</string>
@@ -46,6 +48,8 @@
   <string name="timestamp_weekday">%1$s в %2$s</string>
   <string name="timestamp_date">%1$s в %2$s</string>
   <string name="timestampShort_now">сейчас</string>
+  <string name="timestampShort_seconds_one">%1$s сек. назад</string>
+  <string name="timestampShort_seconds_other">%1$s сек. назад</string>
   <string name="timestampShort_minutes_one">%1$s мин. назад</string>
   <string name="timestampShort_minutes_other">%1$s мин. назад</string>
   <string name="timestampShort_hours_one">%1$s час назад</string>
@@ -61,6 +65,7 @@
   <string name="format_concatSeparator">", "</string>
   <string name="format_concatSeparatorLast">" и "</string>
   <string name="format_concatSeparatorLastPerson">" и "</string>
+  <string name="format_trimmedDuration">%1$s / %2$s</string>
   <string name="format_numberSuffix_thousand">тыс</string>
   <string name="format_numberSuffix_million">млн</string>
   <string name="format_numberSuffix_billion">млрд</string>
@@ -73,16 +78,18 @@
   <string name="format_fileSizeAndDescription">%2$s, %1$s</string>
   <string name="format_fileSizeAndExtension">%1$s %2$s</string>
   <string name="format_filesAndFolders">%1$s, %2$s</string>
-  <string name="format_contentAndModifyDate">%1$s, изменения %2$s</string>
-  <string name="format_locationUpdated">обновлено %1$s</string>
+  <string name="format_contentAndModifyDate2">%1$s, %2$s</string>
   <string name="format_plus">+%1$d</string>
   <string name="format_minus">-%1$d</string>
   <string name="format_minusPlus">-%1$d, +%2$d</string>
   <string name="format_ping">пинг: %1$s мс</string>
   <string name="format_pingBest">пинг: %1$s мс, лучший</string>
   <string name="format_ivAuthorDateSeparator">" • "</string>
+  <string name="format_ivRelatedInfo">%1$s • %2$s</string>
   <string name="format_notificationTitleShort">%1$s (%2$s)</string>
   <string name="format_channelAndSignature">%1$s (%2$s)</string>
+  <string name="format_minutesAndSeconds">%1$s и %2$s</string>
+  <string name="format_chatAndSignature">%1$s (%2$s)</string>
   <string name="messagesCount_one">%1$s</string>
   <string name="messagesCount_other">%1$s</string>
   <string name="format_notificationContentGroup">%1$s: %2$s</string>
@@ -102,10 +109,10 @@
   <string name="login_PHONE_NUMBER_INVALID">Некорректный номер телефона. Пожалуйста, проверьте номер и попробуйте снова.\n\nЕсли номер правильный, Вы можете __сообщить нам о проблеме__.</string>
   <string name="login_PHONE_NUMBER_BANNED">Этот номер телефона заблокирован. Вы можете __сообщить нам о проблеме__.</string>
   <string name="location_Nearby">Поблизости</string>
-  <string name="location_AwayMeters">%1$s метров отсюда</string>
-  <string name="location_AwayKilometers">%1$s км отсюда</string>
+  <string name="location_AwayMeters">%1$s м от Вас</string>
+  <string name="location_AwayKilometers">%1$s км от Вас</string>
   <string name="location_personNearby">поблизости</string>
-  <string name="location_personAwayMeters">на расстоянии %1$s м</string>
+  <string name="location_personAwayMeters">%1$s м от Вас</string>
   <string name="location_personAwayKilometers">в %1$s км от Вас</string>
   <string name="status_Online">в сети</string>
   <string name="status_LastSeenRecently">был(а) недавно</string>
@@ -117,6 +124,8 @@
   <string name="status_LastSeen_yesterday">был(а) вчера в %1$s</string>
   <string name="status_LastSeen_weekday">был(а) в %1$s в %2$s</string>
   <string name="status_LastSeen_date">был(а) %1$s в %2$s</string>
+  <string name="status_LastSeen_seconds_one">был(а) %1$s секунду назад</string>
+  <string name="status_LastSeen_seconds_other">был(а) %1$s секунды назад</string>
   <string name="status_LastSeen_minutes_one">был(а) %1$s минуту назад</string>
   <string name="status_LastSeen_minutes_other">был(а) %1$s минут назад</string>
   <string name="status_LastSeen_hours_one">был(а) %1$s час назад</string>
@@ -216,6 +225,8 @@
   <string name="xSec_other">%1$s сек</string>
   <string name="xUsers_one">%1$s пользователь</string>
   <string name="xUsers_other">%1$s пользователей</string>
+  
+  
   <string name="xSessions_one">%1$s сеанс</string>
   <string name="xSessions_other">%1$s сеансов</string>
   <string name="xMonths_one">%1$s месяц</string>
@@ -257,6 +268,14 @@
   <string name="general_Messages">Сообщения</string>
   <string name="SelectChat">Выбор чата</string>
   <string name="Message">Сообщение</string>
+  <string name="MessageAnonymously">Отправить анонимно</string>
+  
+  <string name="MessageReply">Ответить</string>
+  
+  <string name="MessageReplyAnonymously">Ответить анонимно</string>
+  <string name="CommentAnonymously">Комментировать анонимно</string>
+  <string name="Comment">Комментировать</string>
+  
   <string name="DeletedMessage">Удалённое сообщение</string>
   <string name="UnsupportedMessage">Сообщение не поддерживается</string>
   <string name="UnsupportedMessageType">Сообщение не поддерживается</string>
@@ -265,7 +284,7 @@
   <string name="ChatContentVoice">Голосовое сообщение</string>
   <string name="ChatContentVoiceDuration">%1$s (%2$s)</string>
   <string name="ChatContentRoundVideo">Видеосообщение</string>
-  <string name="ChatContentDart">Дартс: бросок...</string>
+  <string name="ChatContentDart">Дартс: бросок…</string>
   <string name="ChatContentDart1">Дартс: мимо!</string>
   <string name="ChatContentDart2">Бросок дротика</string>
   <string name="ChatContentDart3">Бросок дротика</string>
@@ -279,6 +298,19 @@
   <string name="ChatContentFile">Файл</string>
   <string name="ChatContentPhoto">Фотография</string>
   <string name="ChatContentAnimation">GIF</string>
+  <string name="ChatContentProximityM_one">%2$s находится в %1$s метре от %3$s</string>
+  <string name="ChatContentProximityM_other">%2$s находится в %1$s метрах от %3$s</string>
+  <string name="ChatContentProximityKm_one">%2$s находится в %1$s километре от %3$s</string>
+  <string name="ChatContentProximityKm_other">%2$s находится в %1$s километрах от %3$s</string>
+  <string name="ChatContentProximityYouM_one">Вы находитесь в %1$s метре от %2$s</string>
+  <string name="ChatContentProximityYouM_other">Вы находитесь в %1$s метрах от %2$s</string>
+  <string name="ChatContentProximityYouKm_one">Вы находитесь в %1$s километре от %2$s</string>
+  <string name="ChatContentProximityYouKm_other">Вы находитесь в %1$s километрах от %2$s</string>
+  <string name="ChatContentProximityFromYouM_one">%2$s находится в %1$s метре от Вас</string>
+  <string name="ChatContentProximityFromYouM_other">%2$s находится в %1$s метрах от Вас</string>
+  <string name="ChatContentProximityFromYouKm_one">%2$s находится в %1$s километре от Вас</string>
+  <string name="ChatContentProximityFromYouKm_other">%2$s находится в %1$s километрах от Вас</string>
+
   <string name="ChatContentSong">%1$s – %2$s</string>
   <string name="ChatContentCallWithDuration">%1$s (%2$s)</string>
   <string name="ChatContentGroupCreate">Создал(а) группу</string>
@@ -307,6 +339,72 @@
   <string name="ChatContentGroupPhotoRemove_outgoing">Удалил(а) фотографию группы</string>
   <string name="ChatContentGroupName">Группа переименована в «%1$s»</string>
   <string name="ChatContentGroupName_outgoing">Группа переименована в «%1$s»</string>
+  <string name="ChatContentThemeSet">Тема чата изменена на %1$s</string>
+  <string name="ChatContentThemeSet_outgoing">Тема чата изменена на %1$s</string>
+  <string name="ChatContentGroupTtlSeconds_one">Включено удаление сообщений через %1$s секунду</string>
+  <string name="ChatContentGroupTtlSeconds_other">Включено удаление сообщений через %1$s секунды</string>
+  <string name="ChatContentGroupTtlMinutes_one">Включено удаление сообщений через %1$s минуту</string>
+  <string name="ChatContentGroupTtlMinutes_other">Включено удаление сообщений через %1$s минуты</string>
+  <string name="ChatContentGroupTtlHours_one">Включено удаление сообщений через %1$s час</string>
+  <string name="ChatContentGroupTtlHours_other">Включено удаление сообщений через %1$s часа</string>
+  <string name="ChatContentGroupTtlDays_one">Автоудаление сообщений через %1$s день</string>
+  <string name="ChatContentGroupTtlDays_other">Автоудаление сообщений через %1$s дня</string>
+  <string name="ChatContentGroupTtlWeeks_one">Автоудаление сообщений через %1$s неделю</string>
+  <string name="ChatContentGroupTtlWeeks_other">Автоудаление сообщений через %1$s недель</string>
+  <string name="ChatContentGroupTtlMonths_one">Автоудаление сообщений через %1$s месяц</string>
+  <string name="ChatContentGroupTtlMonths_other">Автоудаление сообщений через %1$s месяца</string>
+  <string name="ChatContentGroupTtlOff">Отключено автоудаление сообщений</string>
+  <string name="ChatContentChannelTtlSeconds_one">Включено удаление сообщений через %1$s секунду</string>
+  <string name="ChatContentChannelTtlSeconds_other">Включено удаление сообщений через %1$s секунд</string>
+  <string name="ChatContentChannelTtlMinutes_one">Включено удаление сообщений через %1$s минуту</string>
+  <string name="ChatContentChannelTtlMinutes_other">Включено удаление сообщений через %1$s минуты</string>
+  <string name="ChatContentChannelTtlHours_one">Включено удаление сообщений через %1$s час</string>
+  <string name="ChatContentChannelTtlHours_other">Включено удаление сообщений через %1$s часа</string>
+  <string name="ChatContentChannelTtlDays_one">Автоудаление сообщений через %1$s день</string>
+  <string name="ChatContentChannelTtlDays_other">Автоудаление сообщений через %1$s дня</string>
+  <string name="ChatContentChannelTtlWeeks_one">Автоудаление сообщений через %1$s неделю</string>
+  <string name="ChatContentChannelTtlWeeks_other">Автоудаление сообщений через %1$s недель</string>
+  <string name="ChatContentChannelTtlMonths_one">Автоудаление сообщений через %1$s месяц</string>
+  <string name="ChatContentChannelTtlMonths_other">Автоудаление сообщений через %1$s месяца</string>
+  <string name="ChatContentChannelTtlOff">Отключено автоудаление сообщений</string>
+  <string name="ChatContentTtlSeconds_one">Включено удаление сообщений через %1$s секунду</string>
+  <string name="ChatContentTtlSeconds_other">Включено удаление сообщений через %1$s секунды</string>
+  <string name="ChatContentTtlMinutes_one">Включено удаление сообщений через %1$s минуту</string>
+  <string name="ChatContentTtlMinutes_other">Включено удаление сообщений через %1$s минуты</string>
+  <string name="ChatContentTtlHours_one">Включено удаление сообщений через %1$s час</string>
+  <string name="ChatContentTtlHours_other">Включено удаление сообщений через %1$s часа</string>
+  <string name="ChatContentTtlDays_one">Автоудаление сообщений через %1$s день</string>
+  <string name="ChatContentTtlDays_other">Автоудаление сообщений через %1$s дня</string>
+  <string name="ChatContentTtlWeeks_one">Включено удаление сообщений через %1$s неделю</string>
+  <string name="ChatContentTtlWeeks_other">Включено удаление сообщений через %1$s недели</string>
+  <string name="ChatContentTtlMonths_one">Включено удаление сообщений через %1$s месяц</string>
+  <string name="ChatContentTtlMonths_other">Включено удаление сообщений через %1$s месяца</string>
+  <string name="ChatContentTtlOff">Отключено удаление по таймеру</string>
+
+  <string name="ChatContentVoiceChatStarted">Начат видеочат</string>
+  <string name="ChatContentVoiceChatStarted_outgoing">Начат видеочат</string>
+  <string name="ChatContentVoiceChatFinished">Видеочат завершён (%1$s)</string>
+  <string name="ChatContentVoiceChatFinished_outgoing">Видеочат завершён (%1$s)</string>
+  <string name="ChatContentVoiceChatInviteYou">Вы приглашены в видеочат</string>
+  <string name="ChatContentVoiceChatInvite">%1$s приглашен(а) в видеочат</string>
+  <string name="ChatContentVoiceChatInvite_outgoing">%1$s приглашен(а) в видеочат</string>
+  <string name="ChatContentVoiceChatInviteMulti_one">%1$s участник приглашён в видеочат</string>
+  <string name="ChatContentVoiceChatInviteMulti_other">%1$s участника приглашены в видеочат</string>
+  <string name="ChatContentVoiceChatInviteMulti_outgoing_one">%1$s участник приглашён в видеочат</string>
+  <string name="ChatContentVoiceChatInviteMulti_outgoing_other">%1$s участника приглашены в видеочат</string>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
   <string name="Audio">Аудио</string>
   <string name="Voice">Аудиосообщения</string>
   <string name="Photo">Фото</string>
@@ -317,6 +415,8 @@
   <string name="Location">Геопозиция</string>
   <string name="AttachContact">Контакт</string>
   <string name="FromYou">Вы</string>
+  <string name="FromYouAnonymous">Вы (анонимно)</string>
+  <string name="FromAnonymous">Администратор</string>
   <string name="Username">Имя пользователя</string>
   <string name="Phone">Телефон</string>
   <string name="prompt_network">Нет подключения к сети. Пожалуйста, попробуйте позже</string>
@@ -365,6 +465,7 @@
   <string name="edit">Изменить</string>
   <string name="Delete">Удалить</string>
   <string name="BotInvite">Добавить в группу</string>
+  <string name="GameInvite">Пригласить в игру</string>
   <string name="AddContact">Добавить контакт</string>
   <string name="takePhoto">Сделать снимок</string>
   <string name="pickFromGallery">Выбрать из галереи</string>
@@ -372,6 +473,7 @@
   <string name="ClearHistory">Очистить историю</string>
   <string name="Cancel">Отмена</string>
   <string name="AddMember">Добавить участника</string>
+  <string name="AddMembers">Добавить участников</string>
   <string name="DeleteAndLeave">Удалить и выйти</string>
   <string name="justAdd">Просто добавить в группу</string>
   <string name="KickFromGroup">Убрать из группы</string>
@@ -386,7 +488,7 @@
   <string name="Unmute">Вкл. уведомления</string>
   <string name="returnToGroup">Вернуться в группу</string>
   <string name="returnToChannel">Вернуться в канал</string>
-  <string name="LoadingUser">Загрузка пользователя...</string>
+  <string name="LoadingUser">Загрузка пользователя…</string>
   <string name="LoadingUsername">Загрузка имени пользователя…</string>
   <string name="LoadingPhone">Загрузка номера телефона…</string>
   <string name="HiddenName">Удалённый аккаунт</string>
@@ -397,6 +499,7 @@
   <string name="DescriptionInfo">Можете указать дополнительное описание канала.</string>
   <string name="ChannelName">Название канала</string>
   <string name="ServiceNotifications">служебные уведомления</string>
+  <string name="ReplyNotifications">уведомления о комментариях</string>
   <string name="Bot">бот</string>
   <string name="Support">поддержка</string>
   <string name="SupportOnline">поддержка (в сети)</string>
@@ -414,7 +517,7 @@
   <string name="ChannelPrivate">Частный канал</string>
   <string name="ChannelPrivateInfo">На частные каналы можно подписаться только по ссылке-приглашению.</string>
   <string name="ChannelPrivateLinkHelp">По этой ссылке можно подписаться на канал. Вы можете сбросить ссылку в любой момент.</string>
-  <string name="SendMessageTo">Отправить сообщение...</string>
+  <string name="SendMessageTo">Отправить сообщение…</string>
   <string name="GroupName">Имя группы</string>
   <string name="GroupDontAdd">Не добавлять в группу</string>
   <string name="GroupEnterValidName">Пожалуйста, введите корректное имя группы</string>
@@ -448,6 +551,8 @@
   <string name="ParticipantXLimitReached_one">Вы можете добавить в группу не больше %1$s участника</string>
   <string name="ParticipantXLimitReached_other">Вы можете добавить в группу не больше %1$s участников</string>
   <string name="Reply">Ответить</string>
+  <string name="ViewXReplies_one">Посмотреть %1$s ответ</string>
+  <string name="ViewXReplies_other">Посмотреть %1$s ответа</string>
   <string name="Select">Выбрать</string>
   <string name="Open">Открыть</string>
   <string name="OpenInExternalApp">Открыть с помощью…</string>
@@ -455,6 +560,27 @@
   <string name="NothingFound">Ничего не найдено</string>
   <string name="Gallery">Галерея</string>
   <string name="ChatCamera">Камера</string>
+
+  <string name="VoiceChatInviteOther">Вы пригласили %1$s в видеочат</string>
+  <string name="VoiceChatInviteSelf">%1$s пригласил(а) Вас в видеочат</string>
+  <string name="VoiceChatInvite">%1$s пригласил(а) %2$s в видеочат</string>
+  <string name="VoiceChatStarted">Видеочат начался</string>
+  <string name="VoiceChatStartedBy">%1$s начал(а) видеочат</string>
+  <string name="VoiceChatStartedYou">Вы начали видеочат</string>
+  <string name="VoiceChatEnded">Видеочат завершён</string>
+  <string name="VoiceChatEndedBy">%1$s закончил(а) видеочат</string>
+  <string name="VoiceChatEndedYou">Вы закончили видеочат</string>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
   <string name="group_create_you">Вы создали группу «%1$s»</string>
   <string name="group_photo_changed">%1$s изменил(а) фотографию группы</string>
   <string name="group_photo_changed_you">Вы изменили фотографию группы</string>
@@ -472,6 +598,8 @@
   <string name="group_user_remove_self">Вы покинули группу</string>
   <string name="group_user_join_by_link">%1$s вступил(а) в группу по ссылке-приглашению</string>
   <string name="group_user_join_by_link_self">Вы вступили в группу по ссылке-приглашению</string>
+  
+  
   <string name="group_created">%1$s создал(а) группу «%2$s»</string>
   <string name="group_title_changed">%1$s изменил(а) имя группы на «%2$s»</string>
   <string name="group_title_changed_you">Вы изменили название группы на «%1$s»</string>
@@ -499,7 +627,11 @@
   <string name="LoadingMessages">Загрузка сообщений…</string>
   <string name="LoadingMessage">Загрузка сообщения…</string>
   <string name="SaveGif">Сохранить GIF</string>
+  <string name="SaveXGifs_one">Сохранить %1$s GIF</string>
+  <string name="SaveXGifs_other">Сохранить %1$s GIF</string>
   <string name="GifSaved">Теперь GIF-анимация доступна на панели медиа</string>
+  <string name="XGifSaved_one">%1$s новый GIF доступен на панели с мультимедиа</string>
+  <string name="XGifSaved_other">%1$s новых GIF доступны на панели с мультимедиа</string>
   <string name="RemoveGifConfirm">Удалить сохранённый GIF?</string>
   <string name="NoMediaYet">Нет фотографий или видео</string>
   <string name="AttachAudio">Голосовое сообщение</string>
@@ -507,14 +639,25 @@
   <string name="ChatsAndContacts">Чаты и контакты</string>
   <string name="GlobalSearch">Глобальный поиск</string>
   <string name="Recent">Недавние</string>
-  <string name="ClearRecentsHint">Очистить список недавних чатов?</string>
+  <string name="ClearRecentsHint">Очистить историю поиска?</string>
   <string name="YoutubeRotateHint">Поверните экран, чтобы уменьшить плеер</string>
   <string name="PublicLinkTooShort">Cлишком короткий адрес</string>
   <string name="PublicLinkIsInvalid">Публичная ссылка может содержать только символы a–z, 0–9 и подчёркивание.</string>
   <string name="SaveToGallery">Сохранить в галерею</string>
+  <string name="SaveXToGallery_one">Сохранить %1$s файл в галерею</string>
+  <string name="SaveXToGallery_other">Сохранить %1$s файл в галерею</string>
   <string name="PhotoHasBeenSavedToGallery">Фотография сохранена в галерею</string>
+  <string name="XPhotoSaved_one">%1$s фотография сохранена в Галерею</string>
+  <string name="XPhotoSaved_other">%1$s фотографии сохранены в Галерею</string>
   <string name="VideoHasBeenSavedToGallery">Видео сохранено в галерею</string>
+  <string name="XVideoSaved_one">%1$s видео сохранено в Галерею</string>
+  <string name="XVideoSaved_other">%1$s видео сохранены в Галерею</string>
   <string name="ChannelSignMessages">Подписывать сообщения</string>
+  
+  
+  
+  
+  
   <string name="PostNotFound">Публикация не найдена</string>
   <string name="OpenSupergroup">Открыть супергруппу</string>
   <string name="Call">Позвонить</string>
@@ -538,7 +681,7 @@
   <string name="ConfirmYourFingerprint">Подтвердите отпечаток пальца</string>
   <string name="UnlockByPIN">Для разблокировки введите ПИН-код</string>
   <string name="UnlockByPassword">Для разблокировки введите пароль</string>
-  <string name="UnlockByPattern">Для разблокировки введите графический ключ</string>
+  <string name="UnlockByPattern">Нарисуйте свой графический ключ</string>
   <string name="UnlockByGesture">Для разблокировки проведите выбранный Вами жест</string>
   <string name="UnlockByFingerprint">Коснитесь сенсора для разблокировки</string>
   <string name="SecretLinkPreviewEnable">Включить</string>
@@ -552,18 +695,16 @@
   <string name="fileSize_GB">%1$s Гб</string>
   <string name="fileSize_MB">%1$s Мб</string>
   <string name="fileSize_KB">%1$s Кб</string>
-  <!--<string name="unit_GB">%1$s GB</string>
-  <string name="unit_MB">%1$s MB</string>
-  <string name="unit_KB">%1$s KB</string>
-  <string name="unit_GiB">%1$s GiB</string>
-  <string name="unit_MiB">%1$s MiB</string>
-  <string name="unit_KiB">%1$s KiB</string>-->
+  <string name="fileSize_GiB">%1$s ГиБ</string>
+  <string name="fileSize_MiB">%1$s МиБ</string>
+  <string name="fileSize_KiB">%1$s КиБ</string>
   <string name="DownloadingOf">%1$s из %2$s</string>
   <string name="Downloading">Загрузка %1$s из %2$s</string>
   <string name="Confirm">Подтвердить</string>
   <string name="TooManyPublicChannels">К сожалению, Вы создали слишком много публичных каналов. Вы можете создать частный канал или сделать частным один из уже созданных каналов.</string>
   <string name="TooManyPublicLinks">Вы используете слишком много публичных ссылок.\nВы можете удалить одну из уже занятых ссылок на свои группы или каналы, сделав их приватными.</string>
-  <string name="UserIsAlreadyInChat">Пользователь уже в чате</string>
+  <string name="XIsAlreadyInChat">%1$s уже является участником этого чата</string>
+  <string name="XIsAlreadyAdmin">%1$s уже имеет права администратора</string>
   <string name="ProfilePhoto">Фотография профиля</string>
   <string name="GroupPhoto">Фотография группы</string>
   <string name="ChannelPhoto">Фотография канала</string>
@@ -604,6 +745,7 @@
   <string name="SearchForPlaces">Поиск мест</string>
   <string name="SearchForImages">Поиск изображений</string>
   <string name="AllMedia">Все медиа</string>
+  <string name="AllVideos">Все видео</string>
   <string name="UserUnavailable">пользователь недоступен</string>
   <string name="YouCantForwardMoreMessages_one">К сожалению, Вы не можете переслать больше %1$s сообщения разом</string>
   <string name="YouCantForwardMoreMessages_other">К сожалению, Вы не можете переслать больше %1$s сообщений разом</string>
@@ -633,6 +775,7 @@
   <string name="DetectLocationError">Не удалось определить местоположение.</string>
   <string name="ShareYouLocationUnableManually">Выбрать вручную</string>
   <string name="NoLocationAccess">Для этой функции требуется доступ к Вашей геопозиции.</string>
+  <string name="NoLocationAccessBackground">Для этой функции требуется доступ к геопозиции в фоновом режиме.</string>
   <string name="NoGoogleMaps">Эта функция требует установленных Google Maps.</string>
   <string name="NoStorageAccess">Для этой функции требуется доступ к внутреннему хранилищу.</string>
   <string name="NoMicrophoneAccess">Для этой функции требуется доступ к микрофону.</string>
@@ -649,8 +792,8 @@
   <string name="OpenThisLink">Перейти по ссылке?\n\n%1$s</string>
   <string name="YouCantSendMessages">Вы не можете отправлять сообщения в этот чат</string>
   <string name="NewSecretChat">Создать секретный чат</string>
-  <string name="NewSecretChatWith">Новый секретный чат...</string>
-  <string name="AwaitingEncryption">Ждём появления %1$s в сети...</string>
+  <string name="NewSecretChatWith">Новый секретный чат…</string>
+  <string name="AwaitingEncryption">Ждём появления %1$s в сети…</string>
   <string name="XJoinedSecretChat">%1$s теперь в секретном чате</string>
   <string name="YouJoinedSecretChat">Вы присоединились к секретному чату</string>
   <string name="SecretChatCancelled">Секретный чат отменён</string>
@@ -720,17 +863,22 @@
   <string name="NoRestrictions">Без ограничений</string>
   <string name="Save">Сохранить</string>
   <string name="PrivacyTitle">Конфиденциальность</string>
-  <string name="BlockedUsers">Чёрный список</string>
+  
   <string name="LastSeen">Последняя активность</string>
   <string name="GroupsAndChannels">Группы и каналы</string>
   <string name="SecurityTitle">Безопасность</string>
   <string name="SessionsTitle">Активные сеансы</string>
+  <string name="ActiveDevices">Активные устройства</string>
+  <string name="OtherDevices">Другие устройства</string>
   <string name="SessionsIncompleteTitle">Незавершённые попытки входа</string>
   <string name="SessionsIncompleteInfo">С этих устройств нет доступа к Вашему аккаунту. Код для входа был введён верно, но правильный пароль указан не был.</string>
   <string name="TwoStepVerification">Двухэтапная аутентификация</string>
   <string name="PasswordEnabled">Включена</string>
   <string name="PasswordDisabled">Не используется</string>
   <string name="CurrentSession">Текущий сеанс</string>
+  <string name="ThisDevice">Данное устройство</string>
+  <string name="Devices">Устройства</string>
+  <string name="DevicesTitle">Устройства</string>
   <string name="NoOtherSessions">Нет других активных сеансов</string>
   <string name="NoOtherSessionsInfo">Вы можете войти в Telegram с другого смартфона, планшета или компьютера, используя тот же номер телефона. Все данные будут мгновенно синхронизированы.</string>
   <string name="TerminateAllSessions">Завершить все другие сеансы</string>
@@ -773,7 +921,7 @@
   <string name="SinceNotProvided">Так как Вы не указали адрес электронной почты для восстановления пароля, то оставшиеся варианты — вспомнить пароль или сбросить аккаунт.</string>
   <string name="PendingEmailText">Адрес для восстановления пароля (%1$s) ещё не активирован и ожидает подтверждения.</string>
   <string name="CreateAHintForYourPassword">Введите подсказку для пароля</string>
-  <string name="HavingTroubleAccessing">Нет доступа к электронной почте %1$s?</string>
+  <string name="HavingTroubleAccessing">Нет доступа к %1$s?</string>
   <string name="RestoreEmailTroubleText">Если Вы не можете восстановить доступ к электронной почте, то оставшиеся варианты — вспомнить пароль или сбросить аккаунт.</string>
   <string name="EnterCode">Введите код</string>
   <string name="PasswordRecovery">Восстановление пароля</string>
@@ -836,15 +984,112 @@
   <string name="Add">Добавить</string>
   <string name="AddMemberBtn">Добавить</string>
   <string name="BlockListEmpty">Вы пока никого не заблокировали</string>
-  <string name="QBlockX">Заблокировать %1$s?</string>
+  
+  
+  
+  
   <string name="QUnblockX">Разблокировать %1$s?</string>
   <string name="YouTookAScreenshot">Вы сделали снимок экрана</string>
   <string name="XTookAScreenshot">%1$s сделал(а) скриншот</string>
+
   <string name="YouDisabledTimer">Вы отключили удаление по таймеру</string>
   <string name="XDisabledTimer">%1$s отключил(а) удаление по таймеру.</string>
-  <string name="YouSetTimer">Вы включили удаление по таймеру через %1$s</string>
-  <string name="XSetTimer">%1$s включил(а) удаление по таймеру через %2$s</string>
-  <string name="AddCaption">Добавить подпись...</string>
+  <string name="YouDisabledAutoDelete">Вы отключили удаление по таймеру</string>
+  <string name="XDisabledAutoDelete">%1$s отключил(а) удаление по таймеру</string>
+  <string name="YouDisabledAutoDeletePosts">Вы отключили удаление по таймеру</string>
+  <string name="XDisabledAutoDeletePosts">%1$s отключил(а) удаление по таймеру</string>
+
+  <string name="XSetTimerSeconds_one">%2$s включил(а) удаление по таймеру через %1$s секунду</string>
+  <string name="XSetTimerSeconds_other">%2$s включил(а) удаление по таймеру через %1$s секунды</string>
+  <string name="YouSetTimerSeconds_one">Вы включили удаление по таймеру через %1$s секунду</string>
+  <string name="YouSetTimerSeconds_other">Вы включили удаление по таймеру через %1$s секунды</string>
+
+  <string name="XSetTimerMinutes_one">%2$s включил(а) удаление по таймеру через %1$s минуту</string>
+  <string name="XSetTimerMinutes_other">%2$s включил(а) удаление по таймеру через %1$s минуты</string>
+  <string name="YouSetTimerMinutes_one">Вы включили удаление по таймеру через %1$s минуту</string>
+  <string name="YouSetTimerMinutes_other">Вы включили удаление по таймеру через %1$s минуты</string>
+
+  <string name="XSetTimerHours_one">%2$s включил(а) удаление по таймеру через %1$s час</string>
+  <string name="XSetTimerHours_other">%2$s включил(а) удаление по таймеру через %1$s часа</string>
+  <string name="YouSetTimerHours_one">Вы включили удаление по таймеру через %1$s час</string>
+  <string name="YouSetTimerHours_other">Вы включили удаление по таймеру через %1$s часа</string>
+
+  <string name="XSetTimerDays_one">%2$s включил(а) удаление по таймеру через %1$s день</string>
+  <string name="XSetTimerDays_other">%2$s включил(а) удаление по таймеру через %1$s дня</string>
+  <string name="YouSetTimerDays_one">Вы включили удаление по таймеру через %1$s день</string>
+  <string name="YouSetTimerDays_other">Вы включили удаление по таймеру через %1$s дня</string>
+
+  <string name="XSetTimerWeeks_one">%2$s включил(а) удаление по таймеру через %1$s неделю</string>
+  <string name="XSetTimerWeeks_other">%2$s включил(а) удаление по таймеру через %1$s недели</string>
+  <string name="YouSetTimerWeeks_one">Вы включили удаление по таймеру через %1$s неделю</string>
+  <string name="YouSetTimerWeeks_other">Вы включили удаление по таймеру через %1$s недели</string>
+
+  <string name="XSetTimerMonths_one">%2$s настроил(а) удаление сообщений через %1$s месяц</string>
+  <string name="XSetTimerMonths_other">%2$s настроил(а) удаление сообщений через %1$s месяца</string>
+  <string name="YouSetTimerMonths_one">Вы настроили удаление сообщений через %1$s месяц</string>
+  <string name="YouSetTimerMonths_other">Вы настроили удаление сообщений через %1$s месяца</string>
+
+  <string name="XSetAutoDeleteSeconds_one">%2$s включил(а) удаление сообщений через %1$s секунду</string>
+  <string name="XSetAutoDeleteSeconds_other">%2$s включил(а) удаление сообщений через %1$s секунды</string>
+  <string name="YouSetAutoDeleteSeconds_one">Вы включили удаление сообщений через %1$s секунду</string>
+  <string name="YouSetAutoDeleteSeconds_other">Вы включили удаление сообщений через %1$s секунды</string>
+
+  <string name="XSetAutoDeleteMinutes_one">%2$s включил(а) удаление сообщений через %1$s минуту</string>
+  <string name="XSetAutoDeleteMinutes_other">%2$s включил(а) удаление сообщений через %1$s минуты</string>
+  <string name="YouSetAutoDeleteMinutes_one">Вы включили удаление сообщений через %1$s минуту</string>
+  <string name="YouSetAutoDeleteMinutes_other">Вы включили удаление сообщений через %1$s минуты</string>
+
+  <string name="XSetAutoDeleteHours_one">%2$s включил(а) удаление сообщений через %1$s час</string>
+  <string name="XSetAutoDeleteHours_other">%2$s включил(а) удаление сообщений через %1$s часа</string>
+  <string name="YouSetAutoDeleteHours_one">Вы включили удаление сообщений через %1$s час</string>
+  <string name="YouSetAutoDeleteHours_other">Вы включили удаление сообщений через %1$s часа</string>
+
+  <string name="XSetAutoDeleteDays_one">%2$s включил(а) удаление сообщений через %1$s день</string>
+  <string name="XSetAutoDeleteDays_other">%2$s включил(а) удаление сообщений через %1$s дня</string>
+  <string name="YouSetAutoDeleteDays_one">Вы включили удаление сообщений через %1$s день</string>
+  <string name="YouSetAutoDeleteDays_other">Вы включили удаление сообщений через %1$s дня</string>
+
+  <string name="XSetAutoDeleteWeeks_one">%2$s включил(а) удаление сообщений через %1$s неделю</string>
+  <string name="XSetAutoDeleteWeeks_other">%2$s включил(а) удаление сообщений через %1$s недели</string>
+  <string name="YouSetAutoDeleteWeeks_one">Вы включили удаление сообщений через %1$s неделю</string>
+  <string name="YouSetAutoDeleteWeeks_other">Вы включили удаление сообщений через %1$s недели</string>
+
+  <string name="XSetAutoDeleteMonths_one">%2$s настроил(а) удаление сообщений через %1$s месяц</string>
+  <string name="XSetAutoDeleteMonths_other">%2$s настроил(а) удаление сообщений через %1$s месяца</string>
+  <string name="YouSetAutoDeleteMonths_one">Вы настроили удаление сообщений через %1$s месяц</string>
+  <string name="YouSetAutoDeleteMonths_other">Вы настроили удаление сообщений через %1$s месяца</string>
+
+  <string name="XSetAutoDeletePostsSeconds_one">Администраторы настроили удаление сообщений через %1$s секунду</string>
+  <string name="XSetAutoDeletePostsSeconds_other">Администраторы настроили удаление сообщений через %1$s секунды</string>
+  <string name="YouSetAutoDeletePostsSeconds_one">Вы настроили удаление сообщений через %1$s секунду</string>
+  <string name="YouSetAutoDeletePostsSeconds_other">Вы настроили удаление сообщений через %1$s секунды</string>
+
+  <string name="XSetAutoDeletePostsMinutes_one">Администраторы настроили удаление сообщений через %1$s минуту</string>
+  <string name="XSetAutoDeletePostsMinutes_other">Администраторы настроили удаление сообщений через %1$s минуты</string>
+  <string name="YouSetAutoDeletePostsMinutes_one">Вы настроили удаление сообщений через %1$s минуту</string>
+  <string name="YouSetAutoDeletePostsMinutes_other">Вы настроили удаление сообщений через %1$s минуты</string>
+
+  <string name="XSetAutoDeletePostsHours_one">Администраторы настроили удаление сообщений через %1$s час</string>
+  <string name="XSetAutoDeletePostsHours_other">Администраторы настроили удаление сообщений через %1$s часа</string>
+  <string name="YouSetAutoDeletePostsHours_one">Вы настроили удаление сообщений через %1$s час</string>
+  <string name="YouSetAutoDeletePostsHours_other">Вы настроили удаление сообщений через %1$s часа</string>
+
+  <string name="XSetAutoDeletePostsDays_one">Администраторы настроили удаление сообщений через %1$s день</string>
+  <string name="XSetAutoDeletePostsDays_other">Администраторы настроили удаление сообщений через %1$s дня</string>
+  <string name="YouSetAutoDeletePostsDays_one">Вы настроили удаление сообщений через %1$s месяц</string>
+  <string name="YouSetAutoDeletePostsDays_other">Вы настроили удаление сообщений через %1$s месяца</string>
+
+  <string name="XSetAutoDeletePostsWeeks_one">Администраторы настроили удаление сообщений через %1$s неделю</string>
+  <string name="XSetAutoDeletePostsWeeks_other">Администраторы настроили удаление сообщений через %1$s недели</string>
+  <string name="YouSetAutoDeletePostsWeeks_one">Вы настроили удаление сообщений через %1$s неделю</string>
+  <string name="YouSetAutoDeletePostsWeeks_other">Вы настроили удаление сообщений через %1$s недели</string>
+
+  <string name="XSetAutoDeletePostsMonths_one">Администраторы настроили удаление сообщений через %1$s месяц</string>
+  <string name="XSetAutoDeletePostsMonths_other">Администраторы настроили удаление сообщений через %1$s месяца</string>
+  <string name="YouSetAutoDeletePostsMonths_one">Вы настроили удаление сообщений через %1$s месяц</string>
+  <string name="YouSetAutoDeletePostsMonths_other">Вы настроили удаление сообщений через %1$s месяца</string>
+
+  <string name="AddCaption">Добавить подпись…</string>
   <string name="Enhance">Улучшение</string>
   <string name="Exposure">Экспозиция</string>
   <string name="Contrast">Контраст</string>
@@ -879,14 +1124,20 @@
   <string name="DeleteXForEveryone_other">Удалить %1$s сообщений у всех</string>
   <string name="DeleteForMeAndX">Удалить для меня и %1$s</string>
   <string name="ReportSpam">Пожаловаться на спам</string>
-  <string name="BanUser">Заблокировать пользователя</string>
   <string name="Pin">Закрепить</string>
   <string name="Unpin">Открепить</string>
   <string name="UnpinMessage">Открепить сообщение</string>
+  <string name="UnpinMessagesConfirm">Открепить</string>
   <string name="PinnedMessage">Закреплённое сообщение</string>
   <string name="PinnedMessageAction">Закреплённое сообщение</string>
   <string name="PinMessageInThisGroup">Закрепить это сообщение в группе?</string>
   <string name="PinMessageInThisChannel">Закрепить сообщение в этом канале?</string>
+  <string name="PinMessageInChat">Закрепить сообщение?</string>
+  <string name="PinMessageOther">Также закрепить для %1$s</string>
+  <string name="PinXMessages_one">Закрепить %1$s сообщение?</string>
+  <string name="PinXMessages_other">Закрепить %1$s сообщения?</string>
+  <string name="UnpinXMessages_one">Открепить %1$s сообщение?</string>
+  <string name="UnpinXMessages_other">Открепить %1$s сообщения?</string>
   <string name="PinNotify">Уведомление всем участникам</string>
   <string name="PinNotify2">Оповестить подписчиков</string>
   <string name="ActionPinnedText">%1$s закрепил(а) «%2$s»</string>
@@ -915,7 +1166,7 @@
   <string name="UsernameInvalidLong">Имя пользователя не может быть длиннее 32 символов.</string>
   <string name="UsernameInvalidStartNumber">Имя пользователя не может начинаться с цифры.</string>
   <string name="UsernameHelp">Вы можете выбрать публичное имя пользователя в **Telegram**. В этом случае другие люди смогут найти Вас по такому имени и связаться, не зная Вашего телефона.\n\nВы можете использовать символы **a–z**, **0–9** и подчёркивания. Минимальная длина – **5** символов.</string>
-  <string name="UsernameChecking">Проверка имени пользователя...</string>
+  <string name="UsernameChecking">Проверка имени пользователя…</string>
   <string name="UsernameAvailable">Имя %1$s доступно.</string>
   <string name="UsernameCurrent">У Вас уже выбрано имя пользователя %1$s.</string>
   <string name="ThisLinkWillOpen">Такая ссылка будет открывать чат с Вами в Telegram:</string>
@@ -999,6 +1250,8 @@
   <string name="PinToTop">Закрепить</string>
   <string name="UnpinFromTop">Открепить</string>
   <string name="WhatThisBotCanDo">Что умеет этот бот?</string>
+  
+  
   <string name="InstantView">Посмотреть</string>
   <string name="InternalStorage">Внутреннее хранилище</string>
   <string name="Storage">Хранилище</string>
@@ -1011,6 +1264,7 @@
   <string name="AccessError">Ошибка доступа</string>
   <string name="FolderDoesNotExist">Такая папка не существует</string>
   <string name="NoMusicFilesFound">Не найдено файлов с музыкой</string>
+  <string name="NoDownloadFilesFound">Нет загруженных файлов</string>
   <string name="FolderEmpty">Эта папка пуста</string>
   <string name="AttachFolderHome">Главная</string>
   <string name="DataSettings">Данные и память</string>
@@ -1055,7 +1309,7 @@
   <string name="CustomNotificationsHint">У этих настроек приоритет перед общими настройками для всех чатов в разделе «Уведомления».</string>
   <string name="CustomNotifications">Особые уведомления</string>
   <string name="Send">Отправить</string>
-  <string name="ClearRecentStickers">Очистить список недавних стикеров?</string>
+  <string name="ClearRecentStickers">Очистить список недавних стикеров</string>
   <string name="CropSquare">Квадрат</string>
   <string name="Wallpaper">Обои</string>
   <string name="ChatPreview">Предпросмотр чата</string>
@@ -1069,9 +1323,59 @@
   <string name="EncryptionKeyDescription">Это изображение и текст были созданы на основе ключа шифрования для этого секретного чата с %1$s.\n\nЕсли они выглядят так же, как на устройстве %1$s, оконечное шифрование надёжно.</string>
   <string name="JoinGroupX">Присоединиться к группе %1$s?</string>
   <string name="FollowChannelX">Подписаться на канал «%1$s»?</string>
+  
+  
+  
+  
+  
+  
   <string name="XChangedGroupTitle">%1$s изменил(а) имя группы</string>
   <string name="XJoinedByLink">%1$s стал(а) участником</string>
   <string name="YouJoinedByLink">Вы стали участником</string>
+  
+  
+  
+  
+  
+  
+  <string name="LinkJoinOther">%1$s использовал(а) ссылку %3$s, созданную %2$s</string>
+  <string name="LinkJoinOtherYou">Вы присоединились по ссылке %2$s, созданной %1$s</string>
+  <string name="LinkJoinTemp">%1$s использовал(а) временную ссылку %3$s, созданную %2$s</string>
+  <string name="LinkJoinTempYou">Вы присоединились по временной ссылке %2$s, созданной %1$s</string>
+  <string name="LinkJoinChannelOther">%1$s использовал(а) ссылку %3$s, созданную %2$s</string>
+  <string name="LinkJoinChannelOtherYou">Вы подписались по ссылке %2$s, созданной %1$s</string>
+  <string name="LinkJoinChannelTemp">%1$s использовал(а) временную ссылку %3$s, созданную %2$s</string>
+  <string name="LinkJoinChannelTempYou">Вы подписались по временной ссылке %2$s, созданной %1$s</string>
+  <string name="LinkJoinPrimary">%1$s использовал(а) основную пригласительную ссылку %2$s</string>
+  <string name="LinkJoinChannelPrimary">%1$s использовал(а) основную пригласительную ссылку %2$s</string>
+  <string name="LinkJoinPrimaryYou">Вы присоединились по основной пригласительной ссылке %1$s</string>
+  <string name="LinkJoinChannelPrimaryYou">Вы подписались по основной пригласительной ссылке %1$s</string>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <string name="LinkRevokePrimary">%1$s сбросил(а) основную пригласительную ссылку %2$s</string>
+  <string name="LinkRevokePrimaryYou">Вы сбросили основную пригласительную ссылку %1$s</string>
+  <string name="LinkRevokeOther">%1$s сбросил(а) пригласительную ссылку %3$s, созданную %2$s</string>
+  <string name="LinkRevokeOtherYou">Вы сбросили пригласительную ссылку %1$s, созданную %2$s</string>
+  <string name="LinkRevokeTemp">%1$s сбросил(а) временную ссылку %3$s, созданную %2$s</string>
+  <string name="LinkRevokeTempYou">Вы сбросили временную ссылку %1$s, созданную %2$s</string>
+  <string name="LinkDeletePrimary">%1$s удалил(а) основную пригласительную ссылку %2$s</string>
+  <string name="LinkDeletePrimaryYou">Вы удалили основную пригласительную ссылку %1$s</string>
+  <string name="LinkDeleteOther">%1$s удалил(а) пригласительную ссылку %3$s, созданную %2$s</string>
+  <string name="LinkDeleteOtherYou">"Вы удалили пригласительную ссылку %1$s, созданную %2$s "</string>
+  <string name="LinkDeleteTemp">%1$s удалил(а) временную ссылку %3$s, созданную %2$s</string>
+  <string name="LinkDeleteTempYou">Вы удалили временную ссылку %1$s, созданную %2$s</string>
   <string name="XCreatedGroup">%1$s создал(а) группу</string>
   <string name="YouCreatedGroup">Вы создали группу</string>
   <string name="XofY">%1$s из %2$s</string>
@@ -1082,6 +1386,7 @@
   <string name="xPeopleJoinedChannel_one">%1$s человек подписался на канал</string>
   <string name="xPeopleJoinedChannel_other">%1$s человек подписались на канал</string>
   <string name="AddToTheGroup">Добавить %1$s в группу?</string>
+  <string name="AddAdminToTheGroup">Добавить %1$s в группу и назначить администратором?</string>
   <string name="QAddXToChannel">Пригласить %1$s в канал?</string>
   <string name="VoiceCalls">Голосовые звонки</string>
   <string name="VoiceCallPrivacyDesc">Вы можете выбрать, кто может Вам позвонить.</string>
@@ -1202,8 +1507,16 @@
   <string name="UseProxyUsername">Логин</string>
   <string name="UseProxyPassword">Пароль</string>
   <string name="SaveToDownloads">Сохранить в загрузки</string>
+  <string name="SaveXToDownloads_one">Сохранить %1$s файл в Загрузки</string>
+  <string name="SaveXToDownloads_other">Сохранить %1$s файла в Загрузки</string>
   <string name="SaveToMusic">Сохранить в музыку</string>
+  <string name="SaveXToMusic_one">Сохранить %1$s файл в Музыку</string>
+  <string name="SaveXToMusic_other">Сохранить %1$s файла в Музыку</string>
   <string name="DownloadedToPath">Успешно загружено: %1$s</string>
+  <string name="DownloadedXFiles_one">Загружен %1$s файл:\n%2$s</string>
+  <string name="DownloadedXFiles_other">Загружены %1$s файла:\n%2$s</string>
+  <string name="SavedXFiles_one">Сохранён %1$s файл</string>
+  <string name="SavedXFiles_other">Сохранён %1$s файла</string>
   <string name="CallNoLongerActive">Звонок больше не активен</string>
   <string name="NotificationContactJoined">%1$s теперь в Telegram!</string>
   <string name="DeleteEntry">Удалить запись</string>
@@ -1236,6 +1549,8 @@
   <string name="SendAsCopy">Отправить как копию</string>
   <string name="RemoveCaptions">Убрать подписи в копиях</string>
   <string name="GifHasBeenSavedToGallery">GIF-анимация сохранена в галерею</string>
+  <string name="SavedXGifToGallery_one">%1$s GIF сохранён в галерею</string>
+  <string name="SavedXGifToGallery_other">\n%1$s GIF сохранены в галерею</string>
   <string name="Error">Ошибка</string>
   <string name="UsernameNotOccupied">Пользователь %1$s не найден</string>
   <string name="UsernameNotOccupiedUnknown">Такое имя нигде не используется</string>
@@ -1245,7 +1560,7 @@
   <string name="PriorityAboutUrgentAndLow">Срочные уведомления приходят, даже если телефон находится в режиме «Не беспокоить». Уведомления с низким приоритетом появляются только в области уведомлений.</string>
   <string name="NotificationsPriority">Приоритет</string>
   <string name="SelectMessagesInBetween">Выделяет сообщения между выбранными</string>
-  <string name="ProcessingFile">Обработка...</string>
+  <string name="ProcessingFile">Обработка…</string>
   <string name="ProcessingFileWait">Обработка файлов. Пожалуйста, подождите…</string>
   <string name="AreYouSureDeleteThisChat">Вы точно хотите удалить этот чат?</string>
   <string name="UserRestricted">К сожалению, администраторы этой группы запретили Вам данное действие.</string>
@@ -1253,7 +1568,9 @@
   <string name="ReportChatSpam">Вы точно хотите пожаловаться на спам от %1$s?</string>
   <string name="Report">Пожаловаться</string>
   <string name="ReportChat">Пожаловаться на %1$s</string>
+  
   <string name="Spam">Спам</string>
+  <string name="Fake">Fake</string>
   <string name="Violence">Насилие</string>
   <string name="ChildAbuse">Детская порнография</string>
   <string name="Pornography">Порнография</string>
@@ -1292,6 +1609,7 @@
   <string name="UseProxyForCallsInfo">Использование прокси может ухудшить качество звонков.</string>
   <string name="HoldToPreview">Предпросмотр чатов</string>
   <string name="BlockUser">Заблокировать пользователя</string>
+  
   <string name="MessageLifetimePhoto">Если Вы установите таймер, фото автоматически удалится после просмотра.</string>
   <string name="MessageLifetimeVideo">Если Вы установите таймер, видео автоматически удалится после просмотра.</string>
   <string name="NoMembersToShow">В этом списке нет участников</string>
@@ -1301,7 +1619,11 @@
   <string name="RoleOwner">владелец чата</string>
   <string name="RoleLeft">не участник</string>
   <string name="RoleBanned">заблокированный участник</string>
+  
+  
   <string name="RoleMember_now">новый участник</string>
+  <string name="RoleMember_seconds_one">в группе %1$s секунду</string>
+  <string name="RoleMember_seconds_other">в группе %1$s секунды</string>
   <string name="RoleMember_minutes_one">в группе %1$s минуту</string>
   <string name="RoleMember_minutes_other">в группе %1$s минуты</string>
   <string name="RoleMember_hours_one">в группе %1$s час</string>
@@ -1335,7 +1657,9 @@
   <string name="OnlyAdminsSpecific">Администраторы с нужными правами</string>
   <string name="EditAdmin">Изменить</string>
   <string name="AdminRights">Права админов</string>
-  <string name="UserRestrictions">Ограничения пользователя</string>
+  <string name="UserRestrictions">Права пользователя</string>
+  
+  
   <string name="SetAsAdmin">Назначить администратором</string>
   <string name="WhatThisAdminCanDo">Этому администратору разрешено:</string>
   <string name="WhatThisUserCanDo">Пользователю разрешено:</string>
@@ -1353,18 +1677,33 @@
   <string name="RightPinMessages">Закреплять сообщения</string>
   <string name="RightAddNewAdmins">Добавлять администраторов</string>
   <string name="RightEditMessages">Редактировать сообщения</string>
+  <string name="RightVoiceChats">Управление видеочатами</string>
+  
+  <string name="RightAnonymous">Анонимность</string>
   <string name="NoGroupsToShow">Групп пока нет</string>
   <string name="GroupsWillBeShownHere">Здесь будут показаны общие группы</string>
   <string name="EditAdminRights">Изменить права администратора</string>
   <string name="EditAdminTitle">Изменить должность</string>
+  <string name="EditAdminAnonymous">Сделать анонимным</string>
+  <string name="EditAdminPublic">Сделать видимым</string>
+  <string name="EditOwnerAnonymous">Сделать анонимным</string>
+  <string name="EditOwnerPublic">Сделать видимым</string>
   <string name="ViewAdminRights">Посмотреть права администратора</string>
   <string name="EditUserRestrictions">Изменить ограничения пользователя</string>
+  
+  
   <string name="RestrictUser">Ограничить пользователя</string>
+  
+  
+  
+  
   <string name="ViewRestrictions">Показать ограничения</string>
   <string name="EditAdminPostMessages">Отправлять сообщения</string>
   <string name="BannedWillBeShownHere">Здесь будут показаны заблокированные участники</string>
   <string name="RestrictedWillBeShownHere">Здесь будут показаны участники, права которых ограничены</string>
   <string name="UnbanMember">Разблокировать пользователя</string>
+  
+  
   <string name="UnbanMemberBot">Разблокировать бота</string>
   <string name="BlockFor">Заблокировать на время</string>
   <string name="RestrictFor">Ограничить на время</string>
@@ -1414,23 +1753,22 @@
   <string name="InviteBackToGroup">Снова пригласить в группу</string>
   <string name="InviteBackToChannel">Пригласить в канал снова</string>
   <string name="MemberCannotJoinRegularGroup">%1$s сможет вернуться в группу только по приглашению другого участника или с помощью ссылки-приглашения.</string>
-  <string name="AdminCanAssignAdmins">Этот администратор сможет добавлять других администраторов с такими же или более ограниченными правами.</string>
-  <string name="AdminCannotAssignAdmins">Этот администратор не сможет добавлять новых администраторов.</string>
+  <string name="XCanAssignAdmins">%1$s сможет добавлять новых администраторов с теми же (или более ограниченными) полномочиями.</string>
+  <string name="XCannotAssignAdmins">%1$s не сможет добавить новых администраторов.</string>
   <string name="ShareMyContactInfo">Отправить свой контакт</string>
-  <string name="MemberBanChannel">Пользователь будет заблокирован и удалён из подписчиков.</string>
-  <string name="MemberBanGroup">Пользователь будет заблокирован и удален из группы.</string>
-  <string name="MemberRestrictChannel">Этот пользователь не будет удалён из канала.</string>
-  <string name="MemberRestrictGroup">Пользователь не будет удален из группы.</string>
-  <string name="UserIsAlreadyAdmin">Пользователь уже администратор</string>
-  <string name="YouCantBanThis">Вы не можете заблокировать пользователя</string>
-  <string name="YouCantPromoteThis">Вы не можете повысить этого пользователя</string>
+  <string name="BanXChannel">%1$s будет исключен(а) из подписчиков канала и заблокирован(а).</string>
+  <string name="BanXGroup">%1$s будет исключен(а) из группы и заблокирован(а).</string>
+  <string name="RestrictXChannel">%1$s не будет исключен(а) из подписчиков канала.</string>
+  <string name="RestrictXGroup">%1$s не будет исключен(а) из группы.</string>
+  <string name="YouCantBanX">У вас недостаточно прав, чтобы заблокировать %1$s в этом чате.</string>
+  <string name="YouCantPromoteX">У вас недостаточно прав для повышения %1$s в этом чате.</string>
   <string name="EventLog">Недавние действия</string>
   <string name="EventLogAllEvents">Все действия</string>
   <string name="EventLogSelectedEvents">Выбранные действия</string>
   <string name="EventLogAllAdmins">Все администраторы</string>
   <string name="EventLogEmptyFilter">Выберите хотя бы один фильтр</string>
-  <string name="EventLogEmpty">**Действий пока нет**\n\nУчастники группы и администраторы\nне совершали служебных действий\nв течение последних 48 часов.</string>
-  <string name="EventLogEmptyChannel">**Действий пока нет**\n\nАдминистраторы канала\nне совершали служебных действий\nв последние 48 часов.</string>
+  <string name="EventLogEmpty">**Событий нет**\n\nУчастники группы и администраторы\nне совершали служебных действий\nв течение последних 48 часов.</string>
+  <string name="EventLogEmptyChannel">**Событий нет**\n\nАдминистраторы канала\nне совершали служебных действий\nв последние 48 часов.</string>
   <string name="EventLogEmptySearch">**Действий не найдено**\n\nНет недавних действий по Вашему запросу.</string>
   <string name="EventLogEmptyTextSearch">По запросу «%1$s» не найдены недавние действия.</string>
   <string name="EventLogInfoTitle">Что такое недавние действия?</string>
@@ -1464,6 +1802,19 @@
   <string name="EventLogToggledInvitesOff">%1$s отключил(а) приглашения в группу</string>
   <string name="EventLogToggledSignaturesOn">%1$s включил(а) подписи</string>
   <string name="EventLogToggledSignaturesOff">%1$s отключил(а) подписи</string>
+  
+  
+  <string name="EventLogEditedInviteLink">Изменена пригласительная ссылка %1$s\n\nОграничение: %2$s —&gt; %3$s\nИстекает: %4$s</string>
+  <string name="LinkExpiresNever">никогда</string>
+  <string name="LinkExpiresToday">сегодня в %1$s</string>
+  <string name="LinkExpiresTomorrow">завтра в %1$s</string>
+  <string name="LinkExpiresFuture">%1$s в %2$s</string>
+  <string name="EventLogEditedInviteLinkLimit">Изменены ограничения для пригласительной ссылки %1$s : %2$s —&gt; %3$s</string>
+  <string name="EventLogEditedInviteLinkExpireNever">Изменен срок действия для пригласительной ссылки %1$s: теперь не ограничен.</string>
+  <string name="EventLogEditedInviteLinkExpireToday">Изменен срок действия для пригласительной ссылки %1$s: истекает сегодня в %2$s</string>
+  <string name="EventLogEditedInviteLinkExpireTomorrow">Изменен срок действия для пригласительной ссылки %1$s: истекает завтра в %2$s</string>
+  <string name="EventLogEditedInviteLinkExpireFuture">Изменен срок действия для пригласительной ссылки %1$s: истекает %2$s в %3$s</string>
+  <string name="EventLogEditedInviteLinkNoLimit">без ограничений</string>
   <string name="EventLogPermissions">изменены разрешения по умолчанию</string>
   <string name="EventLogPermissionSendMessages">Отправлять сообщения</string>
   <string name="EventLogPermissionSendMedia">Отправлять медиа</string>
@@ -1490,12 +1841,17 @@
   <string name="EventLogUnpromoted">снял(а) права администратора %1$s</string>
   <string name="EventLogPromotedChangeChannelInfo">Изменение информации о канале</string>
   <string name="EventLogPromotedChangeGroupInfo">Изменение информации о группе</string>
+  <string name="EventLogPromotedManageChannel">Управление каналом</string>
+  <string name="EventLogPromotedManageGroup">Управление группой</string>
   <string name="EventLogPromotedPostMessages">Публикация сообщений</string>
   <string name="EventLogPromotedEditMessages">Редактирование сообщений</string>
   <string name="EventLogPromotedDeleteMessages">Удаление сообщений</string>
   <string name="EventLogPromotedAddAdmins">Добавление администраторов</string>
+  <string name="EventLogPromotedRemainAnonymous">Анонимность</string>
+  <string name="EventLogPromotedManageVoiceChats">Управление видеочатами</string>
+  
   <string name="EventLogPromotedTitle">Должность: %1$s</string>
-  <string name="EventLogPromotedTitleChange">Должность: %1$s -&gt; %2$s</string>
+  <string name="EventLogPromotedTitleChange">Должность: %1$s → %2$s</string>
   <string name="EventLogPromotedBanUsers">Блокировки пользователей</string>
   <string name="EventLogPromotedAddUsers">Добавление пользователей</string>
   <string name="EventLogPromotedPinMessages">Закрепление сообщений</string>
@@ -1503,14 +1859,21 @@
   <string name="EventLogFilterNewRestrictions">Новые ограничения</string>
   <string name="EventLogFilterNewAdmins">Права админов</string>
   <string name="EventLogFilterNewMembers">Новые участники</string>
+  <string name="EventLogFilterInviteLinks">Пригласительные ссылки</string>
   <string name="EventLogFilterGroupInfo">Информация о группе</string>
+  
+  
   <string name="EventLogFilterChannelInfo">Описание канала</string>
   <string name="EventLogFilterDeletedMessages">Удалённые сообщения</string>
   <string name="EventLogFilterEditedMessages">Отредактированные сообщения</string>
   <string name="EventLogFilterPinnedMessages">Закреплённые сообщения</string>
   <string name="EventLogFilterLeavingMembers">Выход участников</string>
+  <string name="EventLogFilterVoiceChats">Видеочаты</string>
+  
   <string name="EventLogSlowModeChanged">%1$s установил(а) таймер медленного режима на %2$s</string>
   <string name="EventLogSlowModeDisabled">%1$s отключил(а) медленный режим</string>
+  <string name="EventLogSlowModeChangedYou">Вы установили таймер медленного режима на %1$s</string>
+  <string name="EventLogSlowModeDisabledYou">%1$s отключил(а) медленный режим</string>
   <string name="EventLogLinkedChannelChanged">%1$s привязал(а) группу к каналу %2$s</string>
   <string name="EventLogLinkedChannelRemoved">%1$s отвязал(а) группу от канала %2$s</string>
   <string name="EventLogLinkedChannelChangedUnknown">Группа была связана с каналом %1$s</string>
@@ -1518,8 +1881,32 @@
   <string name="EventLogLinkedGroupChanged">%1$s назначил(а) %2$s группой для обсуждения публикаций в этом канале</string>
   <string name="EventLogLinkedGroupRemoved">%1$s удалил(а) геопозицию группы %2$s</string>
   <string name="EventLogLocationSet">%1$s указал(а) геопозицию группы: %2$s</string>
+
+  <string name="EventLogMutedNewParticipants">%1$s выключил(а) микрофон для новых участников</string>
+  <string name="EventLogUnmutedNewParticipants">%1$s разрешил(а) микрофон для новых участников</string>
+  <string name="EventLogMutedNewParticipantsYou">Вы выключили микрофон для новых участников видеочата</string>
+  <string name="EventLogUnmutedNewParticipantsYou">Вы разрешили микрофон для новых участников видеочата</string>
+  <string name="EventLogMutedParticipant">%1$s выключил(а) микрофон %2$s в видеочате</string>
+  <string name="EventLogUnmutedParticipant">%1$s разрешил(а) микрофон для %2$s в видеочате</string>
+  <string name="EventLogMutedParticipantYou">Вы выключили микрофон %1$s в видеочате</string>
+  <string name="EventLogUnmutedParticipantYou">Вы разрешили микрофон для %1$s в видеочате</string>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <string name="EventLogChangedVolume">%1$s изменил(а) громкость %2$s на %3$s</string>
+  <string name="EventLogChangedVolumeYou">Вы изменили громкость %1$s на %2$s</string>
+  <string name="EventLogChangedYourVolume">%1$s изменил(а) Вашу громкость на %2$s</string>
   <string name="EventLogLocationChanged">%1$s изменил(а) геопозицию группы на %2$s</string>
   <string name="EventLogLocationRemoved">%1$s удалил(а) геопозицию группы</string>
+  <string name="EventLogTransferredOwnership">права переданы %1$s</string>
+  <string name="EventLogNoLongerCreator">уже не является владельцем</string>
   <string name="UntilX">до %1$s</string>
   <string name="NetworkUsage">Использование сети</string>
   <string name="RecentStickers">Недавние</string>
@@ -1574,6 +1961,8 @@
   <string name="NewPinnedMessage">Закреплённое сообщение: %1$s</string>
   <string name="PinnedMessageChanged">Закреплённое сообщение изменено</string>
   <string name="EditMarkdown">Разметка при редактировании</string>
+  <string name="ForceBuiltinDecoding">Встроенный декодер для медиа</string>
+  <string name="CompressAudio">Сжимать аудиодорожку видео</string>
   <string name="EditMarkdownHint">При редактировании сообщений показывать классическую разметку: `**`**жирный**`**`, `__`__курсив__`__`, `~~`~~зачёркнутый~~`~~`,``` `моноширинный`,``` [текст](ссылка)</string>
   <string name="MessageNotFound">Сообщение не найдено</string>
   <string name="SyncHintTitle">Найти контакты</string>
@@ -1660,10 +2049,12 @@
   <string name="RingtoneCustom">Пользовательский</string>
   <string name="IncognitoKeyboard">Клавиатура в режиме инкогнито</string>
   <string name="IncognitoKeyboardInfo">Приложение будет запрещать клавиатуре собирать такие данные, как настройки языка и историю ввода, когда Вы печатаете в секретных чатах.\n\nРазработчики клавиатуры могут игнорировать этот запрос, поэтому настройка не гарантирует поведение клавиатуры.</string>
-  <string name="FailureMessageText">Это сообщение не удается показать из-за ошибки. Сожалеем.\n\nЧтобы помочь нам разобраться с проблемой, пожалуйста, скопируйте технические подробности об ошибке (ниже) и отправьте на адрес support@telegram.org. Спасибо!</string>
+  <string name="FailureMessageText">Это сообщение не удается показать из-за ошибки. Сожалеем.\n\nЧтобы помочь нам разобраться с проблемой, пожалуйста, скопируйте технические подробности об ошибке (ниже) и отправьте их в @tgandroidtests. Спасибо!</string>
   <string name="PrivacyCallsP2PTitle2">Звонки через Peer-to-Peer</string>
   <string name="PeerToPeerInfo">Если выключить peer-to-peer, все звонки будут идти через серверы Telegram. Собеседник не сможет узнать Ваш IP-адрес, но качество звука немного ухудшится.</string>
   <string name="AutoNightDisabled">Отключена</string>
+  <string name="AutoNightSystem">Использовать настройки системы</string>
+  <string name="AutoNightSystemQ">Системная</string>
   <string name="AutoNightAutomatic">Автоматически</string>
   <string name="AutoNightScheduled">По расписанию</string>
   <string name="AutoNightModeScheduledByLocation">Определить время рассвета и заката</string>
@@ -1673,6 +2064,8 @@
   <string name="AutoNightModeDescription">Приложение может автоматически переключаться на ночную тему в выбранное Вами время или когда падает яркость внешнего освещения.</string>
   <string name="AutoNightModeDescriptionAuto">Приложение будет переключаться на ночную тему, если яркость внешнего освещения меньше %1$d%%.\n\nТочкой обозначено текущее значение яркости по данным Вашего устройства.</string>
   <string name="AutoNightModeDescriptionScheduled">Приложение будет переключаться на ночную тему в выбранное Вами время.</string>
+  <string name="AutoNightModeDescriptionSystemQ">Переключаться на тёмную тему в зависимости от системных настроек.</string>
+  <string name="AutoNightModeDescriptionSystem">Переключаться на тёмную тему в зависимости от системных настроек.</string>
   <string name="PrivacyBots">Боты</string>
   <string name="WebSessionsTitle">Авторизованные сайты</string>
   <string name="NoActiveLogins">**Нет активных авторизаций**\n\nВы можете использовать свой аккаунт для авторизации на сайтах, которые поддерживают вход через Telegram.</string>
@@ -1757,14 +2150,14 @@
   <string name="SendingContact">выбирает контакт…</string>
   <string name="IsSendingContact">%1$s выбирает контакт…</string>
   <string name="AreSendingContact">%1$s выбирают контакты…</string>
-  <string name="RecordingRound">записывает видео</string>
+  <string name="RecordingRound">записывает видеосообщение</string>
   <string name="IsRecordingRound">%1$s записывает видео</string>
   <string name="AreRecordingRound">%1$s записывают видео</string>
   <string name="SendingRound">отправляет видеосообщение</string>
   <string name="IsSendingRound">%1$s отправляет видеосообщение</string>
   <string name="AreSendingRound">%1$s отправляют видеосообщения</string>
   <string name="SendingPhoto">отправляет фото</string>
-  <string name="IsSendingPhoto">%1$s отправляет фото...</string>
+  <string name="IsSendingPhoto">%1$s отправляет фото…</string>
   <string name="AreSendingPhoto">%1$s отправляют фотографии</string>
   <string name="SendingGame">играет</string>
   <string name="IsSendingGame">%1$s играет</string>
@@ -1773,7 +2166,7 @@
   <string name="IsSendingVideo">%1$s отправляет видео</string>
   <string name="AreSendingVideos">%1$s отправляют видео</string>
   <string name="SendingFile">отправляет файл</string>
-  <string name="IsSendingFile">%1$s отправляет файл...</string>
+  <string name="IsSendingFile">%1$s отправляет файл…</string>
   <string name="AreSendingFile">%1$s отправляют файлы</string>
   <string name="LiveLocations">Трансляция геопозиции</string>
   <string name="ReportMessageUser">Жалоба на сообщение от %1$s</string>
@@ -1788,10 +2181,11 @@
   <string name="SuggestStickersNone">Нет</string>
   <string name="MessageContentPreview">Предпросмотр изображений</string>
   <string name="PlaceSearchError">Ошибка при поиске мест</string>
-  <string name="ShareAs">Поделиться как...</string>
+  <string name="ShareAs">Поделиться как…</string>
   <string name="PerformAs">Выполнить действие как…</string>
-  <string name="OpenLinkAs">Открыть ссылку как...</string>
+  <string name="OpenLinkAs">Открыть ссылку как…</string>
   <string name="CurrentAccount">%1$s (используется)</string>
+  <string name="LastUsedAccount">%1$s (последний)</string>
   <string name="Proceed">Продолжить</string>
   <string name="LiveLocationError">Не удалось определить геопозицию.</string>
   <string name="AutoInstantView">Быстрый просмотр</string>
@@ -1808,12 +2202,13 @@
   <string name="message_adminSignPlain">админ</string>
   <string name="message_ownerSign">владелец</string>
   <string name="message_channelSign">канал</string>
+  
   <string name="CustomTitle">Должность</string>
   <string name="CustomTitleHint">Должность, которая будет показываться в подписи вместо «%1$s».</string>
   <string name="WhoCanCallMe">Кто может звонить мне</string>
   <string name="UseP2PWith">Использовать peer-to-peer для звонков</string>
-  <string name="PrivacyLastSeenExceptionOn">Виден всем</string>
-  <string name="PrivacyLastSeenExceptionOff">Скрыт</string>
+  <string name="PrivacyLastSeenExceptionOn">Видна</string>
+  <string name="PrivacyLastSeenExceptionOff">Скрыта</string>
   <string name="PrivacyLastSeenExceptionContacts">Виден только контактам</string>
   <string name="PrivacyLastSeenNobody">Время последнего входа скрыто от всех</string>
   <string name="PrivacyLastSeenNobodyExcept">"Время последнего входа скрыто от всех (%1$s) "</string>
@@ -1898,15 +2293,16 @@
   <string name="XFoundMessagesFromUser_other">%1$s сообщения от %2$s</string>
   <string name="XFoundMessagesFromSelf_one">%1$s сообщение от Вас</string>
   <string name="XFoundMessagesFromSelf_other">%1$s сообщения от Вас</string>
-  <string name="XFoundMessagesFromAutoPost_one">%1$s сообщение из каналов</string>
-  <string name="XFoundMessagesFromAutoPost_other">%1$s сообщения из каналов</string>
+  
+  
   <string name="FoundMessagesFromUser">сообщения от %1$s</string>
   <string name="FoundMessagesFromSelf">отправленные Вами сообщения</string>
-  <string name="FoundMessagesFromAutoPost">сообщения из каналов</string>
+  
   <string name="FoundMessagesQuery">%1$s</string>
   <string name="ViewMessagesFromYou">Сообщения от Вас</string>
   <string name="ViewMessagesFromUser">Сообщения от %1$s</string>
-  <string name="ViewMessagesFromAutoPost">Сообщения из каналов</string>
+  
+  <string name="ViewMessagesFromAnonymousAdmins">Сообщения от анонимных администраторов</string>
   <string name="BotDeleteHint">Убрать бота из рекомендаций?</string>
   <string name="BotHelp">Помощь</string>
   <string name="BotSettings">Настройки</string>
@@ -1937,6 +2333,7 @@
   <string name="LeaveReturnPublicLinkHintChannel">Вы сможете вернуться в канал по публичной ссылке на него</string>
   <string name="LeaveReturnPublicLinkHintGroup">Вы сможете вернуться в группу по публичной ссылке на неё</string>
   <string name="DeleteUserChatConfirm">Вы точно хотите удалить чат с %1$s? Это действие нельзя будет отменить.</string>
+  <string name="DeleteAndStopBotConfirm">Вы точно хотите остановить %1$s и удалить чат с ботом? Это действие нельзя будет отменить.</string>
   <string name="DeleteSavedMessagesConfirm">Вы точно хотите удалить все сообщения в чате **Избранное**?\nЭто действие нельзя будет отменить.</string>
   <string name="DeleteSecretChatPendingConfirm">Вы точно хотите завершить секретный чат с %1$s?</string>
   <string name="DeleteSecretChatClosedConfirm">Вы точно хотите удалить секретный чат с %1$s? Это действие нельзя будет отменить.</string>
@@ -1976,14 +2373,21 @@
   <string name="MoreChatOptions">Ещё</string>
   <string name="MoreForwardOptions">Дополнительно…</string>
   <string name="MessagePin">Закрепить</string>
+  <string name="MessagePinAlbum">Закрепить альбом</string>
+  <string name="MessagePinPlaylist">Закрепить плейлист</string>
+  <string name="MessagePinFiles">Закрепить файлы</string>
   <string name="MessageUnpin">Открепить</string>
+  <string name="MessageUnpinAlbum">Открепить альбом</string>
+  <string name="MessageUnpinPlaylist">Открепить плейлист</string>
+  <string name="MessageUnpinFiles">Открепить файлы</string>
   <string name="MessageReport">Пожаловаться на сообщение</string>
   <string name="ErrorUserDeleted">Не удалось выполнить действие, так как аккаунт пользователя был деактивирован.</string>
   <string name="GroupUpgradedFrom">Группа стала супергруппой. Нажмите здесь, чтобы посмотреть историю сообщений.</string>
   <string name="GroupUpgradedTo">Группа стала супергруппой.</string>
   <string name="MembersDetailRestricted">Участники с ограничениями</string>
   <string name="MembersDetailAdmins">Администраторы</string>
-  <string name="MembersDetailBanned">Заблокированные пользователи</string>
+  
+  
   <string name="ChatSuggestionsDisabled">Рекомендации ботов отключены.\nВы можете снова включить их в настройках приложения, в разделе «Конфиденциальность».</string>
   <string name="ChatLinkView">Открыть чат</string>
   <string name="ChatLinkRemove">Убрать ссылку</string>
@@ -2034,7 +2438,9 @@
   <string name="LocalizationPaste">Вставить оригинал</string>
   <string name="LocalizationFileNamePlaceholder">НАЗВАНИЕ_ФАЙЛА</string>
   <string name="url_faq">https://telegram.org/faq#general-questions</string>
+  <string name="url_privacyPolicy">https://telegram.org/privacy</string>
   <string name="url_translationsPrefix">https://translations.telegram.org/ru/android_x/unsorted/</string>
+  <string name="url_faqPhoneNumber">https://telegram.org/faq#q-i-have-a-new-phone-number-what-do-i-do</string>
   <string name="xSecondsShort_one">%1$s сек</string>
   <string name="xSecondsShort_other">%1$s сек</string>
   <string name="xMinutesShort_one">%1$s мин</string>
@@ -2090,7 +2496,7 @@
   <string name="json_1_text1">А что ты на гитаре играть умеешь?</string>
   <string name="json_1_text2">Ну вот такое, в стиле Хендрикса &#127926;</string>
   <string name="json_1_text3">Какой-то шум, это не по мне. То ли дело КЛАССИКА! Вот эту можешь?</string>
-  <string name="json_1_text4">Я же консерваторию закончил...</string>
+  <string name="json_1_text4">Я же консерваторию закончил…</string>
 
   <string name="json_2_name1">Дейнерис</string>
   <string name="json_2_name2">Ангела</string>
@@ -2109,7 +2515,7 @@
   <string name="json_3_text3">&#128564;</string>
   <string name="json_3_text4">Во-вторых, в нём есть секретные чаты, в таком мы сейчас и говорим. Они защищены оконечным шифрованием.</string>
   <string name="json_3_text5">Это про которое говорят «О, конечно, зашифровано»?</string>
-  <string name="json_3_text6">Не совсем... Ладно. Ещё можно отправлять самоуничтожающиеся сообщения —&#160;ставишь таймер, и когда время вышло, сообщение исчезает. Вот так!</string>
+  <string name="json_3_text6">Не совсем… Ладно. Ещё можно отправлять самоуничтожающиеся сообщения —&#160;ставишь таймер, и когда время вышло, сообщение исчезает. Вот так!</string>
   <string name="json_3_text7">&#128561;&#128584;&#128077;</string>
 
   <string name="json_4_name">Морфеус</string>
@@ -2320,6 +2726,7 @@
 
   <string name="ShareTextPost">Сообщение в канале «%2$s»: %1$s</string>
   <string name="ShareTextMessage">Сообщение пользователя %2$s: %1$s</string>
+  <string name="ShareTextComment">Комментарий %2$s: %1$s</string>
 
   <string name="ShareTextProfile">Фотография профиля %1$s</string>
   <string name="ShareTextChat">Фотография группы «%1$s»</string>
@@ -2328,6 +2735,8 @@
   <string name="ShareTextLink">%1$s: %2$s</string>
   <string name="ShareTextProfileLink">%1$s в Telegram: %2$s</string>
   <string name="ShareTextProfileLink2">%1$s: %2$s</string>
+  <string name="ShareTextMyLink">Со мной можно связаться в Telegram: %1$s</string>
+  <string name="ShareTextMyLink2">Мой аккаунт в Telegram: %1$s</string>
   <string name="ShareTextBotLink">Бот %1$s в Telegram: %2$s</string>
   <string name="ShareTextChatLink">Группа «%1$s» в Telegram: %2$s</string>
   <string name="ShareTextChannelLink">Канал «%1$s» в Telegram: %2$s</string>
@@ -2427,7 +2836,7 @@
 
   <string name="OpenCloudChat">Облачный чат</string>
 
-  <string name="SystemNotificationSettings">Системные настройки уведомлений</string>
+  <string name="SystemNotificationSettings">Системные настройки</string>
   <string name="BadgeCounter">Счётчик сообщений</string>
   <string name="BadgeCounterMuted">Чаты без уведомлений</string>
   <string name="BadgeCounterMessages">Число сообщений</string>
@@ -2486,11 +2895,17 @@
   <string name="error_LANG_CODE_NOT_SUPPORTED">К сожалению, такого перевода не существует</string>
   <string name="error_APP_UPGRADE_NEEDED">Такая возможность не поддерживается. Пожалуйста, проверьте, что используете свежую версию приложения. Если это так, дождитесь новых обновлений.</string>
   <string name="error_NotFound">Страница не найдена.</string>
+  <string name="error_ChatInfoNotFound">У Вас нет доступа к этому чату или каналу.</string>
+  <string name="error_PEER_ID_INVALID">У Вас нет доступа к этому чату или каналу.</string>
   <string name="error_STICKERSET_INVALID">Набор стикеров не найден или не существует.</string>
   <string name="error_CHANNELS_TOO_MUCH">У Вас максимальное число групп и каналов. Пожалуйста, сперва покиньте какую-нибудь группу или канал.</string>
+  <string name="error_PHONE_NUMBER_BANNED">Номер заблокирован. Пожалуйста, напишите на адрес login@stel.com, если Вам нужна помощь.</string>
+  <string name="error_CHANNELS_ADMIN_LOCATED_TOO_MUCH">Вы создали максимальное число групп с геопозицией. Пожалуйста, сперва удалите одну из уже созданных групп.</string>
   <string name="errorPrivacyAddMember">Пользователь ограничил круг лиц, которые могут&#160;приглашать его в чаты.</string>
   <string name="UserPrivacyRestricted">К сожалению, пользователь запретил это в настройках конфиденциальности.</string>
   <string name="NobodyLikesSpam2">К сожалению, это действие недоступно, если пользователь не добавил Ваш номер в контакты.</string> <!--PEER_FLOOD-->
+  <string name="error_BOTS_TOO_MUCH">В группе максимальное число ботов. Пожалуйста, сперва удалите одного из уже добавленных ботов.</string>
+  <string name="error_ADMINS_TOO_MUCH">В группе максимальное число администраторов. Пожалуйста, сперва удалите кого-то из других администраторов.</string>
 
   <string name="NotificationImportance">Способ уведомления</string>
   <string name="NotificationImportanceHigh">Звук и всплывающее окно</string>
@@ -2594,7 +3009,7 @@
   <string name="PollDiscardPrompt">Вы уверены, что хотите удалить этот опрос?</string>
   <string name="QuizDiscard">Удалить викторину</string>
   <string name="QuizDiscardPrompt">Вы уверены, что хотите удалить эту викторину?</string>
-  <string name="PollOptionsAdd">Добавить ответ...</string>
+  <string name="PollOptionsAdd">Добавить ответ…</string>
   <string name="PollOptionsLimit_one">Можно добавить ещё %1$s вариант ответа.</string>
   <string name="PollOptionsLimit_other">Можно добавить ещё %1$s вариантов ответа.</string>
   <string name="PollOptionsMax">Вы указали максимальное количество вариантов ответа.</string>
@@ -2673,7 +3088,8 @@
 
   <string name="EraseDatabase">Стереть все данные</string>
   <string name="EraseDatabaseDone">Данные успешно удалены.</string>
-  <string name="EraseDatabaseProgress">Удаление данных... Это может занять некоторое время. Пожалуйста, подождите и не закрывайте приложение.</string>
+  <string name="EraseDatabaseError">Невозможно удалить файлы.</string>
+  <string name="EraseDatabaseProgress">Удаление данных… Это может занять некоторое время. Пожалуйста, подождите и не закрывайте приложение.</string>
   <string name="EraseDatabaseWarn">**Внимание!**\n\nСекретные чаты будут потеряны. Медиафайлы нужно будет загружать заново.</string>
   <string name="EraseDatabaseWarn2">**Внимание!**\n\nВы точно хотите очистить базу данных на этом устройстве, удалить все загруженные медиафайлы и секретные чаты?</string>
   <string name="EraseDatabaseMultiUser">Это действие не повлияет на другие аккаунты.</string>
@@ -2729,6 +3145,7 @@
 
   <string name="error_CHAT_ADMIN_REQUIRED">У Вас недостаточно прав для совершения этого действия</string>
   <string name="ChatPermissions">Разрешения</string>
+  
   <string name="WhatMembersCanDo">Возможности участников:</string>
   <string name="MemberSince">Участник с %1$s %2$s</string>
   <string name="format_statusAndDate">%1$s\n%2$s</string>
@@ -2778,6 +3195,7 @@
   <string name="UpgradeChatPrompt">Чтобы совершить это действие, необходимо сделать эту группу супергруппой.\n\n**Важно**: новые участники не смогут видеть историю переписки до этого момента.</string>
   <string name="AppUpdateReady">Telegram X готов к обновлению.</string>
   <string name="AppUpdateRestart">Перезапустить</string>
+  <string name="AppUpdateInstall">Обновить</string>
 
   <string name="GroupLinkSet">Нажмите для выбора публичной ссылки</string>
   <string name="ChannelLinkSet">Нажмите для выбора публичной ссылки</string>
@@ -2885,6 +3303,7 @@
   <string name="ArchiveTitle">Архив</string>
   <string name="ArchiveTitleList">Архив</string>
   <string name="Unarchive">Вернуть из архива</string>
+  <string name="UnarchiveUnmute">Вернуть</string>
 
   <string name="ArchiveChat">В архив</string>
   <string name="UnarchiveChat">Вернуть из архива</string>
@@ -2945,6 +3364,7 @@
   <string name="LogInAsOn">Войти как %1$s на %2$s</string>
   <string name="AllowWriteAccess">Разрешить %1$s писать мне сообщения</string>
   <string name="Discuss">Обсудить</string>
+  <string name="DiscussMessage">Обсудить</string>
   <string name="LinkedChannel">Привязанный канал</string>
   <string name="LinkedGroup">Привязанная группа</string>
   <string name="LinkChannel">Привязать канал</string>
@@ -3188,6 +3608,10 @@
   <string name="SendAsXFiles_one">Отправить как %1$s файл</string>
   <string name="SendAsXFiles_other">Отправить как %1$s файлов</string>
 
+  <string name="SendOriginal">Отправить оригинал</string>
+  <string name="SendXOriginals_one">Отправить %1$s оригинал</string>
+  <string name="SendXOriginals_other">Отправить %1$s оригинал</string>
+
   <string name="Camera">Встроенная камера</string>
   <string name="CameraSettings">Настройки камеры</string>
 
@@ -3216,7 +3640,7 @@
   <string name="DiscardMediaMsg">Сбросить изменения</string>
   <string name="DiscardMediaHint">Вы точно хотите сбросить редактирование медиафайла? Все изменения будут потеряны.</string>
   <string name="DiscardMediaMsg2">Сбросить описание</string>
-  <string name="DiscardMediaHint2">Вы точно хотите сбросить редактирование описания? Все изменения будут потеряны.</string>
+  <string name="DiscardMediaHint2">Вы точно хотите сбросить редактирование? Все изменения будут потеряны.</string>
   <string name="DiscardMediaMsg3">Сбросить изменения</string>
   <string name="DiscardMediaHint3">Вы точно хотите сбросить редактирование описания и медиа? Все изменения будут потеряны.</string>
 
@@ -3228,6 +3652,9 @@
 
   <string name="StatsRange">За следующий период: %1$s.</string>
   <string name="StatsMembers">Участники</string>
+  <string name="StatsMessages">Сообщения</string>
+  <string name="StatsMembersWriting">Отправляли сообщения</string>
+  <string name="StatsMembersReading">Читают</string>
   <string name="StatsViews">Просмотры постов</string>
   <string name="StatsShares">Пересылка постов</string>
   <string name="StatsNotifications">Уведомления включены</string>
@@ -3236,6 +3663,13 @@
 
   <string name="StatsChartGrowth">Рост</string>
   <string name="StatsChartFollowers">Подписчики</string>
+  <string name="StatsChartMembers">Участники группы</string>
+  <string name="StatsChartMembersBySource">Источники участников</string>
+  <string name="StatsChartMembersLanguage">Основной язык участников</string>
+  <string name="StatsChartMessages">Сообщения</string>
+  <string name="StatsChartActions">Действия</string>
+  <string name="StatsChartTopHours">Активные часы</string>
+  <string name="StatsChartTopDays">Активные дни недели</string>
   <string name="StatsChartNotifications">Уведомления</string>
   <string name="StatsChartViewsByHour">Просмотры по часам (UTC)</string>
   <string name="StatsChartViewsBySource">Источники просмотров</string>
@@ -3243,6 +3677,31 @@
   <string name="StatsChartLanguage">Языки</string>
   <string name="StatsChartInteractions">Активность</string>
   <string name="StatsChartIv">Активность в IV</string>
+
+  <string name="StatsTopMembers">Участники</string>
+  <string name="StatsTopAdmins">Администраторы</string>
+  <string name="StatsTopInviters">Приглашения</string>
+  <string name="StatsXCharacters_one">%1$s символ на сообщение</string>
+  <string name="StatsXCharacters_other">%1$s символа на сообщение</string>
+  <string name="StatsXDeletions_one">%1$s удаление</string>
+  <string name="StatsXDeletions_other">%1$s удаления</string>
+  <string name="StatsXBans_one">%1$s блокировка</string>
+  <string name="StatsXBans_other">%1$s блокировки</string>
+  <string name="StatsXRestrictions_one">%1$s ограничение</string>
+  <string name="StatsXRestrictions_other">%1$s ограничения</string>
+  <string name="StatsXInvitations_one">%1$s приглашение</string>
+  <string name="StatsXInvitations_other">%1$s приглашения</string>
+  <string name="StatsXShowMore_one">Показать ещё %1$s</string>
+  <string name="StatsXShowMore_other">Показать ещё %1$s</string>
+  <string name="StatsRecentPosts">Недавние посты</string>
+  <string name="StatsXShared_one">%1$s поделился</string>
+  <string name="StatsXShared_other">%1$s поделились</string>
+  <string name="StatsMessageInfo">Статистика сообщения</string>
+  <string name="StatsMessageViewCount">Просмотры</string>
+  <string name="StatsMessageSharesPrivate">Поделились непублично</string>
+  <string name="StatsMessageSharesPublic">Поделились публично</string>
+  <string name="StatsMessagePublishDate">Дата публикации</string>
+  <string name="StatsMessageSignature">Подпись автора</string>
 
   <string name="SendDiceAsEmoji">Отправить как эмодзи</string>
   <string name="SendDiceHint">Отправьте эмодзи %1$s в любой чат, чтобы испытать удачу.</string>
@@ -3262,7 +3721,7 @@
 
   <string name="EditPrivacyGlobal">Общие настройки конфиденциальности</string>
   <string name="EditPrivacy">Конфиденциальность</string>
-  <string name="EditPrivacyHint">Вы можете проверить, что видит конкретный пользователь или участники чата, для этого откройте профиль пользователя &gt; ... &gt; Конфиденциальность.</string>
+  <string name="EditPrivacyHint">Вы можете проверить, что видит конкретный пользователь или участники чата, для этого откройте профиль пользователя &gt; … &gt; Конфиденциальность.</string>
 
   <string name="PrivacyVisibilityUser">Что %1$s видит в моем профиле?</string>
   <string name="PrivacyVisibilityBot">К чему %1$s имеет доступ?</string>
@@ -3337,6 +3796,365 @@
 
   <string name="BrushSize">Размер кисти: %1$s</string>
 
+  <string name="VideoTrimUnsupported">Не удалось обрезать видеофайл</string>
+  <string name="WrongLayout">Ошибка в превью?</string>
+
+  <string name="UnknownChats">Чаты от неизвестных пользователей</string>
+  <string name="ArchiveNonContacts">В архив и без уведомлений</string>
+  <string name="ArchiveNonContactsInfo">Автоматически отключать уведомления о новых чатах, группах и каналов от неконтактов и помещать их в архив.</string>
+  <string name="SizeUnit">Размер блока</string>
+  <string name="SizeUnitMetric">1000 байт = 1 КБ, 1000 КБ = 1 МБ</string>
+  <string name="SizeUnitBinary">1024 байта = 1 КиБ, 1024 КиБ = 1 МиБ</string>
+  <string name="ViewPhoto">Посмотреть фото</string>
+  <string name="Quality">Качество</string>
+
+  <string name="locationUpdated_now">обновлено только что</string>
+  <string name="locationUpdated_seconds_one">обновлено %1$s секунду назад</string>
+  <string name="locationUpdated_seconds_other">обновлено %1$s секунды назад</string>
+  <string name="locationUpdated_minutes_one">обновлено %1$s минуту назад</string>
+  <string name="locationUpdated_minutes_other">обновлено %1$s минуты назад</string>
+  <string name="locationUpdated_hours_one">обновлено %1$s час назад</string>
+  <string name="locationUpdated_hours_other">обновлено %1$s часа назад</string>
+  <string name="locationUpdated_today">обновлено в %1$s</string>
+  <string name="locationUpdated_yesterday">обновлено вчера в %1$s</string>
+  <string name="locationUpdated_weekday">обновлено в %1$s в %2$s</string>
+  <string name="locationUpdated_date">обновлено %1$s в %2$s</string>
+
+  <string name="modified_now">изменено только что</string>
+  <string name="modified_seconds_one">изменено %1$s секунду назад</string>
+  <string name="modified_seconds_other">изменено %1$s секунды назад</string>
+  <string name="modified_minutes_one">изменено %1$s минуту назад</string>
+  <string name="modified_minutes_other">изменено %1$s минуты назад</string>
+  <string name="modified_hours_one">изменено %1$s час назад</string>
+  <string name="modified_hours_other">изменено %1$s часа назад</string>
+  <string name="modified_today">изменено в %1$s</string>
+  <string name="modified_yesterday">изменено вчера в %1$s</string>
+  <string name="modified_weekday">изменено в %1$s в %2$s</string>
+  <string name="modified_date">изменено %1$s в %2$s</string>
+
+  <string name="ProximityAlertYouM_one">Вы находитесь в %1$s метре от %2$s</string>
+  <string name="ProximityAlertYouM_other">Вы находитесь в %1$s метрах от %2$s</string>
+  <string name="ProximityAlertYouKM_one">Вы находитесь в %1$s километре от %2$s</string>
+  <string name="ProximityAlertYouKM_other">Вы находитесь в %1$s километрах от %2$s</string>
+  <string name="ProximityAlertOtherM_one">%2$s находится в %1$s метре от Вас</string>
+  <string name="ProximityAlertOtherM_other">%2$s находится в %1$s метрах от Вас</string>
+  <string name="ProximityAlertOtherKM_one">%2$s находится в %1$s километре от Вас</string>
+  <string name="ProximityAlertOtherKM_other">%2$s находится в %1$s километрах от Вас</string>
+  <string name="ProximityAlertM_one">%2$s находится в %1$s метре от %3$s</string>
+  <string name="ProximityAlertM_other">%2$s находится в %1$s метрах от %3$s</string>
+  <string name="ProximityAlertKM_one">%2$s находится в %1$s километре от %3$s</string>
+  <string name="ProximityAlertKM_other">%2$s находится в %1$s километрах от %3$s</string>
+
+  <string name="EraseConfirm">Удалить</string>
+
+  <string name="LeaveComment">Комментировать</string>
+  <string name="xComments_one">%1$s комментарий</string>
+  <string name="xComments_other">%1$s комментария</string>
+  <string name="xReplies_one">%1$s ответ</string>
+  <string name="xReplies_other">%1$s ответа</string>
+  <string name="ViewXComments_one">Посмотреть %1$s комментарий</string>
+  <string name="ViewXComments_other">Посмотреть %1$s комментария</string>
+  <string name="DiscussionStart">Начало обсуждения</string>
+  <string name="NoComments">Комментариев пока нет…</string>
+
+  <string name="RepliesBot">Ответы</string>
+  <string name="RepliesBotShort">Ответы</string>
+
+  <string name="DeleteRepliesConfirm">Вы точно хотите удалить все **уведомления об ответах**? Это действие нельзя будет отменить.</string>
+  <string name="DeleteAndStopRepliesConfirm">Вы точно хотите удалить все **уведомления об ответах** и больше не получать их?</string>
+
+  <string name="XPinnedMessages_one">%1$s закреплённое сообщение</string>
+  <string name="XPinnedMessages_other">%1$s закреплённых сообщения</string>
+
+  <string name="Mention">Упоминание</string>
+  <string name="MentionPlaceholder">Текст</string>
+  <string name="MentionAdd">Добавить</string>
+  <string name="ShowPinnedList">Показать все</string>
+  <string name="UnpinAll">Открепить все сообщения</string>
+  <string name="DismissAllPinned">Скрыть все сообщения</string>
+
+  <string name="ForwardAuthorImported">Это сообщение было импортировано из другого приложения. Мы не можем гарантировать, что оно настоящее.</string>
+  <string name="ImportedSign">импортировано</string>
+
+  <string name="QualityWorse">Небольшой размер</string>
+  <string name="QualityBetter">Высокое качество</string>
+  <string name="BiometricsError">Сбой драйвера для биометрии, подробности сохранены в логах.</string>
+
+  <string name="InAppUpdates">Обновления в приложении</string>
+  <string name="AppUpdates">Обновления приложения</string>
+  <string name="AutoUpdate">Обновлять автоматически</string>
+  <string name="AutoUpdateNever">Никогда</string>
+  <string name="AutoUpdateAlways">Всегда</string>
+  <string name="AutoUpdateWiFi">По Wi-Fi</string>
+  <string name="AutoUpdatePrompt">Уведомлять при появлении</string>
+  <string name="InstallBetas">Устанавливать бета-версии</string>
+  <string name="CheckForUpdates">Проверить обновления</string>
+  <string name="InstallUpdate">Установить обновление</string>
+  <string name="CheckingForUpdates">Проверка обновлений…</string>
+  <string name="LatestInstalled">Установлена последняя версия</string>
+  <string name="DownloadUpdateSize">Загрузить обновление (%1$s)</string>
+  <string name="DownloadUpdate">Загрузить обновление</string>
+  <string name="AppUpdateAvailablePrompt">Доступно новое обновление **Telegram X**. Загрузить? (%1$s)</string>
+  <string name="AppUpdateAvailableVersionPrompt">Доступно новое обновление **Telegram X** `%2$s`. Хотите загрузить? (%1$s)</string>
+  <string name="AppUpdateAvailablePromptConfirm">Загрузить и установить</string>
+
+  <string name="CommitSignature">**Обновление**: [%1$s](%2$s)</string>
+  <string name="AppSignature">**Telegram X** `%1$s`</string>
+  <string name="CreatedOn">**Создано**: %1$s</string>
+  <string name="SourceCode">Исходный код</string>
+
+  <string name="ScanQR">QR-код</string>
+  <string name="ScanQRLogInInfo">Наведите камеру, чтобы подтвердить авторизацию на компьютере.</string>
+  <string name="PrivacyPolicy">Политика конфиденциальности</string>
+  <string name="ScanQRLinkHint">Чтобы использовать QR-код, откройте настройки &gt; Устройства &gt; Сканировать QR-код.</string>
+  <string name="ScanQRAuthorizedToast">Подтвержден вход с %1$s</string>
+  <string name="ScanQRAuthorizedToastPasswordPending">Подтверждено устройство с %1$s, однако для входа в аккаунт требуется ввод пароля.</string>
+  <string name="ScanQRFullTitle">Сканировать QR-код</string>
+  <string name="ScanQRFullSubtitle">Сканируйте QR-код для входа в аккаунт с другого устройства.</string>
+  <string name="ScanQRFullSubtitleProxy">Сканируйте QR-код для добавления прокси-сервера.</string>
+
+  <string name="SlowMode">Медленный режим</string>
+  <string name="SlowModeDisabled">Выберите, как часто каждый участник сможет писать в группу.</string>
+  <string name="SlowModeSeconds_one">Участники не смогут отправить больше одного сообщения за %1$s секунду.</string>
+  <string name="SlowModeSeconds_other">Участники не смогут отправить больше одного сообщения за %1$s секунды.</string>
+  <string name="SlowModeMinutes_one">Участники не смогут отправить больше одного сообщения за %1$s минуту.</string>
+  <string name="SlowModeMinutes_other">Участники не смогут отправить больше одного сообщения за %1$s минуты.</string>
+  <string name="SlowModeHours_one">Участники не смогут отправить больше одного сообщения за %1$s час.</string>
+  <string name="SlowModeHours_other">Участники не смогут отправить больше одного сообщения за %1$s часа.</string>
+  <string name="SlowModeOff">Нет</string>
+
+  <string name="InviteLinks">Пригласительные ссылки</string>
+  <string name="PrimaryInviteLinkMenu">Основная ссылка</string>
+  <string name="PrimaryInviteLink">Основная ссылка</string>
+  <string name="AdditionalInviteLinks">Дополнительные ссылки</string>
+  <string name="AdditionalInviteLinksHint">Вы можете создать дополнительные ссылки и задать для них срок действия или ограничение на число использований.</string>
+  <string name="RevokedInviteLinks">Неактивные ссылки</string>
+  <string name="OtherAdminsInviteLinks">Ссылки других администраторов</string>
+  <string name="InviteLinkNoJoins">нет вступлений</string>
+  <string name="InviteLinkJoins_one">%1$s вступление</string>
+  <string name="InviteLinkJoins_other">%1$s вступления</string>
+  <string name="InviteLinkRemains_one">осталось %1$s</string>
+  <string name="InviteLinkRemains_other">осталось %1$s</string>
+  <string name="InviteLinkExpired">истекла</string>
+  <string name="InviteLinkRevoked">сброшена</string>
+  <string name="InviteLinkMemberLimitReached">максимальное число участников</string>
+  <string name="InviteLinkExpiredAt">истекает через %1$s</string>
+
+  <string name="InviteLinkExpires_now">скоро истекает</string>
+  <string name="InviteLinkExpires_seconds_one">истекает через %1$s минут</string>
+  <string name="InviteLinkExpires_seconds_other">истекает через %1$s минуты</string>
+  <string name="InviteLinkExpires_minutes_one">истекает через %1$s минуту</string>
+  <string name="InviteLinkExpires_minutes_other">истекает через %1$s минуты</string>
+  <string name="InviteLinkExpires_hours_one">истекает через %1$s час</string>
+  <string name="InviteLinkExpires_hours_other">истекает через %1$s часа</string>
+  <string name="InviteLinkExpires_today">истекает через %1$s</string>
+  <string name="InviteLinkExpires_tomorrow">истекает завтра в %1$s</string>
+  <string name="InviteLinkExpires_weekday">истекает %1$s в %2$s</string>
+  <string name="InviteLinkExpires_date">истекает %1$s в %2$s</string>
+
+  <string name="DeleteAllRevokedLinks">Удалить все неактивные ссылки</string>
+  <string name="AreYouSureDeleteAllInviteLinks">Вы точно хотите удалить все неактивные ссылки?</string>
+  <string name="AreYouSureRevokeInviteLinkGroup">Вы точно хотите сбросить эту ссылку? После этого никто не сможет использовать её, чтобы присоединиться.</string>
+  <string name="AreYouSureRevokeInviteLinkChannel">Вы точно хотите сбросить эту ссылку? После этого никто не сможет использовать её, чтобы присоединиться.</string>
+  <string name="AreYouSureDeleteInviteLink">Вы точно хотите удалить эту ссылку?</string>
+  <string name="InviteLinkEdit">Изменить ссылку</string>
+  <string name="InviteLinkDelete">Удалить ссылку</string>
+  <string name="InviteLinkCopy">Копировать ссылку</string>
+  <string name="InviteLinkLimitedByPeriod">Ограничение по времени</string>
+  <string name="InviteLinkLimitedByUsers">Число вступлений</string>
+  <string name="InviteLinkLimitedByPeriodHint">Вы можете выбрать срок действия для этой ссылки.</string>
+  <string name="InviteLinkLimitedByUsersHint">Вы можете выбрать, сколько пользователей смогут присоединиться к группе по этой ссылке.</string>
+  <string name="InviteLinkLimitedByPeriodItem">Выбрать дату</string>
+  <string name="InviteLinkLimitedByUsersItem">Число вступлений</string>
+  <string name="InviteLinkLimitedByUsersAlertHint">0 — без ограничений</string>
+  <string name="InviteLinkLimitedByUsersCustom">Выбрать число</string>
+  <string name="InviteLinkNoLimitSet">нет</string>
+  <string name="InviteLinkExpireTitle">Срок действия</string>
+  <string name="InviteLinkExpireToday">Истекает сегодня в %1$s</string>
+  <string name="InviteLinkExpireTomorrow">Истекает завтра в %1$s</string>
+  <string name="InviteLinkExpireFuture">Истекает %1$s в %2$s</string>
+  <string name="InviteLinkExpireInHours_one">Истекает через %1$s час</string>
+  <string name="InviteLinkExpireInHours_other">Истекает через %1$s часа</string>
+  <string name="InviteLinkExpireInDays_one">Истекает через %1$s день</string>
+  <string name="InviteLinkExpireInDays_other">Истекает через %1$s дня</string>
+  <string name="InviteLinkExpireInWeeks_one">Истекает через %1$s неделю</string>
+  <string name="InviteLinkExpireInWeeks_other">Истекает через %1$s недели</string>
+  <string name="InviteLinkExpireInCustomDate">Ограничение срока действия...</string>
+  <string name="InviteLinkExpireNone">Без ограничений</string>
+  <string name="InviteLinkOtherAdminHint">**%1$s** может видеть эту ссылку и использовать ее для добавления участников в **%2$s**.</string>
+  <string name="InviteLinkViewMembers">Просмотр вступлений</string>
+  <string name="InviteLinkViewMembersTitle">Вступившие участники</string>
+  <string name="CreatedByXOnDate">Создана %1$s %2$s</string>
+  <string name="Infinity">∞</string>
+  <string name="InviteLinkManage">Пригласительные ссылки</string>
+
+  <string name="xActiveLinks_one">%1$s активная ссылка</string>
+  <string name="xActiveLinks_other">%1$s активные ссылки</string>
+  <string name="xRevokedLinks_one">%1$s неактивная ссылка</string>
+  <string name="xRevokedLinks_other">%1$s неактивные ссылки</string>
+  <string name="format_activeAndRevokedLinks">%1$s, %2$s</string>
+
+  <string name="ChatTtl">Автоудаление сообщений</string>
+  <string name="ChatTtlOff">Нет</string>
+  <string name="ChatTtlDisabled">Вы можете выбрать, через какое время после публикации сообщения в группе будут автоматически удаляться.</string>
+  <string name="ChatTtlEnabled">Автоматическое удаление новых сообщений в группе через %1$s после публикации.</string>
+  <string name="ChannelTtl">Автоудаление записей</string>
+  <string name="ChannelTtlOff">Нет</string>
+  <string name="ChannelTtlDisabled">Вы можете выбрать, через какое время после публикации сообщения в канале будут автоматически удаляться.</string>
+  <string name="ChannelTtlEnabled">Автоматическое удаление новых сообщений в канале через %1$s после публикации.</string>
+
+  <string name="ChatBackgroundPreview">Предпросмотр фона</string>
+  <string name="ChatBackgroundNotSupported">К сожалению, этот тип фона чата пока не поддерживается.</string>
+  <string name="ChatBackgroundApply">Установить фон</string>
+  <string name="ChatBackgroundView">Посмотреть фон чата</string>
+  <string name="ChatBackground">Фон для чатов</string>
+  <string name="ChatBackgroundTypePattern">узор</string>
+  <string name="ChatBackgroundTypeSolid">сплошной цвет</string>
+  <string name="ChatBackgroundTypeGradient">градиент</string>
+  <string name="ChatBackgroundTypeMulticolor">многоцветный градиент</string>
+  <string name="ChatBackgroundBlur">Размытие</string>
+
+  <string name="NoCloudThemeSupport">Эта тема не подходит для приложения **Telegram X**.\n\nДругие темы, созданные пользователями, можно найти в группе @tgx_perfection.</string>
+
+  <string name="TransferOwnershipSecurityAlert">Проверка безопасности</string>
+  <string name="TransferOwnershipSecurityPasswordNeeded">Для передачи прав владельца Ваша учётная запись должна быть защищена **двухэтапной аутентификацией**.</string>
+  <string name="TransferOwnershipSecurityWaitPassword">"Поскольку Вы недавно установили пароль, необходимо подождать **%1$s**, прежде чем Вы сможете передать права. "</string>
+  <string name="TransferOwnershipSecurityWaitSession">"Поскольку Вы недавно зашли с этого устройства, необходимо подождать **%1$s**, прежде чем Вы сможете передать права. "</string>
+  <string name="TransferOwnershipSecurityActionSetPassword">Установить пароль</string>
+  <string name="TransferOwnershipPasswordAlert">Передача прав</string>
+  <string name="TransferOwnershipPasswordAlertHint">Введите пароль, чтобы подтвердить передачу прав.</string>
+  <string name="TransferOwnershipAlert">Подождите...</string>
+  <string name="TransferOwnershipConfirm">Передать права</string>
+  <string name="TransferOwnershipAlertBot">Вы точно хотите передать права на бота?\n\nЭто действие **нельзя будет отменить**, поэтому убедитесь, что правильно выбрали пользователя, которому собираетесь передать бота.</string>
+  <string name="TransferOwnershipAlertBotName">Вы точно хотите передать **%2$s** права на **%1$s**?\n\nЭто действие **нельзя будет отменить**, поэтому убедитесь, что правильно выбрали пользователя, которому собираетесь передать бота.</string>
+  <string name="TransferOwnershipAlertUnknown">Вы точно хотите продолжить?\n\nЭто действие **нельзя будет отменить**, поэтому убедитесь, что вся информация верна.</string>
+  <string name="TransferOwnershipAlertChannel">Вы точно хотите передать **%2$s** права на **%1$s**?\n\nЭто действие **нельзя будет отменить**, поэтому убедитесь, что правильно выбрали пользователя, которому собираетесь передать канал.</string>
+  <string name="TransferOwnershipAlertGroup">Вы точно хотите передать **%2$s** права на **%1$s**?\n\nВы больше не будете считаться создателем группы. Новый владелец сможет разжаловать Вас из администраторов или даже заблокировать.</string>
+  <string name="TransferOwnershipChannel">Передать права на канал</string>
+  <string name="TransferOwnershipGroup">Передать права на группу</string>
+  <string name="TransferOwnershipTooMuch">У пользователя максимальное число групп и каналов. Пожалуйста, предложите ему сперва покинуть какую-нибудь группу или канал.</string>
+  <string name="TransferOwnershipTooMuchPublic">У этого пользователя максимальное число публичных групп и каналов. Пожалуйста, предложите ему сперва удалить одну из публичных ссылок на его группу или канал.</string>
+  <string name="TransferOwnershipTooMuchLocated">У этого пользователя максимальное число групп с геопозицией. Пожалуйста, предложите ему сперва удалить или передать кому-либо одну из его групп.</string>
+
+  <string name="NoRightAllowChangeInfo">Вы не можете разрешить всем изменять информацию о группе, потому что у Вас нет нужных прав администратора.</string>
+  <string name="NoRightAllowChangeInfoPublic">Вы не можете разрешить всем изменять информацию о группе, потому что эта группа является публичной.</string>
+  <string name="NoRightAllowPin">Вы не можете разрешить всем закреплять сообщения, потому что у Вас нет нужных прав администратора.</string>
+  <string name="NoRightAllowPinPublic">Вы не можете разрешить всем закреплять сообщения, потому что эта группа публичная.</string>
+  <string name="NoRightDisallowInvite">Все участники могут приглашать новых участников в этот чат.</string>
+  <string name="NoRightDisallowChangeInfo">Все участники могут изменять информацию в этом чате.</string>
+  <string name="NoRightDisallowPin">Все участники могут закреплять сообщения в этом чате.</string>
+
+  <string name="CopyBankCard">Копировать номер карты</string>
+  <string name="CopiedBankCard">Номер карты был скопирован в буфер обмена</string>
+
+  <string name="ChoosingSticker">выбирает стикер</string>
+  <string name="IsChoosingSticker">%1$s выбирает стикер</string>
+  <string name="AreChoosingSticker">%1$s выбирают стикеры</string>
+
+  <string name="QDeleteCallFromRecent">Удалить звонок из недавних?</string>
+
+  <string name="ReminderCheckPhoneNumber">Проверьте свой номер телефона</string>
+  <string name="ReminderCheckPhoneNumberText">%1$s всё ещё Ваш номер?</string>
+  <string name="ReminderCheckPhoneNumberDescription">Чтобы Вы всегда могли зайти в Telegram, важно указать актуальный номер телефона.</string>
+  <string name="ReminderCheckPhoneNumberHide">Оставить %1$s</string>
+  <string name="ReminderCheckTfaPassword">Проверка пароля</string>
+  <string name="ReminderCheckTfaPasswordText">Вы помните свой пароль?</string>
+  <string name="ReminderCheckTfaPasswordDescription">Чтобы Вы всегда могли зайти в Telegram, важно не забыть пароль от двухэтапной аутентификации.</string>
+  <string name="ReminderCheckTfaPasswordHide">Скрыть подсказку</string>
+  <string name="ReminderActionLearnMore">Подробнее</string>
+  <string name="ReminderActionChangePhoneNumber">Изменить номер</string>
+  <string name="ReminderActionVerifyPassword">Проверить пароль</string>
+
+  <string name="OpenPreviewInSecretChatWarning">Вы точно хотите открыть предпросмотр %1$s для этой ссылки?\n\n%2$s</string>
+  <string name="OpenPreviewInSecretChatActionOpen">"Открыть предпросмотр "</string>
+  <string name="OpenPreviewInSecretChatActionBrowser">Открыть в браузере</string>
+
+  <string name="SubscribeToBeta">Подписаться на бета-версии</string>
+  <string name="url_betaSubscription">https://play.google.com/apps/testing/org.thunderdog.challegram</string>
+
+  <string name="NotificationsMode">Показывать уведомления</string>
+  <string name="NotificationsModeAll">Всех аккаунтов</string>
+  <string name="NotificationsModeActive">Этого аккаунта</string>
+  <string name="NotificationsModeSelected">Выбранных аккаунтов</string>
+  <string name="NotificationsModeSelectedMoreMuted_one">Показать %1$s аккаунт без уведомлений</string>
+  <string name="NotificationsModeSelectedMoreMuted_other">Показать %1$s аккаунта без уведомлений</string>
+  <string name="NotificationsModeSelectedMore_one">Показать ещё %1$s аккаунт</string>
+  <string name="NotificationsModeSelectedMore_other">Показать ещё %1$s аккаунта</string>
+  <string name="NotificationsModeAllHint">Уведомления будут приходить для всех авторизованных аккаунтов.</string>
+  <string name="NotificationsModeActiveHint">Уведомления будут приходить только для того аккаунта, который выбран в приложении.</string>
+  <string name="NotificationsModeSelectedHint_one">Выбран %1$s аккаунт, от которого будут приходить уведомления.</string>
+  <string name="NotificationsModeSelectedHint_other">Выбрано %1$s аккаунтов, от которых будут приходить уведомления.</string>
+  <string name="NotificationsModeSelectedHintExcluded_one">Вы будете получать уведомления для %1$s выбранного аккаунта. Аккаунт, который Вы сейчас используете, не выбран.</string>
+  <string name="NotificationsModeSelectedHintExcluded_other">Вы будете получать уведомления для %1$s выбранных аккаунтов. Аккаунт, который Вы сейчас используете, не выбран.</string>
+  <string name="NotificationSettings">Уведомления из чатов</string>
+
+  <string name="XSignInAttempts_one">%1$s незавершённая попытка входа</string>
+  <string name="XSignInAttempts_other">%1$s незавершённых попытки входа</string>
+  <!-- User has only one authorization and it's current -->
+  <string name="SignedInNoOtherSessions">Нет других сеансов</string>
+  <!-- Just one other session -->
+  <string name="SignedInOtherDevice">Вы также авторизованы на %1$s</string>
+  <string name="SignedInOtherSession">Вы также авторизованы в %1$s</string>
+  <!-- All sessions from other devices, each device has 1 session, no other sessions on current device -->
+  <string name="SignedInXOtherDevices_one">Вы авторизованы ещё на %1$s устройстве</string>
+  <string name="SignedInXOtherDevices_other">Вы авторизованы ещё на %1$s устройствах</string>
+  <!-- All session from current device, no sessions on other devices -->
+  <string name="SignedInXOtherApps_one">Вы авторизованы ещё в %1$s приложении</string>
+  <string name="SignedInXOtherApps_other">Вы авторизованы ещё в %1$s приложениях</string>
+  <!-- %1$s — SignedInXApp, %1$s — SignedInXOtherDevices or SignedInXDevices -->
+  <string name="format_signedInAppsOnDevices">%1$s %2$s</string>
+  <!-- All session from other devices -->
+  <string name="part_SignedInXApps_one">Вы авторизованы ещё в %1$s приложении</string>
+  <string name="part_SignedInXApps_other">Вы авторизованы ещё в %1$s приложениях</string>
+  <string name="part_SignedInXOtherApps_one">Вы авторизованы в %1$s другом приложении</string>
+  <string name="part_SignedInXOtherApps_other">Вы авторизованы в %1$s других приложениях</string>
+  <!-- Option 1: some devices have more than 1 session, no other session on current devices -->
+  <string name="part_SignedInXOtherDevices_one">ещё на %1$s устройстве</string>
+  <string name="part_SignedInXOtherDevices_other">ещё на %1$s устройствах</string>
+  <!-- Option 2: multiple sessions on current device, some are from other devices -->
+  <string name="part_SignedInXDevices_one">на %1$s устройстве</string>
+  <string name="part_SignedInXDevices_other">на %1$s устройствах</string>
+
+  <string name="NotificationsErrorBlocked">Уведомления запрещены в системных настройках</string>
+  <string name="NotificationsErrorBlockedCategory">Уведомления для этого аккаунта отключены</string>
+  <string name="NotificationsErrorBlockedMixed">Некоторые уведомления отключены</string>
+  <string name="NotificationsErrorBlockedGroup">Уведомления о сообщениях в группах отключены</string>
+  <string name="NotificationsErrorBlockedChannel">Уведомления о сообщениях в каналах отключены</string>
+  <string name="NotificationsErrorBlockedPrivate">Уведомления о сообщениях в личных чатах отключены</string>
+  <string name="NotificationsErrorBackground">Уведомления могут не показываться, когда приложение закрыто</string>
+  <string name="NotificationsErrorUnselected">Уведомления для этого аккаунта выключены</string>
+  <string name="NotificationsErrorError">Не показаны некоторые уведомления</string>
+  <string name="NotificationsErrorErrorChat">Не показаны уведомления для %1$s</string>
+
+  <string name="TooManySelectedAccounts">Требуется выбрать хотя бы один аккаунт.</string>
+
+  <string name="session_Device">Устройство: %1$s</string>
+  <string name="session_App">Приложение: %1$s</string>
+  <string name="session_System">Система: %1$s</string>
+
+  <string name="NoFilePicker">Не найдено приложение для просмотра файлов</string>
+  <string name="OpenEmbed">Предпросмотр ссылок</string>
+  <string name="OpenEmbedDesc">Показывать в приложении предпросмотр для внешних ссылок</string>
+
+  <string name="InAppCameraCache">Кэш встроенной камеры</string>
+  <string name="InAppCameraCacheDeleteConfirm">Вы точно хотите очистить кэш для встроенной камеры приложения?</string>
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+
   
   
   
@@ -3364,6 +4182,8 @@
   <string name="AddXMasks_many">Добавить %1$s масок</string>
   <string name="AddXStickers_few">Добавить %1$s стикера</string>
   <string name="AddXStickers_many">Добавить %1$s стикеров</string>
+  <string name="AdminCanAssignAdmins">Этот администратор сможет добавлять других администраторов с такими же или более ограниченными правами.</string>
+  <string name="AdminCannotAssignAdmins">Этот администратор не сможет добавлять новых администраторов.</string>
   <string name="AdminsAreSelectedHint">Только администраторы могут добавлять новых участников, редактировать имя и фотографию группы.</string>
   <string name="AgeVerification_few">Для использования Telegram Вам должно быть не меньше %1$s лет.</string>
   <string name="AgeVerification_many">Для использования Telegram Вам должно быть не меньше %1$s лет.</string>
@@ -3391,15 +4211,17 @@
   <string name="AttachVideosSuffix_few">" видео"</string>
   <string name="AttachVideosSuffix_many">" видео"</string>
   <string name="BadgeCounterSetting">Индикаторы на значках</string>
+  <string name="BanUser">Заблокировать пользователя</string>
   <string name="BlockXBots_few">Блокировать %1$s ботов</string>
   <string name="BlockXBots_many">Блокировать %1$s ботов</string>
   <string name="BlockXUsers_few">Заблокировать %1$s пользователей</string>
   <string name="BlockXUsers_many">Заблокировать %1$s пользователей</string>
+  <string name="BlockedUsers">Чёрный список</string>
   <string name="BlockedXBots_few">%1$s бота заблокированы</string>
   <string name="BlockedXBots_many">%1$s ботов заблокированы</string>
   <string name="BlockedXUsers_few">%1$s пользователя заблокированы</string>
   <string name="BlockedXUsers_many">%1$s пользователей заблокированы</string>
-  <string name="ChannelCreator">Создатель</string>
+  <string name="ChannelCreator">Владелец</string>
   <string name="ChannelMessageAudio">В канале «%1$s» новое голосовое сообщение</string>
   <string name="ChannelMessageDocument">В канале «%1$s» новый файл</string>
   <string name="ChannelMessageGIF">В канал «%1$s» отправили GIF</string>
@@ -3408,13 +4230,65 @@
   <string name="ChannelMessageRoundVideo">В канале «%1$s» новое видеосообщение</string>
   <string name="ChannelMessageVideo">В канале «%1$s» новое видео</string>
   <string name="ChannelType">Тип канала</string>
+  <string name="ChatContentChannelTtlDays_few">Автоудаление сообщений через %1$s дня</string>
+  <string name="ChatContentChannelTtlDays_many">Автоудаление сообщений через %1$s дней</string>
+  <string name="ChatContentChannelTtlHours_few">Включено удаление сообщений через %1$s часа</string>
+  <string name="ChatContentChannelTtlHours_many">Включено удаление сообщений через %1$s часов</string>
+  <string name="ChatContentChannelTtlMinutes_few">Включено удаление сообщений через %1$s минуты</string>
+  <string name="ChatContentChannelTtlMinutes_many">Включено удаление сообщений через %1$s минут</string>
+  <string name="ChatContentChannelTtlMonths_few">Автоудаление сообщений через %1$s месяца</string>
+  <string name="ChatContentChannelTtlMonths_many">Автоудаление сообщений через %1$s месяцев</string>
+  <string name="ChatContentChannelTtlSeconds_few">Включено удаление сообщений через %1$s секунды</string>
+  <string name="ChatContentChannelTtlSeconds_many">Включено удаление сообщений через %1$s секунд</string>
+  <string name="ChatContentChannelTtlWeeks_few">Автоудаление сообщений через %1$s недели</string>
+  <string name="ChatContentChannelTtlWeeks_many">Автоудаление сообщений через %1$s недель</string>
   <string name="ChatContentDiceRolled_few">Кубик: %1$s</string>
   <string name="ChatContentDiceRolled_many">Кубик: %1$s</string>
   <string name="ChatContentGroupAddMembers_few">Добавил(а) %1$s участников в группу</string>
   <string name="ChatContentGroupAddMembers_many">Добавил(а) %1$s участников в группу</string>
   <string name="ChatContentGroupAddMembers_outgoing_few">Пригласил(а) %1$s участников в группу</string>
   <string name="ChatContentGroupAddMembers_outgoing_many">Пригласил(а) %1$s участников в группу</string>
+  <string name="ChatContentGroupTtlDays_few">Автоудаление сообщений через %1$s дня</string>
+  <string name="ChatContentGroupTtlDays_many">Автоудаление сообщений через %1$s дней</string>
+  <string name="ChatContentGroupTtlHours_few">Включено удаление сообщений через %1$s часа</string>
+  <string name="ChatContentGroupTtlHours_many">Включено удаление сообщений через %1$s часов</string>
+  <string name="ChatContentGroupTtlMinutes_few">Включено удаление сообщений через %1$s минуты</string>
+  <string name="ChatContentGroupTtlMinutes_many">Включено удаление сообщений через %1$s минут</string>
+  <string name="ChatContentGroupTtlMonths_few">Автоудаление сообщений через %1$s месяца</string>
+  <string name="ChatContentGroupTtlMonths_many">Автоудаление сообщений через %1$s месяцев</string>
+  <string name="ChatContentGroupTtlSeconds_few">Включено удаление сообщений через %1$s секунды</string>
+  <string name="ChatContentGroupTtlSeconds_many">Включено удаление сообщений через %1$s секунд</string>
+  <string name="ChatContentGroupTtlWeeks_few">Автоудаление сообщений через %1$s недели</string>
+  <string name="ChatContentGroupTtlWeeks_many">Автоудаление сообщений через %1$s недель</string>
+  <string name="ChatContentProximityFromYouKm_few">%2$s находится в %1$s километрах от Вас</string>
+  <string name="ChatContentProximityFromYouKm_many">%2$s находится в %1$s километрах от Вас</string>
+  <string name="ChatContentProximityFromYouM_few">%2$s находится в %1$s метрах от Вас</string>
+  <string name="ChatContentProximityFromYouM_many">%2$s находится в %1$s метрах от Вас</string>
+  <string name="ChatContentProximityKm_few">%2$s находится в %1$s километрах от %3$s</string>
+  <string name="ChatContentProximityKm_many">%2$s находится в %1$s километрах от %3$s</string>
+  <string name="ChatContentProximityM_few">%2$s находится в %1$s метрах от %3$s</string>
+  <string name="ChatContentProximityM_many">%2$s находится в %1$s метрах от %3$s</string>
+  <string name="ChatContentProximityYouKm_few">Вы находитесь в %1$s километрах от %2$s</string>
+  <string name="ChatContentProximityYouKm_many">Вы находитесь в %1$s километрах от %2$s</string>
+  <string name="ChatContentProximityYouM_few">Вы находитесь в %1$s метрах от %2$s</string>
+  <string name="ChatContentProximityYouM_many">Вы находитесь в %1$s метрах от %2$s</string>
   <string name="ChatContentRestricted">Содержимое недоступно</string>
+  <string name="ChatContentTtlDays_few">Автоудаление сообщений через %1$s дня</string>
+  <string name="ChatContentTtlDays_many">Автоудаление сообщений через %1$s дней</string>
+  <string name="ChatContentTtlHours_few">Включено удаление сообщений через %1$s часа</string>
+  <string name="ChatContentTtlHours_many">Включено удаление сообщений через %1$s часов</string>
+  <string name="ChatContentTtlMinutes_few">Включено удаление сообщений через %1$s минуты</string>
+  <string name="ChatContentTtlMinutes_many">Включено удаление сообщений через %1$s минут</string>
+  <string name="ChatContentTtlMonths_few">Включено удаление сообщений через %1$s месяца</string>
+  <string name="ChatContentTtlMonths_many">Включено удаление сообщений через %1$s месяцев</string>
+  <string name="ChatContentTtlSeconds_few">Включено удаление сообщений через %1$s секунды</string>
+  <string name="ChatContentTtlSeconds_many">Включено удаление сообщений через %1$s секунд</string>
+  <string name="ChatContentTtlWeeks_few">Включено удаление сообщений через %1$s недели</string>
+  <string name="ChatContentTtlWeeks_many">Включено удаление сообщений через %1$s недель</string>
+  <string name="ChatContentVoiceChatInviteMulti_few">%1$s участника приглашены в видеочат</string>
+  <string name="ChatContentVoiceChatInviteMulti_many">%1$s участников приглашены в видеочат</string>
+  <string name="ChatContentVoiceChatInviteMulti_outgoing_few">%1$s участника приглашены в видеочат</string>
+  <string name="ChatContentVoiceChatInviteMulti_outgoing_many">%1$s участников приглашены в видеочат</string>
   <string name="ChatHistoryPartiallyHiddenInfo_few">Новые участники будут видеть не больше %1$s последних сообщений.</string>
   <string name="ChatHistoryPartiallyHiddenInfo_many">Новые участники будут видеть не больше %1$s последних сообщений.</string>
   <string name="ChatPhoto">Фотография чата</string>
@@ -3479,6 +4353,8 @@
   <string name="DestroyX_few">Удалить %2$s? Материалы исчезнут для Вас и %1$s участников.</string>
   <string name="DestroyX_many">Удалить %2$s? Материалы исчезнут для Вас и %1$s участников.</string>
   <string name="DiscussionsChat">Чат для обсуждений</string>
+  <string name="DownloadedXFiles_few">Загружены %1$s файла:\n%2$s</string>
+  <string name="DownloadedXFiles_many">Загружены %1$s файлов:\n%2$s</string>
   <string name="EnableNotifications2_few">Выключить уведомления в %1$s чатах</string>
   <string name="EnableNotifications2_many">Выключить уведомления в %1$s чатах</string>
   <string name="ErrorPinnedChatsLimit_few">К сожалению, закрепить можно не больше %1$s чатов и %1$s секретных чатов.</string>
@@ -3487,12 +4363,31 @@
   <string name="Events">События</string>
   <string name="ForwardLastXMessages_few">Переслать %1$s сообщения</string>
   <string name="ForwardLastXMessages_many">Переслать %1$s сообщений</string>
+  <string name="FoundMessagesFromAutoPost">сообщения из каналов</string>
   <string name="FromXChats_few">из %1$s чатов</string>
   <string name="FromXChats_many">из %1$s чатов</string>
   <string name="GroupConvertHint">**Достигнут лимит участников**\nЧтобы пригласить больше **%1$s** участников  и получить дополнительные возможности, сделайте группу **супергруппой**:\n\n• Супергруппы могут достигать **%2$s** участников\n• Новые участники могут видеть всю историю сообщений\n• Администраторы могут удалять сообщения для всех участников\n• Уведомления отключены по умолчанию</string>
   <string name="GroupType">Тип группы</string>
   <string name="Importance">Приоритет</string>
   <string name="InAppNotifications">Уведомления в приложении</string>
+  <string name="InviteLinkExpireConfirm">Установить срок</string>
+  <string name="InviteLinkExpireHeader">Действует до</string>
+  <string name="InviteLinkExpireInDays_few">Истекает через %1$s дня</string>
+  <string name="InviteLinkExpireInDays_many">Истекает через %1$s дней</string>
+  <string name="InviteLinkExpireInHours_few">Истекает через %1$s часа</string>
+  <string name="InviteLinkExpireInHours_many">Истекает через %1$s часов</string>
+  <string name="InviteLinkExpireInWeeks_few">Истекает через %1$s недели</string>
+  <string name="InviteLinkExpireInWeeks_many">Истекает через %1$s недель</string>
+  <string name="InviteLinkExpires_hours_few">истекает через %1$s часа</string>
+  <string name="InviteLinkExpires_hours_many">истекает через %1$s часов</string>
+  <string name="InviteLinkExpires_minutes_few">истекает через %1$s минуты</string>
+  <string name="InviteLinkExpires_minutes_many">истекает через %1$s минут</string>
+  <string name="InviteLinkExpires_seconds_few">истекает через %1$s минуты</string>
+  <string name="InviteLinkExpires_seconds_many">истекает через %1$s минут</string>
+  <string name="InviteLinkJoins_few">%1$s вступления</string>
+  <string name="InviteLinkJoins_many">%1$s вступлений</string>
+  <string name="InviteLinkRemains_few">осталось %1$s</string>
+  <string name="InviteLinkRemains_many">осталось %1$s</string>
   <string name="InviteTextCommonMany_few">Привет, я использую Telegram для переписки – как и ещё %1$s наших контакта. Присоединяйся! Скачать можно здесь: %2$s</string>
   <string name="InviteTextCommonMany_many">Привет, я использую Telegram для переписки – как и ещё %1$s наших контактов. Присоединяйся! Скачать можно здесь: %2$s</string>
   <string name="LeaveXChats_few">Вы не сможете вернуться в %1$s чата</string>
@@ -3517,6 +4412,11 @@
   <string name="MarkdownTextOnly">Включено (без GUI)</string>
   <string name="MarkedXChats_few">%1$s чата помечены как новые</string>
   <string name="MarkedXChats_many">%1$s чатов помечены как новые</string>
+  <string name="MemberBanChannel">Пользователь будет заблокирован и удалён из подписчиков.</string>
+  <string name="MemberBanGroup">Пользователь будет заблокирован и удален из группы.</string>
+  <string name="MemberRestrictChannel">Этот пользователь не будет удалён из канала.</string>
+  <string name="MemberRestrictGroup">Пользователь не будет удален из группы.</string>
+  <string name="MembersDetailBanned">Заблокированные пользователи</string>
   <string name="MuteForXDays_few">Выключить на %1$s дня</string>
   <string name="MuteForXDays_many">Выключить на %1$s дней</string>
   <string name="MuteForXHours_few">Выключить на %1$s часа</string>
@@ -3538,6 +4438,14 @@
   <string name="NotificationMutedPersons_many">Уведомления для %1$s человек выключены на час</string>
   <string name="NotificationsBlockedAll">Все уведомления от Telegram блокируются системой.</string>
   <string name="NotificationsGooglePlayServices">Сервисы Google Play необходимы для надёжной доставки уведомлений.</string>
+  <string name="NotificationsModeSelectedHint_few">Выбрано %1$s аккаунта, от которых будут приходить уведомления.</string>
+  <string name="NotificationsModeSelectedHint_many">Выбрано %1$s аккаунтов, от которых будут приходить уведомления.</string>
+  <string name="NotificationsModeSelectedHintExcluded_few">Вы будете получать уведомления для %1$s выбранных аккаунтов. Аккаунт, который Вы сейчас используете, не выбран.</string>
+  <string name="NotificationsModeSelectedHintExcluded_many">Вы будете получать уведомления для %1$s выбранных аккаунтов. Аккаунт, который Вы сейчас используете, не выбран.</string>
+  <string name="NotificationsModeSelectedMore_few">Показать ещё %1$s аккаунта</string>
+  <string name="NotificationsModeSelectedMore_many">Показать ещё %1$s аккаунтов</string>
+  <string name="NotificationsModeSelectedMoreMuted_few">Показать %1$s аккаунта без уведомлений</string>
+  <string name="NotificationsModeSelectedMoreMuted_many">Показать %1$s аккаунтов без уведомлений</string>
   <string name="NotificationsOnXChats_few">В %1$s чатах включены уведомления</string>
   <string name="NotificationsOnXChats_many">В %1$s чатах включены уведомления</string>
   <string name="ParticipantLimitReached">Вы не можете добавить больше участников в эту группу</string>
@@ -3547,6 +4455,8 @@
   <string name="PinTooMuchWarn_many">К сожалению, закрепить можно не больше %1$s чатов. Упорядочить список чатов можно также с помощью добавления в архив: в архиве можно закрепить неограниченное число чатов.</string>
   <string name="PinXChats_few">Закрепить %1$s чата</string>
   <string name="PinXChats_many">Закрепить %1$s чатов</string>
+  <string name="PinXMessages_few">Закрепить %1$s сообщения?</string>
+  <string name="PinXMessages_many">Закрепить %1$s сообщений?</string>
   <string name="PollOptionsLimit_few">Можно добавить ещё %1$s варианта ответа.</string>
   <string name="PollOptionsLimit_many">Можно добавить ещё %1$s вариантов ответа.</string>
   <string name="PollPreview">Опрос: %1$s</string>
@@ -3556,6 +4466,19 @@
   <string name="PrivacyDefaultXChats_few">По умолчанию для %1$s чатов</string>
   <string name="PrivacyDefaultXChats_many">По умолчанию для %1$s чатов</string>
   <string name="Private">Частный</string>
+  <string name="ProximityAlertKM_few">%2$s находится в %1$s километрах от %3$s</string>
+  <string name="ProximityAlertKM_many">%2$s находится в %1$s километрах от %3$s</string>
+  <string name="ProximityAlertM_few">%2$s находится в %1$s метрах от %3$s</string>
+  <string name="ProximityAlertM_many">%2$s находится в %1$s метрах от %3$s</string>
+  <string name="ProximityAlertOtherKM_few">%2$s находится в %1$s километрах от Вас</string>
+  <string name="ProximityAlertOtherKM_many">%2$s находится в %1$s километрах от Вас</string>
+  <string name="ProximityAlertOtherM_few">%2$s находится в %1$s метрах от Вас</string>
+  <string name="ProximityAlertOtherM_many">%2$s находится в %1$s метрах от Вас</string>
+  <string name="ProximityAlertYouKM_few">Вы находитесь в %1$s километрах от %2$s</string>
+  <string name="ProximityAlertYouKM_many">Вы находитесь в %1$s километрах от %2$s</string>
+  <string name="ProximityAlertYouM_few">Вы находитесь в %1$s метрах от %2$s</string>
+  <string name="ProximityAlertYouM_many">Вы находитесь в %1$s метрах от %2$s</string>
+  <string name="QBlockX">Заблокировать %1$s?</string>
   <string name="QDeleteX">Удалить %1$s?</string>
   <string name="QDeleteXFromY">Удалить %1$s от %2$s?</string>
   <string name="QDeleteXMessages_few">Удалить %1$s сообщения?</string>
@@ -3596,10 +4519,24 @@
   <string name="RoleMember_minutes_many">в группе %1$s минут</string>
   <string name="RoleMember_months_few">в группе %1$s месяца</string>
   <string name="RoleMember_months_many">в группе %1$s месяцев</string>
+  <string name="RoleMember_seconds_few">в группе %1$s секунды</string>
+  <string name="RoleMember_seconds_many">в группе %1$s секунд</string>
   <string name="RoleMember_weeks_few">в группе %1$s недели</string>
   <string name="RoleMember_weeks_many">в группе %1$s недель</string>
   <string name="RoleMember_years_few">в группе %1$s года</string>
   <string name="RoleMember_years_many">в группе %1$s лет</string>
+  <string name="SaveXGifs_few">Сохранить %1$s GIF</string>
+  <string name="SaveXGifs_many">Сохранить %1$s GIF</string>
+  <string name="SaveXToDownloads_few">Сохранить %1$s файла в Загрузки</string>
+  <string name="SaveXToDownloads_many">Сохранить %1$s файлов в Загрузки</string>
+  <string name="SaveXToGallery_few">Сохранить %1$s файл в галерею</string>
+  <string name="SaveXToGallery_many">Сохранить %1$s файл в галерею</string>
+  <string name="SaveXToMusic_few">Сохранить %1$s файла в Музыку</string>
+  <string name="SaveXToMusic_many">Сохранить %1$s файлов в Музыку</string>
+  <string name="SavedXFiles_few">Сохранён %1$s файла</string>
+  <string name="SavedXFiles_many">Сохранён %1$s файлов</string>
+  <string name="SavedXGifToGallery_few">\n%1$s GIF сохранены в галерею</string>
+  <string name="SavedXGifToGallery_many">\n%1$s GIF сохранены в галерею</string>
   <string name="SelectedAudioSuffix_few">" аудио"</string>
   <string name="SelectedAudioSuffix_many">" аудио"</string>
   <string name="SelectedFileSuffix_few">" файла"</string>
@@ -3630,6 +4567,8 @@
   <string name="SendNoSoundX_many">Отправить без звука в %1$s чатов</string>
   <string name="SendXMessagesNow_few">Отправить %1$s сообщения?</string>
   <string name="SendXMessagesNow_many">Отправить %1$s сообщений?</string>
+  <string name="SendXOriginals_few">Отправить %1$s оригинала</string>
+  <string name="SendXOriginals_many">Отправить %1$s оригиналов</string>
   <string name="SetAdminsAll">Права администратора у всех</string>
   <string name="SetAdminsAllInfo">Все участники могут добавлять новых участников, изменять имя и фотографию группы.</string>
   <string name="ShareTitleAudioX_few">Отправить %1$s аудиофайла…</string>
@@ -3652,6 +4591,30 @@
   <string name="ShowForwardOptions">Доп. настройки пересылки</string>
   <string name="SignOutAltHint">Важно: при выходе из аккаунта все секретные чаты на этом устройстве пропадут.</string>
   <string name="SignOutHint">Выйти из аккаунта %1$s? \n\nВы можете использовать Telegram на всех устройствах одновременно.\n\nВажно: при выходе из аккаунта все секретные чаты на этом устройстве пропадут.</string>
+  <string name="SignedInXOtherApps_few">Вы авторизованы ещё в %1$s приложениях</string>
+  <string name="SignedInXOtherApps_many">Вы авторизованы ещё в %1$s приложениях</string>
+  <string name="SignedInXOtherDevices_few">Вы авторизованы ещё на %1$s устройствах</string>
+  <string name="SignedInXOtherDevices_many">Вы авторизованы ещё на %1$s устройствах</string>
+  <string name="SlowModeHours_few">Участники не смогут отправить больше одного сообщения за %1$s часа.</string>
+  <string name="SlowModeHours_many">Участники не смогут отправить больше одного сообщения за %1$s часов.</string>
+  <string name="SlowModeMinutes_few">Участники не смогут отправить больше одного сообщения за %1$s минуты.</string>
+  <string name="SlowModeMinutes_many">Участники не смогут отправить больше одного сообщения за %1$s минут.</string>
+  <string name="SlowModeSeconds_few">Участники не смогут отправить больше одного сообщения за %1$s секунды.</string>
+  <string name="SlowModeSeconds_many">Участники не смогут отправить больше одного сообщения за %1$s секунд.</string>
+  <string name="StatsXBans_few">%1$s блокировки</string>
+  <string name="StatsXBans_many">%1$s блокировок</string>
+  <string name="StatsXCharacters_few">%1$s символа на сообщение</string>
+  <string name="StatsXCharacters_many">%1$s символов на сообщение</string>
+  <string name="StatsXDeletions_few">%1$s удаления</string>
+  <string name="StatsXDeletions_many">%1$s удалений</string>
+  <string name="StatsXInvitations_few">%1$s приглашения</string>
+  <string name="StatsXInvitations_many">%1$s приглашений</string>
+  <string name="StatsXRestrictions_few">%1$s ограничения</string>
+  <string name="StatsXRestrictions_many">%1$s ограничений</string>
+  <string name="StatsXShared_few">%1$s поделились</string>
+  <string name="StatsXShared_many">%1$s поделились</string>
+  <string name="StatsXShowMore_few">Показать ещё %1$s</string>
+  <string name="StatsXShowMore_many">Показать ещё %1$s</string>
   <string name="SuggestInvitingUserCommon_few">%2$s пока нет в Telegram. Хотите отправить SMS с приглашением присоединиться? Он(а) может найти здесь ещё около %1$s контактов.</string>
   <string name="SuggestInvitingUserCommon_many">%2$s пока нет в Telegram. Хотите отправить SMS с приглашением присоединиться? Он(а) может найти здесь ещё около %1$s контактов.</string>
   <string name="TranslationsMissing_few">%1$s не переведены</string>
@@ -3679,19 +4642,36 @@
   <string name="UnmutedXChats_many">В %1$s чатах включены уведомления</string>
   <string name="UnpinXChats_few">Открепить %1$s чата</string>
   <string name="UnpinXChats_many">Открепить %1$s чатов</string>
+  <string name="UnpinXMessages_few">Открепить %1$s сообщения?</string>
+  <string name="UnpinXMessages_many">Открепить %1$s сообщений?</string>
   <string name="Use169Output">Соотношение камеры 16:9</string>
+  <string name="UserIsAlreadyAdmin">Пользователь уже администратор</string>
+  <string name="UserIsAlreadyInChat">Пользователь уже в чате</string>
+  <string name="ViewMessagesFromAutoPost">Сообщения из каналов</string>
+  <string name="ViewXComments_few">Посмотреть %1$s комментария</string>
+  <string name="ViewXComments_many">Посмотреть %1$s комментариев</string>
   <string name="ViewXPollResults_few">Результаты (%1$s)</string>
   <string name="ViewXPollResults_many">Результаты (%1$s)</string>
   <string name="ViewXQuizResults_few">Результаты (%1$s)</string>
   <string name="ViewXQuizResults_many">Результаты (%1$s)</string>
+  <string name="ViewXReplies_few">Посмотреть %1$s ответа</string>
+  <string name="ViewXReplies_many">Посмотреть %1$s ответов</string>
   <string name="WhoCanAddMembers">Кто может добавлять участников</string>
   <string name="WhoCanAddMembersAllMembers">Все участники</string>
+  <string name="XFoundMessagesFromAutoPost_one">%1$s сообщение из каналов</string>
   <string name="XFoundMessagesFromAutoPost_few">%1$s сообщения из каналов</string>
   <string name="XFoundMessagesFromAutoPost_many">%1$s сообщений из каналов</string>
+  <string name="XFoundMessagesFromAutoPost_other">%1$s сообщения из каналов</string>
   <string name="XFoundMessagesFromSelf_few">%1$s сообщения от Вас</string>
   <string name="XFoundMessagesFromSelf_many">%1$s сообщений от Вас</string>
   <string name="XFoundMessagesFromUser_few">%1$s сообщения от %2$s</string>
   <string name="XFoundMessagesFromUser_many">%1$s сообщений от %2$s</string>
+  <string name="XGifSaved_few">%1$s новых GIF доступны на панели с мультимедиа</string>
+  <string name="XGifSaved_many">%1$s новых GIF доступны на панели с мультимедиа</string>
+  <string name="XPhotoSaved_few">%1$s фотографии сохранены в Галерею</string>
+  <string name="XPhotoSaved_many">%1$s фотографий сохранены в Галерею</string>
+  <string name="XPinnedMessages_few">%1$s закреплённых сообщения</string>
+  <string name="XPinnedMessages_many">%1$s закреплённых сообщений</string>
   <string name="XSentAFile">%1$s отправил(а) файл</string>
   <string name="XSentAGIF">%1$s отправила(а) GIF</string>
   <string name="XSentAMessage">%1$s отправил(а) сообщение</string>
@@ -3699,9 +4679,91 @@
   <string name="XSentARoundVideo">%1$s отправил(а) видеосообщение</string>
   <string name="XSentAVideo">%1$s отправил(а) видео</string>
   <string name="XSentAVoice">%1$s отправил(а) голосовое сообщение</string>
+  <string name="XSetAutoDeleteDays_few">%2$s включил(а) удаление сообщений через %1$s дня</string>
+  <string name="XSetAutoDeleteDays_many">%2$s включил(а) удаление сообщений через %1$s дней</string>
+  <string name="XSetAutoDeleteHours_few">%2$s включил(а) удаление сообщений через %1$s часа</string>
+  <string name="XSetAutoDeleteHours_many">%2$s включил(а) удаление сообщений через %1$s часов</string>
+  <string name="XSetAutoDeleteMinutes_few">%2$s включил(а) удаление сообщений через %1$s минуты</string>
+  <string name="XSetAutoDeleteMinutes_many">%2$s включил(а) удаление сообщений через %1$s минут</string>
+  <string name="XSetAutoDeleteMonths_few">%2$s настроил(а) удаление сообщений через %1$s месяца</string>
+  <string name="XSetAutoDeleteMonths_many">%2$s настроил(а) удаление сообщений через %1$s месяцев</string>
+  <string name="XSetAutoDeletePostsDays_few">Администраторы настроили удаление сообщений через %1$s дня</string>
+  <string name="XSetAutoDeletePostsDays_many">Администраторы настроили удаление сообщений через %1$s дней</string>
+  <string name="XSetAutoDeletePostsHours_few">Администраторы настроили удаление сообщений через %1$s часа</string>
+  <string name="XSetAutoDeletePostsHours_many">Администраторы настроили удаление сообщений через %1$s часов</string>
+  <string name="XSetAutoDeletePostsMinutes_few">Администраторы настроили удаление сообщений через %1$s минуты</string>
+  <string name="XSetAutoDeletePostsMinutes_many">Администраторы настроили удаление сообщений через %1$s минут</string>
+  <string name="XSetAutoDeletePostsMonths_few">Администраторы настроили удаление сообщений через %1$s месяца</string>
+  <string name="XSetAutoDeletePostsMonths_many">Администраторы настроили удаление сообщений через %1$s месяцев</string>
+  <string name="XSetAutoDeletePostsSeconds_few">Администраторы настроили удаление сообщений через %1$s секунды</string>
+  <string name="XSetAutoDeletePostsSeconds_many">Администраторы настроили удаление сообщений через %1$s секунд</string>
+  <string name="XSetAutoDeletePostsWeeks_few">Администраторы настроили удаление сообщений через %1$s недели</string>
+  <string name="XSetAutoDeletePostsWeeks_many">Администраторы настроили удаление сообщений через %1$s недель</string>
+  <string name="XSetAutoDeleteSeconds_few">%2$s включил(а) удаление сообщений через %1$s секунды</string>
+  <string name="XSetAutoDeleteSeconds_many">%2$s включил(а) удаление сообщений через %1$s секунд</string>
+  <string name="XSetAutoDeleteWeeks_few">%2$s включил(а) удаление сообщений через %1$s недели</string>
+  <string name="XSetAutoDeleteWeeks_many">%2$s включил(а) удаление сообщений через %1$s недель</string>
+  <string name="XSetTimer">%1$s включил(а) удаление по таймеру через %2$s</string>
+  <string name="XSetTimerDays_few">%2$s включил(а) удаление по таймеру через %1$s дня</string>
+  <string name="XSetTimerDays_many">" %2$s включил(а) удаление по таймеру через %1$s дней"</string>
+  <string name="XSetTimerHours_few">%2$s включил(а) удаление по таймеру через %1$s часа</string>
+  <string name="XSetTimerHours_many">%2$s включил(а) удаление по таймеру через %1$s часов</string>
+  <string name="XSetTimerMinutes_few">%2$s включил(а) удаление по таймеру через %1$s минуты</string>
+  <string name="XSetTimerMinutes_many">%2$s включил(а) удаление по таймеру через %1$s минут</string>
+  <string name="XSetTimerMonths_few">%2$s настроил(а) удаление сообщений через %1$s месяца</string>
+  <string name="XSetTimerMonths_many">%2$s настроил(а) удаление сообщений через %1$s месяцев</string>
+  <string name="XSetTimerSeconds_few">%2$s включил(а) удаление по таймеру через %1$s секунды</string>
+  <string name="XSetTimerSeconds_many">%2$s включил(а) удаление по таймеру через %1$s секунд</string>
+  <string name="XSetTimerWeeks_few">%2$s включил(а) удаление по таймеру через %1$s недели</string>
+  <string name="XSetTimerWeeks_many">%2$s включил(а) удаление по таймеру через %1$s недель</string>
+  <string name="XSignInAttempts_few">%1$s незавершённых попытки входа</string>
+  <string name="XSignInAttempts_many">%1$s незавершённых попытки входа</string>
+  <string name="XVideoSaved_few">%1$s видео сохранены в Галерею</string>
+  <string name="XVideoSaved_many">%1$s видео сохранены в Галерею</string>
+  <string name="YouCantBanThis">Вы не можете заблокировать пользователя</string>
   <string name="YouCantForwardMoreMessages_few">К сожалению, Вы не можете переслать больше %1$s сообщений разом</string>
   <string name="YouCantForwardMoreMessages_many">К сожалению, Вы не можете переслать больше %1$s сообщений разом</string>
+  <string name="YouCantPromoteThis">Вы не можете повысить этого пользователя</string>
+  <string name="YouSetAutoDeleteDays_few">Вы включили удаление сообщений через %1$s дня</string>
+  <string name="YouSetAutoDeleteDays_many">Вы включили удаление сообщений через %1$s дней</string>
+  <string name="YouSetAutoDeleteHours_few">Вы включили удаление сообщений через %1$s часа</string>
+  <string name="YouSetAutoDeleteHours_many">Вы включили удаление сообщений через %1$s часов</string>
+  <string name="YouSetAutoDeleteMinutes_few">Вы включили удаление сообщений через %1$s минуты</string>
+  <string name="YouSetAutoDeleteMinutes_many">Вы включили удаление сообщений через %1$s минут</string>
+  <string name="YouSetAutoDeleteMonths_few">Вы настроили удаление сообщений через %1$s месяца</string>
+  <string name="YouSetAutoDeleteMonths_many">Вы настроили удаление сообщений через %1$s месяцев</string>
+  <string name="YouSetAutoDeletePostsDays_few">Вы настроили удаление сообщений через %1$s месяца</string>
+  <string name="YouSetAutoDeletePostsDays_many">Вы настроили удаление сообщений через %1$s месяцев</string>
+  <string name="YouSetAutoDeletePostsHours_few">Вы настроили удаление сообщений через %1$s часа</string>
+  <string name="YouSetAutoDeletePostsHours_many">Вы настроили удаление сообщений через %1$s часов</string>
+  <string name="YouSetAutoDeletePostsMinutes_few">Вы настроили удаление сообщений через %1$s минуты</string>
+  <string name="YouSetAutoDeletePostsMinutes_many">Вы настроили удаление сообщений через %1$s минут</string>
+  <string name="YouSetAutoDeletePostsMonths_few">Вы настроили удаление сообщений через %1$s месяца</string>
+  <string name="YouSetAutoDeletePostsMonths_many">Вы настроили удаление сообщений через %1$s месяцев</string>
+  <string name="YouSetAutoDeletePostsSeconds_few">Вы настроили удаление сообщений через %1$s секунды</string>
+  <string name="YouSetAutoDeletePostsSeconds_many">Вы настроили удаление сообщений через %1$s секунд</string>
+  <string name="YouSetAutoDeletePostsWeeks_few">Вы настроили удаление сообщений через %1$s недели</string>
+  <string name="YouSetAutoDeletePostsWeeks_many">Вы настроили удаление сообщений через %1$s недель</string>
+  <string name="YouSetAutoDeleteSeconds_few">Вы включили удаление сообщений через %1$s секунды</string>
+  <string name="YouSetAutoDeleteSeconds_many">Вы включили удаление сообщений через %1$s секунд</string>
+  <string name="YouSetAutoDeleteWeeks_few">Вы включили удаление сообщений через %1$s недели</string>
+  <string name="YouSetAutoDeleteWeeks_many">Вы включили удаление сообщений через %1$s недель</string>
+  <string name="YouSetTimer">Вы включили удаление по таймеру через %1$s</string>
+  <string name="YouSetTimerDays_few">Вы включили удаление по таймеру через %1$s дня</string>
+  <string name="YouSetTimerDays_many">Вы включили удаление по таймеру через %1$s дней</string>
+  <string name="YouSetTimerHours_few">Вы включили удаление по таймеру через %1$s часа</string>
+  <string name="YouSetTimerHours_many">Вы включили удаление по таймеру через %1$s часов</string>
+  <string name="YouSetTimerMinutes_few">Вы включили удаление по таймеру через %1$s минуты</string>
+  <string name="YouSetTimerMinutes_many">Вы включили удаление по таймеру через %1$s минут</string>
+  <string name="YouSetTimerMonths_few">Вы настроили удаление сообщений через %1$s месяца</string>
+  <string name="YouSetTimerMonths_many">Вы настроили удаление сообщений через %1$s месяцев</string>
+  <string name="YouSetTimerSeconds_few">Вы включили удаление по таймеру через %1$s секунды</string>
+  <string name="YouSetTimerSeconds_many">Вы включили удаление по таймеру через %1$s секунд</string>
+  <string name="YouSetTimerWeeks_few">Вы включили удаление по таймеру через %1$s недели</string>
+  <string name="YouSetTimerWeeks_many">Вы включили удаление по таймеру через %1$s недель</string>
+  <string name="format_contentAndModifyDate">%1$s, изменения %2$s</string>
   <string name="format_dateViaBot">%1$s с помощью %2$s</string>
+  <string name="format_locationUpdated">обновлено %1$s</string>
   <string name="format_notificationTitle">%1$s (%2$s)</string>
   <string name="format_sendTodayAt">%1$s (%2$s)</string>
   <string name="format_sendTomorrowAt">%1$s (завтра в %2$s)</string>
@@ -3721,6 +4783,12 @@
   <string name="inXHours_many">через %1$s часов</string>
   <string name="inXMinutes_few">через %1$s минуты</string>
   <string name="inXMinutes_many">через %1$s минут</string>
+  <string name="locationUpdated_hours_few">обновлено %1$s часа назад</string>
+  <string name="locationUpdated_hours_many">обновлено %1$s часов назад</string>
+  <string name="locationUpdated_minutes_few">обновлено %1$s минуты назад</string>
+  <string name="locationUpdated_minutes_many">обновлено %1$s минут назад</string>
+  <string name="locationUpdated_seconds_few">обновлено %1$s секунды назад</string>
+  <string name="locationUpdated_seconds_many">обновлено %1$s секунд назад</string>
   <string name="login_Country">Страна</string>
   <string name="login_YourName">Ваше имя</string>
   <string name="mentionCount_few">%1$s упоминания</string>
@@ -3729,19 +4797,41 @@
   <string name="message_via">" с помощью "</string>
   <string name="messagesCount_few">%1$s</string>
   <string name="messagesCount_many">%1$s</string>
+  <string name="modified_hours_few">изменено %1$s часа назад</string>
+  <string name="modified_hours_many">изменено %1$s часов назад</string>
+  <string name="modified_minutes_few">изменено %1$s минуты назад</string>
+  <string name="modified_minutes_many">изменено %1$s минут назад</string>
+  <string name="modified_seconds_few">изменено %1$s секунды назад</string>
+  <string name="modified_seconds_many">изменено %1$s секунд назад</string>
+  <string name="part_SignedInXApps_few">Вы авторизованы ещё в %1$s приложениях</string>
+  <string name="part_SignedInXApps_many">Вы авторизованы ещё в %1$s приложениях</string>
+  <string name="part_SignedInXDevices_few">на %1$s устройствах</string>
+  <string name="part_SignedInXDevices_many">на %1$s устройствах</string>
+  <string name="part_SignedInXOtherApps_few">Вы авторизованы в %1$s других приложениях</string>
+  <string name="part_SignedInXOtherApps_many">Вы авторизованы в %1$s других приложениях</string>
+  <string name="part_SignedInXOtherDevices_few">ещё на %1$s устройствах</string>
+  <string name="part_SignedInXOtherDevices_many">ещё на %1$s устройствах</string>
   <string name="service_Notifications">Используется для уведомлений о новых сообщениях.</string>
   <string name="status_LastSeen_hours_few">был(а) %1$s часа назад</string>
   <string name="status_LastSeen_hours_many">был(а) %1$s часов назад</string>
   <string name="status_LastSeen_minutes_few">был(а) %1$s минуты назад</string>
   <string name="status_LastSeen_minutes_many">был(а) %1$s минут назад</string>
+  <string name="status_LastSeen_seconds_few">был(а) %1$s секунды назад</string>
+  <string name="status_LastSeen_seconds_many">был(а) %1$s секунд назад</string>
   <string name="timestampShort_hours_few">%1$s часа назад</string>
   <string name="timestampShort_hours_many">%1$s часов назад</string>
   <string name="timestampShort_minutes_few">%1$s мин. назад</string>
   <string name="timestampShort_minutes_many">%1$s мин. назад</string>
+  <string name="timestampShort_seconds_few">%1$s сек. назад</string>
+  <string name="timestampShort_seconds_many">%1$s сек. назад</string>
   <string name="timestamp_hours_few">%1$s часа назад</string>
   <string name="timestamp_hours_many">%1$s часов назад</string>
   <string name="timestamp_minutes_few">%1$s минуты назад</string>
   <string name="timestamp_minutes_many">%1$s минут назад</string>
+  <string name="timestamp_seconds_few">%1$s секунды назад</string>
+  <string name="timestamp_seconds_many">%1$s секунд назад</string>
+  <string name="xActiveLinks_few">%1$s активные ссылки</string>
+  <string name="xActiveLinks_many">%1$s активных ссылок</string>
   <string name="xAdmins_few">%1$s администратора</string>
   <string name="xAdmins_many">%1$s администраторов</string>
   <string name="xAnswered_one">%1$s ответ</string>
@@ -3768,6 +4858,8 @@
   <string name="xChats_many">%1$s чатов</string>
   <string name="xColors_few">%1$s цвета</string>
   <string name="xColors_many">%1$s цветов</string>
+  <string name="xComments_few">%1$s комментария</string>
+  <string name="xComments_many">%1$s комментариев</string>
   <string name="xContacts_few">%1$s контакта</string>
   <string name="xContacts_many">%1$s контактов</string>
   <string name="xContactsJoined_few">%1$s контакта в Telegram</string>
@@ -3844,6 +4936,10 @@
   <string name="xProfilePhotos_many">%1$s фотографий профиля</string>
   <string name="xProperty_few">%1$s параметра</string>
   <string name="xProperty_many">%1$s параметров</string>
+  <string name="xReplies_few">%1$s ответа</string>
+  <string name="xReplies_many">%1$s ответов</string>
+  <string name="xRevokedLinks_few">%1$s неактивные ссылки</string>
+  <string name="xRevokedLinks_many">%1$s неактивных ссылок</string>
   <string name="xSec_few">%1$s сек</string>
   <string name="xSec_many">%1$s сек</string>
   <string name="xSeconds_few">%1$s секунды</string>
